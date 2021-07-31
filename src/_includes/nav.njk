@@ -1,0 +1,33 @@
+<nav class="nav">
+	<div class="nav-links">
+		<div href="" class="nav-link close-nav">
+			<span>Close</span> <i class="fas fa-chevron-right"></i>
+		</div>
+		<a href="/" class="nav-link">
+			Home
+		</a>
+		<a href="" class="nav-link">
+			About
+		</a>
+	</div>
+	<div class="nav-overlay"></div>
+</nav>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const nav = document.querySelector(".nav")
+
+		document.querySelector(".open-nav").addEventListener("click", () => {
+			nav.classList.toggle("nav-open")
+		})
+		
+		document.querySelector(".nav-overlay").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+
+		document.querySelector(".close-nav").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+	})
+</script>

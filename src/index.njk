@@ -1,0 +1,126 @@
+---
+title: Home
+layout: "base.njk"
+---
+
+{% include 'header-main.njk' %}
+
+<div class="feature-post-container">
+	{% set featurePost = collections.posts | reverse | recent(1) %}
+	<a class="feature-post" href="{{ featurePost[0].url }}">
+		<div class="feature-post-image">
+			<img class src="{{ featurePost[0].data.thumbnail }}">
+		</div>
+		<div class="feature-post-preview">
+			<div class="post-badge">
+				{{ featurePost[0].data.badge | makeUppercase }}
+			</div>
+			<div class="feature-post-preview-title">
+				{{ featurePost[0].data.title }}
+			</div>
+			<div class="feature-post-preview-body">
+				{{ featurePost[0].data.preview }}
+			</div>
+			<div class="read-more-btn" href="">
+				<span>Read more</span> <i class="fas fa-chevron-right"></i>
+			</div>
+		</div>
+	</a>
+</div>
+
+
+<div class="section">
+
+	<div class="section-title">
+		Latest insights
+	</div>
+
+	<div class="card-container">
+
+		{% set postList = collections.posts | reverse | recent(6) %}
+		{%- for post in postList -%}
+		<a class="post-card"  href="{{ post.url }}">
+			<div class="post-card-thumbnail">
+				<img class src="{{ post.data.thumbnail }}">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					{{ post.data.badge | makeUppercase }}
+				</div>
+				<div class="post-card-preview-title">{{ post.data.title }}</div>
+				<div class="post-card-preview-body">
+					{{ post.data.preview }}
+				</div>
+			</div>
+		</a>
+		{%- endfor -%}
+
+		<div class="media-card">
+
+			<div class="media-card-header">
+				In the media
+			</div>
+
+			{% set mediaLinkList = collections.mediaLinks | reverse | recent(5) %}
+			{%- for mediaLink in mediaLinkList -%}
+			<a class="media-card-item" href="{{ mediaLink.data.link }}" target="_blank">
+				<div class="media-card-item-title">
+					{{ mediaLink.data.title }}
+				</div>
+				<div class="media-card-item-body">
+					{{ mediaLink.data.preview }}
+				</div>
+			</a>	
+			{%- endfor -%}
+				
+		</div>	
+
+	</div>
+</div>
+
+
+{%- for member in collections.members -%}
+<div class="section">
+
+	<a class="section-title" href="{{ member.url }}">
+		{{ member.data.name }}
+	</a>
+
+	<div class="section-subtitle">
+		{{ member.data.affiliation | makeUppercase }}
+	</div>
+
+	<div class="card-container">
+
+		{% set postList = collections[member.data.tagRef] | reverse | recent(3) %}
+		{%- for post in postList -%}
+		<a class="post-card"  href="{{ post.url }}">
+			<div class="post-card-thumbnail">
+				<img class src="{{ post.data.thumbnail }}" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					{{ post.data.badge | makeUppercase }}
+				</div>
+				<div class="post-card-preview-title">{{ post.data.title }}</div>
+				<div class="post-card-preview-body">
+					{{ post.data.preview }}
+				</div>
+			</div>
+		</a>
+		{%- endfor -%}		
+
+	</div>	
+
+	<div class="section-footer">
+		<a class="read-more-btn" href="{{ member.url }}">
+			<span>Read more</span> <i class="fas fa-chevron-right"></i>
+		</a>
+	</div>
+
+</div>
+{%- endfor -%}
+
+
+
+

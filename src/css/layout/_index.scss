@@ -1,0 +1,136 @@
+.section {
+	padding: $d $h;
+	background-color: #fff;
+
+	&-title {
+		text-align: center;
+		text-decoration: none;
+		color: #000;
+		display: block;
+		margin: 0 auto;
+		font-family: $heading-stack;
+		font-size: 2rem;
+		transition: letter-spacing .25s ease-out,text-indent .25s ease-out;
+
+		&:hover {
+			letter-spacing: .05em;
+			color: inherit;
+			cursor: pointer;
+		}
+	}
+
+	&-subtitle {
+		padding-bottom: $p;
+		text-align: center;
+		font-size: 0.7rem;
+		font-weight: 800;
+		color: $c2;
+	}
+
+	&-overview {
+		font-family: $serif-stack;
+		color: darken($c2,25);
+		font-size: 0.9rem;
+		text-align: center;
+		max-width: 500px;
+		margin: 0 auto;
+		padding-bottom: $p;
+	}
+
+	&-footer {
+		margin-top: $p;
+	}
+
+}
+
+.feature-post-container {
+	background-color: $c2-light;
+	padding: $d 0;
+	
+	.feature-post {
+		width: 100%;
+		max-width: 1120px;
+		background-color: #fff;
+		text-decoration: none;
+		color: inherit;
+		margin: 0 auto 0 auto;
+		box-sizing: border-box;
+		text-align: center;
+		display: grid;
+		grid-template-areas: 
+			"image preview";
+		  grid-template-columns: 4fr 3fr;
+	
+		&-image {
+			grid-area: image;
+			overflow: hidden;
+	
+			img {
+				width: 100%;
+				min-width: 450px;
+			}
+		}
+	
+		&-preview {
+			grid-area: preview;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding: $q $p;
+	
+			&-title	{
+				text-align: center;
+				line-height: initial;
+				color: #000;
+				font-family: $heading-stack;
+				font-size: 2.5rem;
+				padding-bottom: $h;
+			}
+	
+			&-body {
+				text-align: center;
+				font-family: $serif-stack;
+				font-size: 1rem;
+				color: darken($c2,25);
+				padding-bottom: $p;
+			}
+	
+	
+		}
+	
+		&:hover .feature-post-preview .read-more-btn {
+			background-color: darken($c1-border,50);
+			color: #fff;
+		}
+	
+		@media (max-width: 1000px) {
+			&-preview {
+				&-title {
+					font-size: 1.5rem;
+				}
+				&-body {
+					font-size: 0.8rem;
+				}
+			}
+		}
+		
+		@media (max-width: 700px) {
+			grid-template-areas: 
+			"image"
+			"preview";
+			grid-template-columns: 1fr;
+	
+			&-image	{
+				min-width: none;
+			}
+	
+			&-preview {
+				max-width: none;
+			}
+		}
+	}
+}
+
+
+
+

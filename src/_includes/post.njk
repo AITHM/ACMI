@@ -1,0 +1,69 @@
+---
+title: Post
+layout: "base.njk"
+---
+
+{% include 'header-secondary.njk' %}
+
+<div class="post-banner">
+	<img class="post-banner-feature-image" src="{{ featureImage }}">
+
+	<div class="post-banner-heading-container">
+		<div class="post-banner-heading">
+			{{ title }}
+		</div>
+	</div>
+</div>
+
+
+<div class="post-content">
+	<div class="post-content-preview">
+		{{ preview }}
+	</div>
+	<div class="post-content-author">
+		{{ author }}
+	</div>
+	{{ content | safe }}
+
+	<div class="post-content-share">
+		<div class="share-link-container">
+			<span>Share: </span>
+			<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{ {page.url }}" data-size="large">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a class="facebook-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{ {page.url }}" data-size="large">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a class="linkdin-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{ {page.url }}" data-size="large">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="more-posts">
+	<div class="heading">
+		More from ADEPI
+	</div>
+
+	<div class="card-container">
+		
+		{% set postList = collections.posts | reverse | recent(3) %}
+		{%- for post in postList -%}
+		<a class="post-card"  href="{{ post.url }}">
+			<div class="post-card-thumbnail">
+				<img class src="{{ post.data.thumbnail }}" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					{{ post.data.badge | makeUppercase }}
+				</div>
+				<div class="post-card-preview-title">{{ post.data.title }}</div>
+				<div class="post-card-preview-body">
+					{{ post.data.preview }}
+				</div>
+			</div>
+		</a>
+		{%- endfor -%}		
+	</div>
+</div>

@@ -1,0 +1,104 @@
+@charset 'utf-8';
+
+// ============================================================================== //
+// VARIABLES ==================================================================== //
+// ============================================================================== //
+
+// FONTS
+
+$sans-serif-stack: ('Roboto', sans-serif);
+$serif-stack: ('Libre Baskerville', serif);
+$monospace-stack: ('Source Code Pro', monospace);
+$heading-stack: ('Playfair Display,Georgia,serif');
+
+// COLOURS
+
+$default-background: #fff;
+$default-text: #141414;
+
+$c1-darker: #012a58;
+
+$c1: #120D31;
+$c1-light: lighten($c1,10);
+
+$c1-dark-text: #fff;
+
+
+$c1-border: rgb(197, 197, 197);
+
+$c2: rgb(153, 153, 153);
+$c2-light: lighten($c2, 37);
+
+// SPACING
+
+$p: 1.4rem;
+$h: #{$p / 2};
+$q: #{$p / 4};
+$d: #{$p * 2};
+
+// LAYOUT
+$max-page-width: 1000px;
+
+:root {
+	--c1: #{$c1};
+	--c1-darker: #{$c1-darker};
+	--c1-light: #{$c1-light};
+}
+
+// ============================================================================== //
+// MIXINS ======================================================================= //
+// ============================================================================== //
+
+@mixin cross-browser($property, $value) {
+	-webkit-#{$property}: $value;
+		 -moz-#{$property}: $value;
+			-ms-#{$property}: $value;
+					#{$property}: $value;
+}
+
+@mixin mpb($margin:0, $padding:0, $border:0) {
+		margin: $margin;
+		padding: $padding;
+		border: $border;
+}
+
+
+// ============================================================================== //
+// GLOBAL ======================================================================= //
+// ============================================================================== //
+
+// Replaces standard box model with one where width/height are the actual
+// visable width/height. Padding & border cut into the box.
+
+html {
+	box-sizing: border-box;
+	@include cross-browser('font-smoothing', antialiased);
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+
+	background-color: $default-background;
+	font: 400 16px/1.5rem $sans-serif-stack;
+	color: $default-text;
+
+	text-size-adjust: none;
+	
+	overflow-x: hidden;
+	overflow-y: scroll;
+	
+	min-height: 100vh;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.hide {
+	display: none !important;
+}
+

@@ -1,0 +1,31 @@
+.member-profile-container {
+	
+	.member-profile {
+		width: 600px;
+		margin: 100px auto;
+		padding: $p;
+
+		&-heading {
+			font-size: 2.0rem;
+			font-family: $serif-stack;
+			text-align: center;
+			padding: $d 0;
+
+			&:after {
+				content: "";
+				border-top: 1px solid $c2;
+				display: block;
+				margin: $h auto 0 auto;
+				width: 10rem;
+			}
+		}
+
+		&-body {
+			font-size: 1rem;
+			font-family: $serif-stack;
+		}
+
+
+
+	}
+}

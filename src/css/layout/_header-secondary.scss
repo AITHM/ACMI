@@ -1,0 +1,32 @@
+.header__s {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: $h $p;
+	position: fixed;
+	width: 100%;
+	height: 55px;
+	top: 0;
+	left: 0;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 10;
+
+
+	.heading {
+		font-family: $heading-stack;
+		font-size: 1.5rem;
+		color: #000;
+		letter-spacing: .125em;
+		display: inline-block;
+		text-decoration: none;
+		transition: letter-spacing .25s ease-out,text-indent .25s ease-out;
+
+		&:hover {
+			letter-spacing: .3em;
+			cursor: pointer;
+		}
+	}
+
+	
+	
+}

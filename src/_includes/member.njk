@@ -1,0 +1,59 @@
+---
+title: Member
+layout: "base.njk"
+---
+
+{% include 'header-secondary.njk' %}
+
+
+<div class="member-profile-container">
+	<div class="member-profile">
+		<div class="member-profile-heading">
+			{{ name }}
+		</div>
+		<div class="member-profile-body">
+			{{ overview }}
+		</div>
+		<div class="post-content-share">
+			<div class="share-link-container">
+				<span>Connect: </span>
+				<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+				<a class="facebook-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a class="linkdin-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="more-posts">
+	<div class="heading">
+		More from {{ name }}
+	</div>
+
+	<div class="card-container">
+		
+		{% set postList = collections[tagRef] | reverse %}
+		{%- for post in postList -%}
+		<a class="post-card"  href="{{ post.url }}">
+			<div class="post-card-thumbnail">
+				<img class src="{{ post.data.thumbnail }}" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					{{ post.data.badge | makeUppercase }}
+				</div>
+				<div class="post-card-preview-title">{{ post.data.title }}</div>
+				<div class="post-card-preview-body">
+					{{ post.data.preview }}
+				</div>
+			</div>
+		</a>
+		{%- endfor -%}		
+	</div>
+</div>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	
+	<title>
+	Member
+	</title>
+	
+	<!-- Styling -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!-- Fonts and icons -->
+	<script src="https://kit.fontawesome.com/089e093d2d.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	
+	
+
+</head>
+
+<body>
+
+
+		
+<div class="header__s">
+	<i class="fas fa-bars open-nav"></i>
+	<a class="heading" href="/">
+		ACMC
+	</a>
+	<div>
+	</div>
+</div>	
+
+<nav class="nav">
+	<div class="nav-links">
+		<div href="" class="nav-link close-nav">
+			<span>Close</span> <i class="fas fa-chevron-right"></i>
+		</div>
+		<a href="/" class="nav-link">
+			Home
+		</a>
+		<a href="" class="nav-link">
+			About
+		</a>
+	</div>
+	<div class="nav-overlay"></div>
+</nav>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const nav = document.querySelector(".nav")
+
+		document.querySelector(".open-nav").addEventListener("click", () => {
+			nav.classList.toggle("nav-open")
+		})
+		
+		document.querySelector(".nav-overlay").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+
+		document.querySelector(".close-nav").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+	})
+</script>
+
+
+<div class="member-profile-container">
+	<div class="member-profile">
+		<div class="member-profile-heading">
+			Burnet Institute
+		</div>
+		<div class="member-profile-body">
+			The Burnet Institute is an Australian medical research institute that combines medical research in the laboratory and the field, with public health action to address major health issues affecting disadvantaged communities in Australia, and internationally.
+		</div>
+		<div class="post-content-share">
+			<div class="share-link-container">
+				<span>Connect: </span>
+				<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=/members/Burnet-Institute/" data-size="large">
+					<i class="fab fa-facebook-square"></i>
+				</a>
+				<a class="facebook-share-button" href="https://twitter.com/intent/tweet?text=/members/Burnet-Institute/" data-size="large">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a class="linkdin-share-button" href="https://twitter.com/intent/tweet?text=/members/Burnet-Institute/" data-size="large">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="more-posts">
+	<div class="heading">
+		More from Burnet Institute
+	</div>
+
+	<div class="card-container">
+		
+		<a class="post-card"  href="/posts/post-6/">
+			<div class="post-card-thumbnail">
+				<img class src="/posts/post-6/img/thumbnail.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					BURNET INSTITUTE
+				</div>
+				<div class="post-card-preview-title">Post 6</div>
+				<div class="post-card-preview-body">
+					Preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis purus vel arcu rhoncus vestibulum.
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/post-5/">
+			<div class="post-card-thumbnail">
+				<img class src="/posts/post-5/img/thumbnail.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					BURNET INSTITUTE
+				</div>
+				<div class="post-card-preview-title">Post 5</div>
+				<div class="post-card-preview-body">
+					Preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis purus vel arcu rhoncus vestibulum.
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/post-4/">
+			<div class="post-card-thumbnail">
+				<img class src="/posts/post-4/img/thumbnail.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					BURNET INSTITUTE
+				</div>
+				<div class="post-card-preview-title">Post 4</div>
+				<div class="post-card-preview-body">
+					Preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis purus vel arcu rhoncus vestibulum.
+				</div>
+			</div>
+		</a></div>
+</div>
+
+		
+		<div class="footer">
+	<div class="footer-inner">
+
+		<div class="footer-logo">
+			ACMC
+		</div>
+
+		<hr>
+
+		<div class="footer-links">
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-landmark"></i>
+				<span class="footer-links-item-caption">
+					ABOUT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-phone-alt"></i>
+				<span class="footer-links-item-caption">
+					CONTACT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fab fa-twitter"></i>
+				<span class="footer-links-item-caption">
+					FOLLOW
+				</span>
+			</a>
+		</div>
+
+		<hr>
+
+		<div class="footer-members">
+			<ul class="footer-members-list"><li class="footer-members-list-item">
+					<a href="member.data.url">
+						Population Interventions Unit
+					</a>
+				</li><li class="footer-members-list-item">
+					<a href="member.data.url">
+						Burnet Institute
+					</a>
+				</li><li class="footer-members-list-item">
+					<a href="member.data.url">
+						Centre for Complex Systems
+					</a>
+				</li></ul>
+		</div>
+
+	</div>
+</div>
+
+</body>
+
+</html>
