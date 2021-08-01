@@ -16,10 +16,9 @@
 
 	<div class="header-nav">
 		<div class="header-nav-inner">
-			<a class="" href="">POPULATION INTERVENTIONS UNIT</a>
-			<a class="" href="">BURNET INSTITUTE</a>
-			<a class="" href="">CENTER FOR COMPLEX SYSTEMS</a>
-			<a class="" href="">UNIVERSITY OF WESTERN AUSTRALIA</a>
+			{%- for member in collections.members -%}
+			<a href="{{ member.url }}">{{ member.data.name }}</a>
+			{%- endfor -%}
 		</div>
 	</div>
 </div>
