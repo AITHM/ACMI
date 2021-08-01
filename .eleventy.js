@@ -1,7 +1,7 @@
 
 module.exports = function(eleventyConfig){
 
-    eleventyConfig.addWatchTarget("../src/css/");
+    eleventyConfig.addWatchTarget("./src/css/");
 
 
 
@@ -27,8 +27,8 @@ module.exports = function(eleventyConfig){
 
     return {
         dir: {
-		input: "../src",
-		output: "../docs",
+		input: "./src",
+		output: "./docs",
 		includes: "_includes"
 	},
         templateFormats: [

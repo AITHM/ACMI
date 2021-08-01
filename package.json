@@ -4,7 +4,7 @@
   "description": "",
   "main": "eleventy.js",
   "scripts": {
-    "sass": "sass --style=compressed ../src/css/main.scss ../src/css/main.css",
+    "sass": "sass --style=compressed ./src/css/main.scss ./src/css/main.css",
     "watch:eleventy": "eleventy --serve",
     "watch:sass": "npm run sass -- --watch",
     "start": "npm-run-all sass --parallel watch:*",
