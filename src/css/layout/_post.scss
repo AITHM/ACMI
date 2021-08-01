@@ -1,7 +1,7 @@
 .post-banner {
 	width: 100%;
 	overflow: hidden;
-	max-height: 900px;
+	max-height: 700px;
 	min-height: 200px;
 	position: relative;
 
@@ -20,10 +20,10 @@
 		align-items: center;
 
 		.post-banner-heading {
-			padding: 0 $q;
+			padding: $h $p;
 			background-color: #fff;
 			font-family: $heading-stack;
-			font-size: 2.5rem;
+			font-size: 3rem;
 		}
 	}
 }
@@ -47,47 +47,84 @@
 		font-style: italic;
 	}
 
+	&-attribution {
+		padding: $p 0;
+		margin-top: $p;
+		text-decoration: none;
+		border-top: 1px solid $c2;
+		// border-bottom: 1px solid $c2;
+		display: inline-block;
+
+		&-header {
+			font-family: $sans-serif-stack;
+			color: $c2-darker;
+			font-weight: 700;
+			padding-bottom: $q;
+		}
+
+		&-body {
+			font-family: $sans-serif-stack;
+			font-size: 0.9rem;
+			font-weight: 500;
+			color: $c2-dark;
+		}
+
+		&:hover &-header {
+			text-decoration: underline;
+		}
+
+	}
+
 	&-share {
-		margin: $p 0;
-		height: 30px;
+		height: 40px;
 		display: flex;
 		align-items: flex-end;
 
-		span {
-			font-family: $sans-serif-stack;
-		}	
+		.share-link-container {
+			display: flex;
+			align-items: flex-end;
 
-		a {
-			text-decoration: none;
-			padding: 2px;
-			font-size: 1.2rem;
-			transition: font-size 0.5s ease-in-out;
-		}
+			span {
+				font-family: $sans-serif-stack;
+				padding-right: 10px;
+			}	
 
-		a:hover {
-			font-size: 1.5rem;
-		}
+			a {
+				text-decoration: none;
+				padding-right: 5px;
+				font-size: 1.2rem;
+				transition: font-size 0.2s ease-in-out;
+			}
 
-		.twitter-share-button {
-			color: #0076de;
-		}
+			a:hover {
+				font-size: 1.5rem;
+			}
 
-		.facebook-share-button {
-			color: #55acee;
-		}
+			.twitter-share-button {
+				color: #0076de;
+			}
 
-		.linkdin-share-button {
-			color: #0976b4;
+			.facebook-share-button {
+				color: #55acee;
+			}
+
+			.linkdin-share-button {
+				color: #0976b4;
+			}
 		}
 	}
 }
 
 .more-posts {
-	margin: $d 0;
+	margin: $p 0;
 	padding: $p;
 
 	.heading {
 		text-align: center;
-		font-family: $serif-stack;
+		font-family: $sans-serif-stack;
+		color: $c2-darker;
+		padding: $p 0;
+		font-weight: 700;
+		font-size: 1.2rem;
 	}
 }

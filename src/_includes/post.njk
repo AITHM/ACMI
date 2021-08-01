@@ -23,32 +23,51 @@ layout: "base.njk"
 	<div class="post-content-author">
 		{{ author }}
 	</div>
-	{{ content | safe }}
+
+	<div class="post-content-body">
+		{{ content | safe }}
+	</div>
+
+	{%- for member in collections.members -%}
+	{% if member.data.name == organisation %}
+	<a href="{{ member.url }}" class="post-content-attribution">
+		<div class="post-content-attribution-header">
+			{{ member.data.name }}
+		</div>
+		<div class="post-content-attribution-body">
+			{{ member.data.overview }}
+		</div>
+	</a>
+	{% endif %}
+	{%- endfor -%}
 
 	<div class="post-content-share">
 		<div class="share-link-container">
 			<span>Share: </span>
-			<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{ {page.url }}" data-size="large">
+			<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
 				<i class="fab fa-facebook-square"></i>
 			</a>
-			<a class="facebook-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{ {page.url }}" data-size="large">
+			<a class="facebook-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
 				<i class="fab fa-twitter"></i>
 			</a>
-			<a class="linkdin-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{ {page.url }}" data-size="large">
+			<a class="linkdin-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
 				<i class="fab fa-linkedin"></i>
 			</a>
 		</div>
 	</div>
 </div>
 
+
+{%- for member in collections.members -%}
+{% if member.data.name == organisation %}
 <div class="more-posts">
 	<div class="heading">
-		More from ADEPI
+		More from {{ member.data.name }}
 	</div>
 
 	<div class="card-container">
 		
-		{% set postList = collections.posts | reverse | recent(3) %}
+		{% set postList = collections[member.data.tagRef] | reverse | recent(3) %}
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">
@@ -67,3 +86,5 @@ layout: "base.njk"
 		{%- endfor -%}		
 	</div>
 </div>
+{% endif %}
+{%- endfor -%}

@@ -28,6 +28,8 @@ $c1-border: rgb(197, 197, 197);
 
 $c2: rgb(153, 153, 153);
 $c2-light: lighten($c2, 37);
+$c2-dark: darken($c2, 20);
+$c2-darker: darken($c2, 30);
 
 // SPACING
 
