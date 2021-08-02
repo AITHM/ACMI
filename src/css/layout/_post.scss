@@ -76,6 +76,58 @@
 		font-style: italic;
 	}
 
+	&-body {
+
+		h1 {
+			font-size: 1.6rem;
+			font-weight: 600;
+			padding: $d 0 $p 0;
+		}
+
+		h2 {
+			font-size: 1.4rem;
+			font-weight: 600;
+			padding: $d 0 $p 0;
+		}
+
+		h3 {
+			font-size: 1.2rem;
+			font-weight: 600;
+			padding: $d 0 $p 0;
+		}
+
+		h4 {
+			font-size: 1.1rem;
+			font-weight: 600;
+			padding: $d 0 $p 0;
+		}
+
+		h5 {
+			font-size: 1.0rem;
+			font-weight: 600;
+			padding: $d 0 $p 0;
+		}
+
+		figure {
+			figcaption {
+				color: $c2-dark;
+				font-family: $sans-serif-stack;
+				font-size: 0.8rem;
+				line-height: 1.4;
+				margin: 0 auto;
+				max-width: 94%;
+				text-align: left;
+				padding-top: .625rem;
+				padding-bottom: $h;
+			}
+			
+			img {
+				width: 100%;
+				padding: $h 0 0 0;
+			}
+		}
+	}
+
 	&-attribution {
 		padding: $p 0;
 		margin-top: $p;

@@ -25,6 +25,15 @@ module.exports = function(eleventyConfig){
 			return filtered;
 	});
 
+
+
+	// Shortcodes 
+	eleventyConfig.addShortcode("figure", (imgFileName, caption) => {
+		const captionMarkup = caption ? `<figcaption>${caption}</figcaption>` : '';
+		return `<figure><img src="img/${imgFileName}" />${captionMarkup}</figure>`;
+	});
+
+
     return {
         dir: {
 		input: "./src",
