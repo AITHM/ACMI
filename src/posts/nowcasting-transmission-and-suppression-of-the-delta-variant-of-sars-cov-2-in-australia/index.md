@@ -1,4 +1,5 @@
 ---
+date: "2021-07-28"
 tags: ["Centre for Complex Systems"]
 organisation: "Centre for Complex Systems"
 title: "Nowcasting transmission and suppression of the Delta variant of SARS-CoV-2 in Australia"

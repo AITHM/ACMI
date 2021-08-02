@@ -1,4 +1,5 @@
 ---
+date: "2021-07-30"
 tags: ["Population Interventions Unit"]
 organisation: "Population Interventions Unit"
 title: "Association of Simulated COVID-19 Policy Responses for Social Restrictions and Lockdowns"

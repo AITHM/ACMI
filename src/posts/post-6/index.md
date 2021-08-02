@@ -1,5 +1,6 @@
 ---
 tags: ["Burnet Institute"]
+date: "2020-07-06"
 organisation: "Burnet Institute"
 title: "Post 6"
 preview: "Preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis purus vel arcu rhoncus vestibulum."

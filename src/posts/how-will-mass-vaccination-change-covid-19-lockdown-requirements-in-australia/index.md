@@ -1,4 +1,5 @@
 ---
+date: "2021-07-29"
 tags: ["Centre for Complex Systems"]
 organisation: "Centre for Complex Systems"
 title: "How will mass-vaccination change COVID-19 lockdown requirements in Australia?"
