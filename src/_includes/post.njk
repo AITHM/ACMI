@@ -6,7 +6,8 @@ layout: "base.njk"
 {% include 'header-secondary.njk' %}
 
 <div class="post-banner">
-	<img class="post-banner-feature-image" src="{{ featureImage }}">
+	<div class="post-banner-image" style="background-image:url({{featureImage}});">
+	</div>
 
 	<div class="post-banner-heading-container">
 		<div class="post-banner-heading">
@@ -17,6 +18,9 @@ layout: "base.njk"
 
 
 <div class="post-content">
+	<!-- <div class="post-content-title">
+		{{ title }}
+	</div> -->
 	<div class="post-content-preview">
 		{{ preview }}
 	</div>

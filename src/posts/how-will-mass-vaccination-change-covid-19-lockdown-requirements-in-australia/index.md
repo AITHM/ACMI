@@ -1,0 +1,16 @@
+---
+tags: ["Centre for Complex Systems"]
+organisation: "Centre for Complex Systems"
+title: "How will mass-vaccination change COVID-19 lockdown requirements in Australia?"
+preview: "Addressing implications of Australia's a mass-vaccination approach to prevent future outbreaks of COVID-19"
+author: "Cameron Zachreson, Sheryl L. Chang, Oliver M. Cliff, Mikhail Prokopenko"
+badge: "Centre for Complex Systems"
+---
+
+Objective: We modelled a large-scale vaccination campaign in Australia, quantifying reductions in both the intensity of future outbreaks and the stringency of non-pharmaceutical interventions required for their suppression.
+
+Findings: Within a feasible range of vaccine efficacy values, our model supports the assertion that complete herd immunity due to vaccination is not likely in the Australian context. For realistic scenarios in which herd immunity is not achieved, we simulate the effects of mass-vaccination on epidemic growth rate, and investigate the requirements of lockdown measures applied to curb subsequent outbreaks. In our simulations, Australia's vaccination strategy can feasibly reduce required lockdown intensity and initial epidemic growth rate by 43% and 52%, respectively. The severity of epidemics, as measured by the peak number of daily new cases, decreases by up to two orders of magnitude under plausible mass-vaccination and lockdown strategies.
+
+Comparison: to discuss
+
+

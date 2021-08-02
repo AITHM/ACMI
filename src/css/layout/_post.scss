@@ -1,29 +1,48 @@
 .post-banner {
 	width: 100%;
-	overflow: hidden;
-	max-height: 700px;
-	min-height: 200px;
 	position: relative;
 
-	&-feature-image {
+	&-image {
 		width: 100%;
-		object-position: 50% 50%;
+		height: 66.66vw;
+		max-height: 900px;
+		background-position: 50%;
+		background-size: cover;
 	}
 
 	&-heading-container {
-		position: absolute;
-		bottom: 0;
-		margin: 0;
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
+		background-color: #fff;
+		position: relative;
+		margin-top: -8.5rem;
+		max-width: 50rem;
+		min-height: 8.5rem;
+		padding: 3rem 3.125rem 0;
+		z-index: 1;
+		margin-left: auto;
+		margin-right: auto;
+		
 		.post-banner-heading {
 			padding: $h $p;
+			max-width: 700px;
+			margin: 0 auto;
 			background-color: #fff;
 			font-family: $heading-stack;
-			font-size: 3rem;
+			// font-weight: 600;
+			font-size: 2rem;
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: -.008em;
+			line-height: 1.33;
+		}
+
+		@media (max-width: 800px) {
+			margin-top: 0;
+			padding: $p $h 0 $h;
+
+			.post-banner-heading {
+				padding: 0;
+				font-size: 2rem;
+			}
 		}
 	}
 }
@@ -35,9 +54,19 @@
 	padding: $p;
 	font-family: $serif-stack;
 
+	&-title {
+		text-align: center;
+		font-size: 2rem;
+		padding-bottom: $p;
+		text-transform: uppercase;
+		letter-spacing: -.008em;
+    	line-height: 1.33;
+		font-weight: 500;
+	}
+
 	&-preview {
 		text-align: center;
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 	}
 
 	&-author {
