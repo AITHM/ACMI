@@ -109,6 +109,12 @@
 		}
 
 		figure {
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
 			figcaption {
 				color: $c2-dark;
 				font-family: $sans-serif-stack;
@@ -118,12 +124,16 @@
 				max-width: 94%;
 				text-align: left;
 				padding-top: .625rem;
-				padding-bottom: $h;
+				padding-bottom: $p;
 			}
 			
 			img {
-				width: 100%;
-				padding: $h 0 0 0;
+				width: 140%;
+				padding: $p 0 0 0;
+
+				@media (max-width: 1200px) {
+					width: 100%;
+				}
 			}
 		}
 	}
