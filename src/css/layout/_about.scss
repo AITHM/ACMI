@@ -1,0 +1,104 @@
+.about-hero {
+	background-color: $c1;
+	padding: 10rem 0 8rem 0;
+
+	&-subtitle {
+		max-width: 800px;
+		width: 100%;
+		color: #fff;
+		font-family: $sans-serif-stack;
+		font-size: 0.9rem;
+		font-weight: 600;
+		margin: 0 auto;
+		padding: 0 $p;
+	}
+	
+	&-tagline {
+		max-width: 800px;
+		width: 100%;
+		color: #fff;
+		font-family: $sans-serif-stack;
+		line-height: 2.5rem;
+		font-size: 2rem;
+		font-weight: 600;
+		margin: 0 auto;
+		padding: 0 $p;
+	}
+
+}
+
+.about-body {
+
+	&-container {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: $d $p;
+		font-family: $sans-serif-stack;
+
+		.par-br {
+			margin: $q 0;
+		}
+
+		h4 {
+			margin: $d 0 $h 0;
+			font-weight: 600;
+		}
+	}
+
+	&-content {
+		.contribution-guidelines {
+			padding: $h;
+			list-style: none;
+
+			i {
+				padding-right: $h;
+			}
+		}
+
+		.contributors-heading {
+			margin-top: $d;
+			font-weight: 600;
+		}
+	}
+}
+
+.contributors {
+	margin: $h 0 $d 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	grid-auto-rows: minmax(100px, auto);
+	gap: 20px;
+
+	&-item {
+		background-color: $c2-light;
+		padding: $p;
+		color: $c2-dark;
+		text-decoration: none;
+		border: 2px solid $c2-light;
+		transition: border 0.2s ease-in-out;
+
+		&-heading {
+			font-weight: 600;
+			font-size: 0.9rem;
+		}
+
+		&-affiliation {
+			font-weight: 600;
+			font-size: 0.8rem;
+			margin-top: $q;
+		}
+
+		&:hover {
+			border: 2px solid darken($c2-light,20);
+
+			.contributors-item-heading {
+				color: $c2-dark;
+				text-decoration: underline;
+			}
+
+			.contributors-item-affiliation {
+				color: $c2-dark;
+			}
+		}
+	}
+}

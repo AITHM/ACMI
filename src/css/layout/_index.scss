@@ -83,16 +83,20 @@
 				line-height: initial;
 				color: #000;
 				font-family: $heading-stack;
-				font-size: 2rem;
+				font-size: 1.5rem;
 				padding-bottom: $h;
 			}
 	
 			&-body {
 				text-align: center;
 				font-family: $serif-stack;
-				font-size: 1rem;
+				font-size: 0.9rem;
 				color: darken($c2,25);
 				padding-bottom: $p;
+			}
+
+			.read-more-btn {
+				margin-bottom: $p;
 			}
 	
 	

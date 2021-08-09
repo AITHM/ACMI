@@ -1,11 +1,11 @@
 ---
 date: "2020-07-04"
-tags: ["Burnet Institute"]
-organisation: "Burnet Institute"
+tags: ["School of Physics, Mathematics, and Computing"]
+organisation: "School of Physics, Mathematics, and Computing"
 title: "Post 4"
 preview: "Preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis purus vel arcu rhoncus vestibulum."
-author: "John Doe, Burnet Institute"
-badge: "Burnet Institute"
+author: "John Doe, School of Physics, Mathematics, and Computing"
+badge: "School of Physics, Mathematics, and Computing"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in mi eu mi aliquam tincidunt. Nulla facilisi. Suspendisse pulvinar auctor finibus. Suspendisse gravida nec lacus at feugiat. Nulla magna lectus, vulputate a lectus eu, rhoncus blandit metus. Donec sed eros et tortor vehicula faucibus. Nullam luctus nisi arcu, porta lacinia lectus cursus a. Maecenas vel orci venenatis, imperdiet nibh a, cursus quam. Cras sollicitudin fermentum odio at eleifend. Quisque et euismod leo. Ut feugiat mi in eros mattis, ac feugiat ipsum consectetur.

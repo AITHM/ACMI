@@ -1,0 +1,65 @@
+---
+title: about
+layout: "base.njk"
+---
+
+{% include 'header-secondary.njk' %}
+
+<div class="about-hero">
+	<div class="about-hero-subtitle">
+		ACMI | Australian COVID-19 Modelling Initiative
+	</div>
+	<div class="about-hero-tagline">
+		Our mission is to enrich discourse <br> 
+		on COVID-19 policy through colation <br>
+		of independent modelling research
+	</div>
+</div>
+
+
+<div class="about-body-container">
+	<div class="about-body-content">
+		<h4>Our story</h4>
+		The Australian COVID-19 Modelling Initiative (ACMI) comprises several research groups, and aims to facilitate a rapid access to a collection of COVID-19 modelling studies, in an easy to find and understand format, for the public. 
+		<div class="par-br"></div>		
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eius cumque deleniti doloribus tempora, debitis voluptatibus expedita, nobis soluta fugit, ullam veniam architecto tenetur unde vero autem pariatur ex neque?
+
+		<h4>Our aims</h4>
+		<ul>
+			<li>Showcase modelling by independent academic groups, centres and institutes, across the country</li>
+			<li>Make COVID-19 modelling more transparent for the public</li>
+			<li>Compare modelling approaches and outcomes</li>
+			<li>Discuss emerging differences in modelling research and policy implications</li>
+		</ul>
+
+		<h4>Contributing to the initiative</h4>
+		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt molestias, repellendus nihil dolores voluptas quos vel quisquam hic, quidem, ullam nostrum. Laboriosam saepe eaque distinctio doloremque libero commodi? Suscipit, consectetur?
+		
+		<ul class="contribution-guidelines">
+			<li><i class="fas fa-check-square"></i>Be an academic research group</li>
+			<li><i class="fas fa-check-square"></i>Published peer-reviewed COVID-19 modelling research papers in the past</li>
+		</ul>
+
+		<div class="contributors-heading">Our contributors</div>
+
+		<div class="contributors">
+		{%- for member in collections.members -%}
+
+			<a href="{{ member.url }}" class="contributors-item">
+				<div class="contributors-item-heading">
+					{{ member.data.name }}
+				</div>
+				{% if member.data.affiliation %}
+				<div class="contributors-item-affiliation">
+					({{ member.data.affiliation}})
+				</div>
+				{% endif %}
+			</a>
+
+		{%- endfor -%}
+		</div>
+
+	</div>
+
+
+</div>
