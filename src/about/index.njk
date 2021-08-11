@@ -43,15 +43,15 @@ layout: "base.njk"
 		<div class="contributors-heading">Our contributors</div>
 
 		<div class="contributors">
-		{%- for member in collections.members -%}
+		{%- for contributor in collections.contributors -%}
 
-			<a href="{{ member.url }}" class="contributors-item">
+			<a href="{{ contributor.url }}" class="contributors-item">
 				<div class="contributors-item-heading">
-					{{ member.data.name }}
+					{{ contributor.data.name }}
 				</div>
-				{% if member.data.affiliation %}
+				{% if contributor.data.affiliation %}
 				<div class="contributors-item-affiliation">
-					({{ member.data.affiliation}})
+					({{ contributor.data.affiliation}})
 				</div>
 				{% endif %}
 			</a>

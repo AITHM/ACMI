@@ -32,14 +32,14 @@ layout: "base.njk"
 		{{ content | safe }}
 	</div>
 
-	{%- for member in collections.members -%}
-	{% if member.data.name == organisation %}
-	<a href="{{ member.url }}" class="post-content-attribution">
+	{%- for contributor in collections.contributors -%}
+	{% if contributor.data.name == organisation %}
+	<a href="{{ contributor.url }}" class="post-content-attribution">
 		<div class="post-content-attribution-header">
-			{{ member.data.name }}
+			{{ contributor.data.name }}
 		</div>
 		<div class="post-content-attribution-body">
-			{{ member.data.overview }}
+			{{ contributor.data.overview }}
 		</div>
 	</a>
 	{% endif %}
@@ -62,16 +62,16 @@ layout: "base.njk"
 </div>
 
 
-{%- for member in collections.members -%}
-{% if member.data.name == organisation %}
+{%- for contributor in collections.contributors -%}
+{% if contributor.data.name == organisation %}
 <div class="more-posts">
 	<div class="heading">
-		More from {{ member.data.name }}
+		More from {{ contributor.data.name }}
 	</div>
 
 	<div class="card-container">
 		
-		{% set postList = collections[member.data.tagRef] | reverse | recent(3) %}
+		{% set postList = collections[contributor.data.tagRef] | reverse | recent(3) %}
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">

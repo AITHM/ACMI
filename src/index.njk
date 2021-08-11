@@ -79,20 +79,20 @@ layout: "base.njk"
 </div>
 
 
-{%- for member in collections.members -%}
+{%- for contributor in collections.contributors -%}
 <div class="section">
 
-	<a class="section-title" href="{{ member.url }}">
-		{{ member.data.name }}
+	<a class="section-title" href="{{ contributor.url }}">
+		{{ contributor.data.name }}
 	</a>
 
 	<div class="section-subtitle">
-		{{ member.data.affiliation | makeUppercase }}
+		{{ contributor.data.affiliation | makeUppercase }}
 	</div>
 
 	<div class="card-container">
 
-		{% set postList = collections[member.data.tagRef] | reverse | recent(3) %}
+		{% set postList = collections[contributor.data.tagRef] | reverse | recent(3) %}
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">
@@ -113,7 +113,7 @@ layout: "base.njk"
 	</div>	
 
 	<div class="section-footer">
-		<a class="read-more-btn" href="{{ member.url }}">
+		<a class="read-more-btn" href="{{ contributor.url }}">
 			<span>Read more</span> <i class="fas fa-chevron-right"></i>
 		</a>
 	</div>
