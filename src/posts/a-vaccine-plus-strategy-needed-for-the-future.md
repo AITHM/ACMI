@@ -11,7 +11,7 @@ preview: Even with high vaccination coverage, continually introducing cases
 badge: Burnet Institute
 tags:
   - post
-  - Burnet-Institute
+  - Burnet Institute
 featureImage: /img/uploads/feature-image.jpg
 ---
 Objective: 
