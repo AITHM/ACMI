@@ -12,22 +12,30 @@ layout: "base.njk"
 			{{ name }}
 		</div>
 		<div class="member-profile-body">
-			{{ overview }}
+			{{ content | safe }}
 		</div>
+		{% if (twitter) or (facebook) or (linkdin) or (instagram) %}
 		<div class="post-content-share">
 			<div class="share-link-container">
 				<span>Connect: </span>
-				<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
+				{% if facebook %}
+				<a class="facebook-share-button" target="_blank" href="{{ facebook }}" data-size="large">
 					<i class="fab fa-facebook-square"></i>
 				</a>
-				<a class="facebook-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
+				{% endif %}
+				{% if twitter %}
+				<a class="twitter-share-button" target="_blank" href="{{ twitter }}" data-size="large">
 					<i class="fab fa-twitter"></i>
 				</a>
-				<a class="linkdin-share-button" href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" data-size="large">
+				{% endif %}
+				{% if linkedin %}
+				<a class="linkdin-share-button" target="_blank" href="{{ linkedin }}" data-size="large">
 					<i class="fab fa-linkedin"></i>
 				</a>
+				{% endif %}
 			</div>
 		</div>
+		{% endif %}
 	</div>
 </div>
 
