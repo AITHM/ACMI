@@ -1,6 +1,6 @@
 ---
 title: association-of-simulated-covid-19-policy-responses-for-social-restrictions-and-lockdowns
-date: 2021-08-11T05:26:21.549Z
+date: 2021-07-30T05:26:21.549Z
 organisation: Population Interventions Unit
 author: Tony Blakely, PhD; Jason Thompson, PhD; Laxman Bablani, PhD; Patrick
   Andersen, PhD; Driss Ait Ouakrim, PhD; Natalie Carvalho, PhD; Patrick Abraham,
