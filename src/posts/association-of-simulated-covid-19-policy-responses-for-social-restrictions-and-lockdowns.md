@@ -14,6 +14,7 @@ preview: What has the least health losses and is the most cost-effective of 4
 badge: Population Interventions Unit
 tags:
   - post
+  - Population Interventions Unit
 featureImage: /img/uploads/association-of-simulated-covid-19-policy-responses-for-social-restrictions-and-lockdowns.jpg
 ---
 Objectives: 
