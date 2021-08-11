@@ -3,6 +3,6 @@
 	"tags": "posts",
 	"eleventyComputed": {
   		"thumbnail": "/posts/{{ title | slug }}/img/feature-image.jpg",
-		"featureImage": "/posts/{{ title | slug }}/img/feature-image.jpg" 
+		"featureImage": "/img/{{ title | slug }}/img/feature-image.jpg" 
 	}
 }
