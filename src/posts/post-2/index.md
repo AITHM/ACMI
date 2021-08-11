@@ -1,11 +1,11 @@
 ---
 date: "2020-07-02"
-tags: ["School of Physics, Mathematics, and Computing"]
-organisation: "School of Physics, Mathematics, and Computing"
+tags: ["Department of Computer Science and Software Engineering"]
+organisation: "Department of Computer Science and Software Engineering"
 title: "Post 2"
 preview: "Preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis purus vel arcu rhoncus vestibulum."
-author: "John Doe, Population Interventions Unit, University of Melbourne"
-badge: "School of Physics, Mathematics, and Computing"
+author: "John Doe, Department of Computer Science and Software Engineering"
+badge: "Department of Computer Science and Software Engineering"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in mi eu mi aliquam tincidunt. Nulla facilisi. Suspendisse pulvinar auctor finibus. Suspendisse gravida nec lacus at feugiat. Nulla magna lectus, vulputate a lectus eu, rhoncus blandit metus. Donec sed eros et tortor vehicula faucibus. Nullam luctus nisi arcu, porta lacinia lectus cursus a. Maecenas vel orci venenatis, imperdiet nibh a, cursus quam. Cras sollicitudin fermentum odio at eleifend. Quisque et euismod leo. Ut feugiat mi in eros mattis, ac feugiat ipsum consectetur.
