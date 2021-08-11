@@ -1,6 +1,6 @@
 ---
-title: A Modelling Analysis of Strategies for Relaxing COVID-19 Social Distancing
-date: 2021-08-11T09:53:23.625Z
+title: A modelling analysis of strategies for relaxing COVID-19 social distancing
+date: 2020-05-25T02:00:23.625Z
 organisation: Department of Computer Science and Software Engineering
 author: Dr George J. Milne, Simon Xie, Dana Poklepovich
 preview: "The ability of countries to contain and control COVID-19 virus
