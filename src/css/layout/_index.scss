@@ -64,6 +64,7 @@
 		&-image {
 			grid-area: image;
 			overflow: hidden;
+			max-height: 400px;
 	
 			img {
 				width: 100%;
