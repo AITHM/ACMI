@@ -1,9 +1,10 @@
 ---
 title: Nowcasting transmission and suppression of the Delta variant of
   SARS-CoV-2 in Australia
-date: 2021-07-28T05:39:09.178Z
+date: 2021-07-14T02:00:09.178Z
 organisation: Centre for Complex Systems
-author: Sheryl L. Chang, Oliver M. Cliff, Cameron Zachreson, Mikhail Prokopenko
+author: Dr Sheryl L. Chang, Dr Oliver M. Cliff, Dr Cameron Zachreson, Dr Mikhail
+  Prokopenko
 preview: How effective are current non-pharmaceutical interventions against the
   Sydney COVID-19 outbreak?
 badge: Centre for Complex Systems
@@ -19,4 +20,8 @@ We explored a feasible range of non-pharmaceutical interventions aimed to contro
 Findings: 
 
 The level of social distancing currently attained in Sydney is inadequate for the outbreak control. A counter-factual analysis suggested that if 80% of agents comply with social distancing, then at least a month is needed for the new daily cases to reduce from their peak to below ten, while 70% compliance lengthens this period to 45 days.
-Comparison: to discuss
+
+
+<a href="https://arxiv.org/abs/2107.06617" target="_blank">
+View paper
+</a>
