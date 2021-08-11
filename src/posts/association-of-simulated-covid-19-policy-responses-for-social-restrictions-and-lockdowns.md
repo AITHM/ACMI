@@ -1,7 +1,7 @@
 ---
 title: Association of simulated COVID-19 policy responses for social
   restrictions and lockdowns
-date: 2021-07-30T05:26:21.549Z
+date: 2021-07-30T02:00:21.549Z
 organisation: Population Interventions Unit
 author: Dr Tony Blakely, Dr Jason Thompson, Dr Laxman Bablani, Dr Patrick
   Andersen, Dr Driss Ait Ouakrim, Dr Natalie Carvalho, Patrick Abraham,
