@@ -90,13 +90,13 @@ layout: "base.njk"
 		{{ contributor.data.affiliation | makeUppercase }}
 	</div>
 
-	<div class="card-container">
+	<div class="card-container contributor-card">
 
 		{% set postList = collections[contributor.data.tagRef] | reverse | recent(3) %}
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">
-				<img class src="{{ post.data.thumbnail }}" alt="Girl in a jacket">
+				<img class src="{{ post.data.featureImage }}" alt="Girl in a jacket">
 			</div>
 			<div class="post-card-preview">
 				<div class="post-badge">

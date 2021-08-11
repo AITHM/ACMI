@@ -2,7 +2,7 @@
 	"layout": "post.njk",
 	"tags": "posts",
 	"eleventyComputed": {
-  		"thumbnail": "/posts/{{ title | slug }}/img/thumbnail.jpg",
+  		"thumbnail": "/posts/{{ title | slug }}/img/feature-image.jpg",
 		"featureImage": "/posts/{{ title | slug }}/img/feature-image.jpg" 
 	}
 }

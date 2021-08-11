@@ -22,6 +22,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+	<!-- Netlify CMS -->
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	
 	
 
@@ -29,8 +32,7 @@
 
 <body>
 
-
-		
+	
 <div class="header__s">
 	<i class="fas fa-bars open-nav"></i>
 	<a class="heading" href="/">
@@ -174,7 +176,7 @@
 		
 		<a class="post-card"  href="/posts/association-of-simulated-covid-19-policy-responses-for-social-restrictions-and-lockdowns/">
 			<div class="post-card-thumbnail">
-				<img class src="/posts/association-of-simulated-covid-19-policy-responses-for-social-restrictions-and-lockdowns/img/thumbnail.jpg" alt="Girl in a jacket">
+				<img class src="/posts/association-of-simulated-covid-19-policy-responses-for-social-restrictions-and-lockdowns/img/feature-image.jpg" alt="Girl in a jacket">
 			</div>
 			<div class="post-card-preview">
 				<div class="post-badge">
@@ -187,7 +189,7 @@
 			</div>
 		</a><a class="post-card"  href="/posts/how-long-till-sydney-gets-out-of-lockdown/">
 			<div class="post-card-thumbnail">
-				<img class src="/posts/how-long-till-sydney-gets-out-of-lockdown/img/thumbnail.jpg" alt="Girl in a jacket">
+				<img class src="/posts/how-long-till-sydney-gets-out-of-lockdown/img/feature-image.jpg" alt="Girl in a jacket">
 			</div>
 			<div class="post-card-preview">
 				<div class="post-badge">
@@ -200,7 +202,7 @@
 			</div>
 		</a><a class="post-card"  href="/posts/post-3/">
 			<div class="post-card-thumbnail">
-				<img class src="/posts/post-3/img/thumbnail.jpg" alt="Girl in a jacket">
+				<img class src="/posts/post-3/img/feature-image.jpg" alt="Girl in a jacket">
 			</div>
 			<div class="post-card-preview">
 				<div class="post-badge">
@@ -215,8 +217,8 @@
 </div>
 
 
-		
-		<div class="footer">
+	
+	<div class="footer">
 	<div class="footer-inner">
 
 		<div>© 2021 Australian COVID-19 Modelling Initiative (ACMI) </div>
@@ -251,6 +253,18 @@
 	</div>
 </div>
 
+	<!-- Netlify CMS -->
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+			if (!user) {
+				window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+				});
+			}
+			});
+		}
+	</script>
 </body>
 
 </html>
