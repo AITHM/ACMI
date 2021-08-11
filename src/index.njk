@@ -9,7 +9,7 @@ layout: "base.njk"
 	{% set featurePost = collections.posts | reverse | recent(1) %}
 	<a class="feature-post" href="{{ featurePost[0].url }}">
 		<div class="feature-post-image">
-			<img class src="{{ featurePost[0].data.thumbnail }}">
+			<img class src="{{ featurePost[0].data.featureImage | url }}">
 		</div>
 		<div class="feature-post-preview">
 			<div class="post-badge">
@@ -41,7 +41,7 @@ layout: "base.njk"
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">
-				<img class src="{{ post.data.thumbnail }}">
+				<img class src="{{ post.data.featureImage | url }}">
 			</div>
 			<div class="post-card-preview">
 				<div class="post-badge">
@@ -96,7 +96,7 @@ layout: "base.njk"
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">
-				<img class src="{{ post.data.featureImage }}" alt="Girl in a jacket">
+				<img class src="{{ post.data.featureImage | url }}" alt="Girl in a jacket">
 			</div>
 			<div class="post-card-preview">
 				<div class="post-badge">
