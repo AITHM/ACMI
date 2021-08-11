@@ -1,6 +1,6 @@
 ---
 title: How long till Sydney gets out of lockdown?
-date: 2021-07-29T05:15:54.744Z
+date: 2021-07-20T02:00:00.000Z
 organisation: Population Interventions Unit
 author: Dr Driss Ait Ouakrim, Dr Tim Wilson, Dr Laxman Bablani, Hassan Andrabi,
   Dr Jason Thompson, Professor Tony Blakely
