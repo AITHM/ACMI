@@ -22,7 +22,7 @@ collections:
       - {label: "Featured Image", name: "featureImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "media-links" 
-    label: "Posts" 
+    label: "Media links" 
     folder: "src/media-links" 
     create: true 
     slug: "{{slug}}" 
