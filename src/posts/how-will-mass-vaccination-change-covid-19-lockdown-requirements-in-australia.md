@@ -20,6 +20,6 @@ Findings:
 
 Within a feasible range of vaccine efficacy values, our model supports the assertion that complete herd immunity due to vaccination is not likely in the Australian context. For realistic scenarios in which herd immunity is not achieved, we simulate the effects of mass-vaccination on epidemic growth rate, and investigate the requirements of lockdown measures applied to curb subsequent outbreaks. In our simulations, Australia's vaccination strategy can feasibly reduce required lockdown intensity and initial epidemic growth rate by 43% and 52%, respectively. The severity of epidemics, as measured by the peak number of daily new cases, decreases by up to two orders of magnitude under plausible mass-vaccination and lockdown strategies.
 
-<a href="https://arxiv.org/pdf/2103.07061.pdf" target="_blank">
+<a href="https://www.sciencedirect.com/science/article/pii/S2666606521001334" target="_blank">
 View paper
 </a>
