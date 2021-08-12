@@ -11,7 +11,7 @@ badge: Burnet Institute
 tags:
   - post
   - Burnet Institute
-featureImage: /img/uploads/feature-image.jpg
+featureImage: /img/uploads/a-vacine-plus-strategy-for-the-future.jpeg
 ---
 Objective: 
 
