@@ -1,6 +1,6 @@
 ---
 title: What is the right COVID-19 risk to live with?
-date: 2021-08-12T00:44:02.111Z
+date: 2021-07-08T02:00:02.111Z
 organisation: Population Interventions Unit
 author: Professor Tony Blakely, Dr Vijaya Sundararajan, Dr Tim Wilson
 preview: As Australia looks toward opening its international borders, new virus
