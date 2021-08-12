@@ -11,7 +11,7 @@ badge: Centre for Complex Systems
 tags:
   - post
   - Centre for Complex Systems
-featureImage: /img/uploads/nowcasting-transmission-and-suppression-of-the-delta-variant-of-sars-cov-2-in-australia.jpg
+featureImage: /img/uploads/nowcasting-transmission-and-suppression-of-the-delta-variant-of-sars-cov-2-in-australia.jpeg
 ---
 Objective: 
 
