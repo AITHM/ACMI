@@ -23,7 +23,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "media-links" 
     label: "Posts" 
-    folder: "src/posts" 
+    folder: "src/media-links" 
     create: true 
     slug: "{{slug}}" 
     fields: 
