@@ -143,13 +143,22 @@
 		}
 	}
 
+
 	&-attribution {
-		padding: $p 0;
+		padding: $h 0 $p 0;
 		margin-top: $p;
 		text-decoration: none;
 		border-top: 1px solid $c2;
 		// border-bottom: 1px solid $c2;
 		display: inline-block;
+
+		&-date {
+			font-size: 0.7rem;
+			font-family: $sans-serif-stack;
+			color: $c2;
+			font-weight: 600;
+			padding-bottom: $h;
+		}
 
 		&-header {
 			font-family: $sans-serif-stack;

@@ -135,7 +135,16 @@
 
 			&-title {
 				font-size: 0.9rem;
-				padding: $q 0;
+				padding-top: $q;
+			}
+
+			&-date {
+				font-size: 0.6rem;
+				font-weight: 800;
+				color: $c2;
+				font-family: $sans-serif-stack;
+				text-transform: uppercase;
+				padding-bottom: $q;
 			}
 
 			&-body {

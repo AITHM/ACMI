@@ -70,6 +70,9 @@ layout: "base.njk"
 				<div class="media-card-item-body">
 					{{ mediaLink.data.preview }}
 				</div>
+				<div class="media-card-item-date">
+					{{ mediaLink.data.date | cleanDate }}
+				</div>
 			</a>	
 			{%- endfor -%}
 				

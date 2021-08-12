@@ -1,3 +1,4 @@
+const { DateTime } = require("luxon");
 
 module.exports = function(eleventyConfig){
 
@@ -31,6 +32,10 @@ module.exports = function(eleventyConfig){
 	eleventyConfig.addShortcode("figure", (imgFileName, caption) => {
 		const captionMarkup = caption ? `<figcaption>${caption}</figcaption>` : '';
 		return `<figure><img src="img/${imgFileName}" />${captionMarkup}</figure>`;
+	});
+
+	eleventyConfig.addFilter("cleanDate", (dateObj) => {
+		return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
 	});
 
 

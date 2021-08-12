@@ -35,6 +35,9 @@ layout: "base.njk"
 	{%- for contributor in collections.contributors -%}
 	{% if contributor.data.name == organisation %}
 	<a href="{{ contributor.url }}" class="post-content-attribution">
+		<div class="post-content-attribution-date">
+			First published: {{ date | cleanDate }}
+		</div>
 		<div class="post-content-attribution-header">
 			{{ contributor.data.name }}
 		</div>

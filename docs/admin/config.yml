@@ -21,4 +21,14 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
       - {label: "Featured Image", name: "featureImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "media-links" 
+    label: "Media links" 
+    folder: "src/media-links" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Preview text", name: "preview", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
     
