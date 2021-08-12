@@ -2,7 +2,7 @@
 title: Opening up at different stages of the vaccine rollout
 date: 2021-06-11T02:00:05.119Z
 organisation: Burnet Institute
-author: Dr Nick Scott, Professor Margaret Hallard, Dr Romesh Abeysuriya
+author: Dr Romesh Abeysuriya, Professor Margaret Hallard, Dr Nick Scott
 preview: Thousands of deaths likely if COVID-19 ‘left to run’ in Victoria
   without high vaccine uptake and public health measures, new modelling shows
 badge: Burnet Institute
