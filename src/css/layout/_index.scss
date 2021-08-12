@@ -10,6 +10,7 @@
 		margin: 0 auto;
 		font-family: $heading-stack;
 		font-size: 2rem;
+		max-width: 580px;
 		transition: letter-spacing .25s ease-out,text-indent .25s ease-out;
 
 		&:hover {

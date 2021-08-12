@@ -1,5 +1,5 @@
 ---
-name: "Department of Computer Science and Software Engineering"
+name: "Department of Computer Science & Software Engineering"
 affiliation: "University of Western Australia"
 tagRef: "Department of Computer Science and Software Engineering"
 badge: "Department of Computer Science and Software Engineering"
