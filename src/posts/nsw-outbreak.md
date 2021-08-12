@@ -3,8 +3,8 @@ title: NSW outbreak
 date: 2021-07-12T02:00:38.394Z
 organisation: Burnet Institute
 author: Dr Nick Scott, Professor Margaret Hallard, Dr Romesh Abeysuriya
-preview: How effective are current non-pharmaceutical interventions against the
-  Sydney COVID-19 outbreak?
+preview: The Delta outbreak in NSW is quickly spiralling out of control, will
+  Victorian-style restrictions be sufficient to control its spread?
 badge: Burnet Institute
 tags:
   - post
