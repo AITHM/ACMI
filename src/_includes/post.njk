@@ -3,6 +3,15 @@ title: Post
 layout: "base.njk"
 ---
 
+{% block head %}
+<!-- Twitter tag -->
+<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="https://auscmi.org{{ page.url | url }}" />
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content=" {{ preview }}" />
+<meta property="og:image" content="https://auscmi.org{{ featureImage | url }}" />
+{% endblock %}
+
 {% include 'header-secondary.njk' %}
 
 <div class="post-banner">
