@@ -1,7 +1,7 @@
 ---
 title: Can a vaccine-led approach end the NSW outbreak in 100 days, or at least
   substantially reduce morbidity and mortality?
-date: 2021-08-23T12:36:38.096Z
+date: 2021-08-21T12:36:38.096Z
 organisation: Population Interventions Unit
 author: Dr Laxman Bablani, Dr Tim Wilson, Hassan Andrabi, Dr Vijaya
   Sundararajan, Dr Driss Ait Oukarim, Dr Patrick Abraham, Dr Jason Thompson,
