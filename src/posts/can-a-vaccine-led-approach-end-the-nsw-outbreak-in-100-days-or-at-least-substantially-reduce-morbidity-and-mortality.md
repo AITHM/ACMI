@@ -17,18 +17,20 @@ featureImage: /img/uploads/can-a-vaccine-led-approach-end-the-nsw-outbreak-in-10
 Objectives: 
 
 Despite the strong restrictions in New South Wales, particularly in those Local Government Authorities (LGAs) of concern, COVID-19 case numbers are still growing exponentially at five per cent a day.
-This modelling study seeks to estimate the time required to reach ≤5 cases per day under three lockdown strengths (weak, moderate, strong), and four vaccination rollouts: (a) per the original plan, (b) prioritizing essential workers, (c) b plus rapid vaccination of 25% of <60-year-olds with AstraZeneca (AZ25), and (d) b plus rapid vaccination of 50% of <60-year-olds with AstraZeneca (AZ50). We estimate the number of cases, hospitalizations, and deaths in the 100 days after the 1st of August, 2021, for these 12 scenarios.
+To help with planning and expectation setting, we modelled 12 scenarios for combinations of:
+* Three lockdown strengths: a strong, weak, and moderate lockdown modelled after Victoria’s restrictions. These were calibrated to the Victorian Stage 4, Stage 3, and in-between Stage 4 and 3 restrictions respectively. The current NSW lockdown is probably bounded by the moderate (Stage 3b) and weak (Stage 3) lockdowns in NSW, with pockets of Stage 4 (for example, those LGAs of concern in Sydney)
+* Four vaccine rollout scenarios: (a) per the original plan, (b) prioritizing essential workers, (c) b plus rapid vaccination of 25% of <60-year-olds with AstraZeneca (AZ25), and (d) b plus rapid vaccination of 50% of <60-year-olds with AstraZeneca (AZ50). We estimate the number of cases, hospitalizations, and deaths in the 100 days after the 1st of August, 2021, for these 12 scenarios.
+
+
 
 Findings: 
 
-The business-as-usual rollout fully vaccinates 50%, 70% and 80% of >16-year-olds by 10/Oct, 21/Nov,
-and 28/Dec, respectively. This reduced to 1 Oct, 30 Oct, and 22 Nov for the fastest (AZ50) rollout.
-A strong lockdown with a rapid vaccine rollout was the fastest to reach ≤5 cases (14-day average), with a
-median of 78 days (90% Uncertainty interval 61 - 103) or 18 Oct, compared to 207 days (166 - 254) or
-24 Feb for a weak lockdown with no rollout acceleration. Increased lockdown strength had more impact
-than rollout acceleration.
-Under the AZ25 vaccination scenario, there were 1,440 (90% UI 262 - 10,600 deaths in the first 100 days
-of cases under a weak lockdown, compared to 71 (90% UI 26 - 178) under a strong lockdown scenario. 
+Even with the current lockdown and appeals for vaccination, our modelling suggests that should NSW still be aiming for elimination it is unlikely to occur until late 2021, in the most plausible combination of scenarios.
+
+However, one possibility is that the state will get to high vaccine coverage and aim to contain COVID without further lockdowns when vaccine thresholds are met (i.e. a version of ‘living with the virus’).
+The National Plan sets vaccination targets at 70 per cent and 80 per cent of adults vaccinated. These are sensible targets to have in mind for some lessening of restrictions, however, children will also need to be vaccinated, and targets in excess of 90 per cent will be ‘best’. Accelerating the vaccine rollout is important for the medium-term in NSW (and the rest of Australia), as it will make the population more resilient to outbreaks later in 2021 and into 2022 when we open the borders.
+
+Right now, it’s the strength of lockdown that has the greatest potential impact for reducing COVID-19 hospitalisations and deaths.
 
 <a href="https://www.medrxiv.org/content/10.1101/2021.08.18.21262252v1" target="_blank">
 View preprint
