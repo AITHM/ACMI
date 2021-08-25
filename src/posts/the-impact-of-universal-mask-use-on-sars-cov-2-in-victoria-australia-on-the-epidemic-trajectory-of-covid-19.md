@@ -14,7 +14,7 @@ featureImage: /img/uploads/the-impact-of-universal-mask-use-on-sars-cov-2-in-vic
 ---
 Objective: 
 
-To estimate the impact of universal community face mask use in the COVID-19 second wave in Victoria, Australia, along with other routine disease control measures in place, timing, and varying mask effectiveness and uptake.
+To estimate the impact of universal community face mask use in the COVID-19 second wave in Victoria in 2020, Australia, along with other routine disease control measures in place, timing, and varying mask effectiveness and uptake.
 
 
 Findings:
