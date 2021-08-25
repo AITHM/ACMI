@@ -2,7 +2,7 @@
 title: The potential impact of a recent measles epidemic on COVID-19 in Samoa
 date: 2020-10-07T05:43:34.611Z
 organisation: Biosecurity Program, Kirby Institute
-author: Valentina Costantino, Dr David Heslop, Professor Raina MacIntyre
+author: "Professor Raina MacIntyre, Valentina Costantino, Dr David Heslop, "
 preview: Samoa, which had large measles epidemics in 2019–2020 should focus on
   rapidly achieving high rates of measles vaccination and enhanced surveillance
   for COVID-19.
