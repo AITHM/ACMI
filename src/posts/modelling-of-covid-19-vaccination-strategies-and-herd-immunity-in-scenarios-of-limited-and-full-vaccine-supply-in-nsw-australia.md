@@ -24,7 +24,7 @@ With a limited vaccine stockpile enough for 1 million people in NSW, if there is
 
 Herd immunity for wild-type SARS-CoV-2 could only be achieved with mass vaccination. With 90% vaccine efficacy against all infection, herd immunity can be achieved by vaccinating 66% of the population. A vaccine with less than 70% vaccine efficacy cannot achieve herd immunity and will result in ongoing risk of outbreaks. For mass vaccination, distributing at least 60,000 doses per day was required to achieve control. Slower rates of vaccination would have resulted in the population living with COVID-19 longer, and higher cases and deaths.
 
-With the more infectious Delta variant (R0 of about 6.5), reaching herd immunity in the absence of high vaccine efficacy is considerably less likely. 
+With the more infectious Delta variant (R0 of about 6.5), reaching herd immunity in the absence of high vaccine efficacy is less likely. 
 
 <a href="https://www.sciencedirect.com/science/article/pii/S0264410X21005016" target="_blank">
 View paper
