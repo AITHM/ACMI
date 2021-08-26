@@ -8,6 +8,10 @@
 		max-height: 900px;
 		background-position: 50%;
 		background-size: cover;
+
+		@media (max-height: 900px) {
+			max-height: 650px;
+		}
 	}
 
 	&-heading-container {
