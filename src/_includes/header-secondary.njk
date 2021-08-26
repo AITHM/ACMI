@@ -1,10 +1,46 @@
-<div class="header__s">
-	<i class="fas fa-bars open-nav"></i>
-	<a class="heading" href="/">
-		AUSCMI
-	</a>
-	<div>
+<div class="header__s" id="header__s">
+	<div class="header-content">
+		<i class="fas fa-bars open-nav"></i>
+		<a class="heading" href="/">
+			AUSCMI
+		</a>
+		<div>
+		</div>
 	</div>
+
+	{%- for tag in tags -%}
+	{% if tag == 'post' %}
+	<div id="scroll-progress">
+		<div id="scroll-progress-bar"></div>
+	</div>
+	{% endif %}
+	{%- endfor -%}
 </div>	
 
+
 {% include 'nav.njk' %}
+
+
+
+
+
+{% block script %}
+<script>
+
+window.onscroll = function() {
+    var nav = document.getElementById("header__s");
+    if ( window.pageYOffset > 10 ) {
+        nav.classList.add("header-slim");
+    } else {
+        nav.classList.remove("header-slim");
+    }
+
+	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	var scrolled = (winScroll / height) * 100;
+	document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+
+}
+
+</script>
+{% endblock %}
