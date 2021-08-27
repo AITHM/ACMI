@@ -1,7 +1,7 @@
 ---
 title: Modelling transmission and control of the COVID-19 pandemic in Australia
 date: 2020-11-11T01:00:39.435Z
-organisation: Centre for Complex Systems
+organisation: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 author: Dr Sheryl L. Chang, Nathan Harding, Dr Cameron Zachreson, Dr Oliver M.
   Cliff, Dr Mikhail Prokopenko
 preview: There are various mitigation and suppression strategies aimed to
