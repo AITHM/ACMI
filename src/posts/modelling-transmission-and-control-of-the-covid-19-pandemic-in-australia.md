@@ -6,7 +6,7 @@ author: Dr Sheryl L. Chang, Nathan Harding, Dr Cameron Zachreson, Dr Oliver M.
   Cliff, Dr Mikhail Prokopenko
 preview: There are various mitigation and suppression strategies aimed to
   control the spread of COVID-19, how do we quantify their relative benefits?
-badge: Centre for Complex Systems
+badge: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 tags:
   - post
   - Centre for Complex Systems
