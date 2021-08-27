@@ -7,7 +7,7 @@ author: Dr Sheryl L. Chang, Dr Oliver M. Cliff, Dr Cameron Zachreson, Dr Mikhail
   Prokopenko
 preview: How effective are current non-pharmaceutical interventions against the
   Sydney COVID-19 outbreak?
-badge: Centre for Complex Systems
+badge: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 tags:
   - post
   - Centre for Complex Systems
