@@ -2,7 +2,7 @@
 title: Nowcasting transmission and suppression of the Delta variant of
   SARS-CoV-2 in Australia
 date: 2021-07-14T02:00:09.178Z
-organisation: Centre for Complex Systems
+organisation: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 author: Dr Sheryl L. Chang, Dr Oliver M. Cliff, Dr Cameron Zachreson, Dr Mikhail
   Prokopenko
 preview: How effective are current non-pharmaceutical interventions against the
