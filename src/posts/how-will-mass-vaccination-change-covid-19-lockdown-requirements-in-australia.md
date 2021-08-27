@@ -6,7 +6,7 @@ author: Dr Cameron Zachreson, Dr Sheryl L. Chang, Dr Oliver M. Cliff, Dr Mikhail
   Prokopenko
 preview: Addressing implications of Australia's a mass-vaccination approach to
   prevent future outbreaks of COVID-19
-badge: Centre for Complex Systems
+badge: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 tags:
   - post
   - Centre for Complex Systems
