@@ -1,7 +1,7 @@
 ---
 title: How will mass-vaccination change COVID-19 lockdown requirements in Australia?
 date: 2021-03-12T01:00:36.057Z
-organisation: Centre for Complex Systems
+organisation: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 author: Dr Cameron Zachreson, Dr Sheryl L. Chang, Dr Oliver M. Cliff, Dr Mikhail
   Prokopenko
 preview: Addressing implications of Australia's a mass-vaccination approach to
