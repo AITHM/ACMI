@@ -12,15 +12,15 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Contributor", name: "organisation", widget: "string"}
-      - {label: "Authors", name: "author", widget: "string"}
-      - {label: "Preview text", name: "preview", widget: "string"}
-      - {label: "Badge", name: "badge", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "array", default: ["post"]}
-      - {label: "Featured Image", name: "featureImage", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Title", name: "title", widget: "string", hint: "Try keep this less than 15-20 words. Use the same title as the underlying research article where possible."}
+      - {label: "Publish Date", name: "date", widget: "datetime", hint: "Date post published. If the post is for a journal article published in the past, use the date the journal article was published."}
+      - {label: "Contributor", name: "organisation", widget: "string", hint: "The name of the organisation contributing the article, e.g. Population Interventions Unit. This should match the organisation's specific tag, as detailed in website documentation."}
+      - {label: "Authors", name: "author", widget: "string", hint: "Authors of post, comma-separated. Format as 'title first-name last-name, e.g. Dr. John Doe, Dr. Jane Doe."}
+      - {label: "Preview text", name: "preview", widget: "string", hint: "1 or 2 sentences summarising the main idea, objective, or finding of the post. Use concise phrasing to catch reader's attention. Try to stay under 30-35 words."}
+      - {label: "Badge", name: "badge", widget: "string", hint: "Controls the small, grey badge text that appears under post titles on the home-page. Usually the name of the contributor – i.e., same as 'contributor' field – but it can be something else."}
+      - {label: "Tags", name: "tags", widget: "array", default: ["post"], hint: "At a minimum, all posts must have a 'post' tag, and a tag for their contributor. Please refer to the documentation before specifying a contributor tag, or copy over from a previous post by the same contributor. You can also specify other qualtiative tags depending on what the post is about, so that the post might be displayed on the relevant 'theme' page, e.g. Agent-based modelling, Melbourne, etc. (refer to website documentation for a full list of supported qualitative tags)"}
+      - {label: "Featured Image", name: "featureImage", widget: "image", hint: "The image should be in high-resolution, its subject matter should be as generic as possible, and it should be royalty-free. Useful royalty-free sites: https://pixabay.com/, https://unsplash.com/."}
+      - {label: "Body", name: "body", widget: "markdown", hint: "Post content, using the 'objective', 'findings', 'conclusion' format specified in the website documentation."}
   - name: "media-links" 
     label: "Media links" 
     folder: "src/media-links" 

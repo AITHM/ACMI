@@ -10,7 +10,46 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 
+  <!-- Load custom post preview CSS -->
+  <script>
+    CMS.registerPreviewStyle("/admin/preview-post.css");
+  </script>
 
+  <!-- Define preview document structure for posts -->
+  <script>
+  var PostPreview = createClass({
+    render: function() {
+      var entry = this.props.entry;
+      var image = entry.getIn(['data', 'featureImage']);
+      var bg = this.props.getAsset(image);
+
+      return h('div', {},
+        h('div', {"className": "post-banner"}, 
+          h('img', {src: bg.toString(),"className":"post-banner-img"}),
+        ),
+
+        h('div', {"className": "post-content"},
+          h('div', {"className": "post-content-heading"}, entry.getIn(['data', 'title'])),
+          h('div', {"className": "post-content-preview"}, entry.getIn(['data','preview'])),
+          h('div', {"className": "post-content-author"}, entry.getIn(['data','author'])),
+          h('div', {"className": "post-content-body"}, this.props.widgetFor('body')),
+
+          h('div', {"className": "post-content-attribution"}, 
+            h('div', {"className": "post-content-attribution-date"}, this.props.widgetFor('date')), 
+            h('div', {"className": "post-content-attribution-header"}, entry.getIn(['data','organisation'])), 
+            h('div', {"className": "post-content-attribution-body"}, "A short snippet about the contributor will display here. Dummy text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel massa nibh. Vivamus auctor metus a consequat fermentum. Vestibulum mollis condimentum enim quis pretium. Nulla vestibulum sem a vestibulum efficitur. Nunc suscipit arcu eu consequat accumsan."), 
+          
+          )
+        )
+      );
+    }
+
+  });
+
+  CMS.registerPreviewTemplate("posts", PostPreview);
+  </script>
+
+  <!-- Custom array widget, because default list widget doesn't allow whitespace in elements-->
   <script>
       var ArrayControl = createClass({
         handleChange: function (e) {
@@ -51,6 +90,5 @@
 
       CMS.registerWidget("array", ArrayControl, ArrayPreview, schema);
   </script>
-  
 </body>
 </html>
