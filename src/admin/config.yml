@@ -18,7 +18,7 @@ collections:
       - {label: "Authors", name: "author", widget: "string"}
       - {label: "Preview text", name: "preview", widget: "string"}
       - {label: "Badge", name: "badge", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list", default: ["post"]}
+      - {label: "Tags", name: "tags", widget: "array", default: ["post"]}
       - {label: "Featured Image", name: "featureImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "media-links" 
