@@ -2,7 +2,7 @@
 title: "The Effectiveness of Social Distancing in Mitigating COVID-19 Spread: a
   modelling analysis"
 date: 2020-03-23T01:00:30.237Z
-organisation: Department of Computer Science and Software Engineering
+organisation: Department of Computer Science & Software Engineering
 author: Dr George J. Milne, Simon Xie
 preview: "The ability of countries to contain and control COVID-19 virus
   transmission via social distancing is critical in the absence of a vaccine. "
