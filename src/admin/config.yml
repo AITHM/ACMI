@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+site_url: https://auscmi.org/
+display_url: https://auscmi.org
 
 media_folder: "docs/img/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
@@ -14,7 +16,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string", hint: "Try keep this less than 15-20 words. Use the same title as the underlying research article where possible."}
       - {label: "Publish Date", name: "date", widget: "datetime", hint: "Date post published. If the post is for a journal article published in the past, use the date the journal article was published."}
-      - {label: "Contributor", name: "organisation", widget: "string", hint: "The name of the organisation contributing the article, e.g. Population Interventions Unit. This should match the organisation's specific tag, as detailed in website documentation."}
+      - {label: "Contributor", name: "organisation", widget: "relation", collection: "contributors", value_field: "name", search_fields: ["name"], hint: "The name of the organisation contributing the article, e.g. Population Interventions Unit. This should match the organisation's specific tag, as detailed in website documentation."}
       - {label: "Authors", name: "author", widget: "string", hint: "Authors of post, comma-separated. Format as 'title first-name last-name, e.g. Dr. John Doe, Dr. Jane Doe."}
       - {label: "Preview text", name: "preview", widget: "string", hint: "1 or 2 sentences summarising the main idea, objective, or finding of the post. Use concise phrasing to catch reader's attention. Try to stay under 30-35 words."}
       - {label: "Badge", name: "badge", widget: "string", hint: "Controls the small, grey badge text that appears under post titles on the home-page. Usually the name of the contributor – i.e., same as 'contributor' field – but it can be something else."}
@@ -31,4 +33,13 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Preview text", name: "preview", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
-    
+  - name: "contributors" 
+    label: "Contributors" 
+    folder: "src/contributors" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Affiliation", name: "affiliation", widget: "string"}
+      - {label: "Tag reference", name: "tagRef", widget: "string"}
+      - {label: "Profile", name: "overview", widget: "markdown"}
