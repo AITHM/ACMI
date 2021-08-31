@@ -116,12 +116,13 @@ img {
 	font-family: 'Roboto', sans-serif;
 	color: var(--c2-darker);
 	font-weight: 700;
+	font-size: 0.8rem;
 	padding-bottom: var(--q);
 }
 
 .post-content-attribution-body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-weight: 500;
 	color: var(--c2-dark);
 }
