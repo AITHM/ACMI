@@ -46,7 +46,7 @@ layout: "base.njk"
 
 	<div class="card-container">
 
-		{% set postList = collections.posts | reverse | recent(6) %}
+		{% set postList = collections.posts | reverse | range(1,7) %}
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">
