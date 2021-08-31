@@ -2,7 +2,7 @@
 title: A modelling analysis of the effectiveness of second wave COVID-19
   response strategies in Australia
 date: 2021-07-07T02:00:15.506Z
-organisation: Department of Computer Science and Software Engineering
+organisation: Department of Computer Science & Software Engineering
 author: Dr George J. Milne, Simon Xie , Dana Poklepovich , Dan O’Halloran ,
   Matthew Yap, Dr David Whyatt
 preview: "Early and robust application of social distancing measures are known
