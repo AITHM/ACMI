@@ -8,7 +8,6 @@ preview: Addressing implications of Australia's a mass-vaccination approach to
   prevent future outbreaks of COVID-19
 badge: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 tags:
-  - post
   - Centre for Complex Systems
 featureImage: /img/uploads/how-will-mass-vaccination-change-covid-19-lockdown-requirements-in-australia.jpg
 ---
