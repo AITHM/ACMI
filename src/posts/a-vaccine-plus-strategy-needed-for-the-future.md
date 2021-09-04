@@ -9,7 +9,6 @@ preview: Even with high vaccination coverage, continually introducing cases
   response and control options.
 badge: Burnet Institute
 tags:
-  - post
   - Burnet Institute
 featureImage: /img/uploads/a-vacine-plus-strategy-for-the-future.jpeg
 ---
