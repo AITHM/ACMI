@@ -7,7 +7,6 @@ preview: "The ability of countries to contain and control COVID-19 virus
   transmission via social distancing is critical in the absence of a vaccine. "
 badge: Department of Computer Science and Software Engineering
 tags:
-  - post
   - Department of Computer Science and Software Engineering
 featureImage: /img/uploads/a-modelling-analysis-of-strategies-for-relaxing-covid-19-social-distancing.jpeg
 ---
