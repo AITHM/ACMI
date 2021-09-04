@@ -8,7 +8,6 @@ preview: Samoa, which had large measles epidemics in 2019–2020 should focus on
   for COVID-19.
 badge: Biosecurity Program, Kirby Institute
 tags:
-  - post
   - Biosecurity Program
 featureImage: /img/uploads/the-potential-impact-of-a-recent-measles-epidemic-on-covid-19-in-samoa.jpeg
 ---
