@@ -7,7 +7,6 @@ preview: Thousands of deaths likely if COVID-19 ‘left to run’ in Victoria
   without high vaccine uptake and public health measures, new modelling shows
 badge: Burnet Institute
 tags:
-  - post
   - Burnet Institute
 featureImage: /img/uploads/opening-up-at-different-stages-of-the-vaccine-rollout.jpg
 ---
