@@ -8,7 +8,6 @@ preview: There are various mitigation and suppression strategies aimed to
   control the spread of COVID-19, how do we quantify their relative benefits?
 badge: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 tags:
-  - post
   - Centre for Complex Systems
 featureImage: /img/uploads/modelling-transmission-and-control-of-the-covid-19-pandemic-in-australia.jpg
 ---
