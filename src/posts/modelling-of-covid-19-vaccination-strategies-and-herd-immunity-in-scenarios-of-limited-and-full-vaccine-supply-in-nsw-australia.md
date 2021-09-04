@@ -8,7 +8,6 @@ preview: A judicious vaccination strategy will be required to suppress outbreaks
   in Australia until vaccine supply is unrestricted
 badge: Biosecurity Program, Kirby Institute
 tags:
-  - post
   - Biosecurity Program
 featureImage: /img/uploads/modelling-of-covid-19-vaccination-strategies-and-herd-immunity-in-scenarios-of-limited-and-full-vaccine-supply-in-nsw-australia.jpeg
 ---
