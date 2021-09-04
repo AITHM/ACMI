@@ -10,7 +10,6 @@ preview: "Early and robust application of social distancing measures are known
   their effectiveness is proactive timing "
 badge: Department of Computer Science and Software Engineering
 tags:
-  - post
   - Department of Computer Science and Software Engineering
 featureImage: /img/uploads/a-modelling-analysis-of-the-effectiveness-of-second-wave-covid-19-response-strategies-in-australia.jpeg
 ---
