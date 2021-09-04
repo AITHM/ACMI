@@ -7,7 +7,6 @@ preview: The Delta outbreak in NSW is quickly spiralling out of control, will
   Victorian-style restrictions be sufficient to control its spread?
 badge: Burnet Institute
 tags:
-  - post
   - Burnet Institute
 featureImage: /img/uploads/nsw-outbreak.jpg
 ---
