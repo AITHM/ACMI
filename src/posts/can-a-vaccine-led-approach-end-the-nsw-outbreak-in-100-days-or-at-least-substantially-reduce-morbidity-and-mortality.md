@@ -10,7 +10,6 @@ preview: Speeding up the vaccine rollout in Sydney and New South Wales helps
   with the Delta outbreak, but lockdowns may matter more in the short term
 badge: Population Interventions Unit
 tags:
-  - post
   - Population Interventions Unit
 featureImage: /img/uploads/can-a-vaccine-led-approach-end-the-nsw-outbreak-in-100-days-or-at-least-substantially-reduce-morbidity-and-mortality.jpeg
 ---
