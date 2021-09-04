@@ -9,7 +9,6 @@ preview: How effective are current non-pharmaceutical interventions against the
   Sydney COVID-19 outbreak?
 badge: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 tags:
-  - post
   - Centre for Complex Systems
 featureImage: /img/uploads/nowcasting-transmission-and-suppression-of-the-delta-variant-of-sars-cov-2-in-australia.jpeg
 ---
