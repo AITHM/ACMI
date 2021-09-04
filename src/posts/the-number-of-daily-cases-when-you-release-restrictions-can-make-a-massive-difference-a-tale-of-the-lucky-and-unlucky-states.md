@@ -9,7 +9,6 @@ preview: "Doherty-led modelling is being interpreted as saying that the number
   restrictions. "
 badge: Population Interventions Unit
 tags:
-  - post
   - Population Interventions Unit
 featureImage: /img/uploads/the-number-of-daily-cases-when-you-release-restrictions-can-make-a-massive-difference-a-tale-of-the-lucky-and-unlucky-states.jpeg
 ---
