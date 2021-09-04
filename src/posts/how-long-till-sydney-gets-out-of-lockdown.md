@@ -9,7 +9,6 @@ preview: New COVID-19 modelling finds NSW’s hard decision to go into hard
   there
 badge: Population Interventions Unit
 tags:
-  - post
   - Population Interventions Unit
 featureImage: /img/uploads/how-long-till-sydney-gets-out-of-lockdown.jpg
 ---
