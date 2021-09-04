@@ -9,7 +9,6 @@ preview: Universal use of face masks and reducing the number of people on campus
   may allow safer universities reopening.
 badge: Biosecurity Program, Kirby Institute
 tags:
-  - post
   - Biosecurity Program
 featureImage: /img/uploads/effectiveness-of-facemasks-for-opening-a-university-campus-in-mississippi-united-states-–-a-modelling-study.jpeg
 ---
