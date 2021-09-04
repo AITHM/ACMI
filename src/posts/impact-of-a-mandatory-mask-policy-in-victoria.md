@@ -12,7 +12,6 @@ preview: Even with high vaccination coverage, continually introducing cases
   response and control options.
 badge: Burnet Institute
 tags:
-  - post
   - Burnet Institute
 featureImage: /img/uploads/impact-of-a-mandatory-mask-policy-in-victoria.jpeg
 ---
