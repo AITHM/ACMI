@@ -8,7 +8,6 @@ preview: Early mask use should be considered if community transmission is
   present, as this has a greater effect than later mask-wearing mandates.
 badge: Biosecurity Program, Kirby Institute
 tags:
-  - post
   - Biosecurity Program
 featureImage: /img/uploads/the-impact-of-universal-mask-use-on-sars-cov-2-in-victoria-australia-on-the-epidemic-trajectory-of-covid-19.jpeg
 ---
