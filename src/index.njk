@@ -15,7 +15,7 @@ layout: "base.njk"
 {% include 'header-main.njk' %}
 
 <div class="feature-post-container">
-	{% set featurePost = collections.posts | reverse | recent(1) %}
+	{% set featurePost = collections.post | reverse | recent(1) %}
 	<a class="feature-post" href="{{ featurePost[0].url }}">
 		<div class="feature-post-image">
 			<img class src="{{ featurePost[0].data.featureImage | url }}">
@@ -46,7 +46,7 @@ layout: "base.njk"
 
 	<div class="card-container">
 
-		{% set postList = collections.posts | reverse | range(1,7) %}
+		{% set postList = collections.post | reverse | range(1,7) %}
 		{%- for post in postList -%}
 		<a class="post-card"  href="{{ post.url }}">
 			<div class="post-card-thumbnail">

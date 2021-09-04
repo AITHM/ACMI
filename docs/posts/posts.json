@@ -1,8 +1,4 @@
 {
 	"layout": "post.njk",
-<<<<<<< HEAD
-	"tags": ["posts","post"]
-=======
 	"tags": "post"
->>>>>>> 20c02667b0ef224da2cf4258cd170dd138499222
 }
