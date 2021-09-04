@@ -9,7 +9,6 @@ preview: Australia's travel restrictions during the first wave of COVID-19 were
   highly effective at containing the local epidemic.
 badge: Biosecurity Program, Kirby Institute
 tags:
-  - post
   - Biosecurity Program
 featureImage: /img/uploads/the-effectiveness-of-full-and-partial-travel-bans-against-covid-19-spread-in-australia-for-travellers-from-china-during-and-after-the-epidemic-peak-in-china.jpeg
 ---
