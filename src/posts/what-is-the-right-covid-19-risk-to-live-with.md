@@ -8,7 +8,6 @@ preview: As Australia looks toward opening its international borders, new virus
   tolerate
 badge: Population Interventions Unit
 tags:
-  - post
   - Population Interventions Unit
 featureImage: /img/uploads/what-s-the-right-covid-19-risk-to-live-with.jpeg
 ---
