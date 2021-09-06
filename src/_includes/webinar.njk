@@ -1,0 +1,28 @@
+---
+eleventyComputed:
+    title: "{{ title }}"
+layout: "base.njk"
+---
+
+{% include 'header-secondary.njk' %}
+
+
+<div class="header__s-spacer"></div>
+
+<div class="webinar-player-container">
+	<iframe class="webinar-player" src="{{ embedLink }}" title="{{ title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="webinar-description">
+	<div class="webinar-description-inner">
+		<div class="webinar-title">
+			{{ title }}
+		</div>
+		<div class="webinar-preview">
+			{{ preview }}
+		</div>
+		<div class="webinar-body">
+			{{ content | safe }}
+		</div>
+	</div>
+</div>

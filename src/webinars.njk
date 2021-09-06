@@ -1,0 +1,103 @@
+---
+title: Webinars
+layout: "base.njk"
+---
+
+{% include 'header-secondary.njk' %}
+
+<div class="header__s-spacer">
+	
+</div>
+
+<div class="feature-post-container">
+	{% set featurePost = collections.webinar | reverse | recent(1) %}
+	<a class="feature-post" href="{{ featurePost[0].url }}">
+		<div class="feature-post-image">
+			<img class src="{{ featurePost[0].data.featureImage | url }}">
+		</div>
+		<div class="feature-post-preview">
+			<div class="post-badge">
+				Presented on {{ featurePost[0].data.date | cleanDate }}
+			</div>
+			<div class="feature-post-preview-title">
+				{{ featurePost[0].data.title }}
+			</div>
+			<div class="feature-post-preview-body">
+				{{ featurePost[0].data.preview }}
+			</div>
+			<div class="read-more-btn" href="">
+				<span>Watch</span> <i class="fas fa-chevron-right"></i>
+			</div>
+		</div>
+	</a>
+</div>
+
+<div class="webinar-header">
+	<div class="webinar-header-inner">
+		<div class="webinar-header-title">
+			COVID-19 MODELLING WEBINARS
+		</div>
+		<div class="webinar-header-body">
+			The latest in COVID-19 modelling research across Australia, presented transparently for public benefit
+		</div>
+	</div>
+</div>
+
+<div class="webinar-feed">
+	<div class="card-container">
+			
+		{% set webinarList = collections.webinar | reverse %}
+		{%- for webinar in webinarList -%}
+		<a class="post-card"  href="{{ webinar.url }}">
+			<div class="post-card-thumbnail">
+				<img class src="{{ webinar.data.featureImage }}">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					Presented on {{ webinar.data.date | cleanDate }}
+				</div>
+				<div class="post-card-preview-title">{{ webinar.data.title }}</div>
+				<div class="post-card-preview-body">
+					{{ webinar.data.preview }}
+				</div>
+			</div>
+		</a>
+		{%- endfor -%}		
+
+		<a class="post-card"  href="">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/coming-soon.png">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					Coming soon
+				</div>
+				<div class="post-card-preview-title">AUSCMI webinar 2</div>
+				<div class="post-card-preview-body">
+					More webinars will be scheduled soon. Follow us on Twitter to stay updated.
+				</div>
+			</div>
+		</a>
+
+		<a class="post-card"  href="">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/coming-soon.png">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					Coming soon
+				</div>
+				<div class="post-card-preview-title">AUSCMI webinar 2</div>
+				<div class="post-card-preview-body">
+					More webinars will be scheduled soon. Follow us on Twitter to stay updated.
+				</div>
+			</div>
+		</a>
+
+	</div>
+	
+</div>
+
+
+
+		

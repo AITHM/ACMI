@@ -42,6 +42,7 @@ module.exports = function(eleventyConfig){
 
 	eleventyConfig.addPassthroughCopy("./src/assets");
 	eleventyConfig.addPassthroughCopy("./src/admin");
+	eleventyConfig.addPassthroughCopy("./src/css/main.css");
     return {
         dir: {
 		input: "./src",
@@ -55,6 +56,7 @@ module.exports = function(eleventyConfig){
 		"js",
 		"png",
 		"jpg",
+		"jpeg",
 		"svg",
 		"woff",
 		"woff2",
