@@ -1,6 +1,6 @@
 ---
-title: High vaccination coverage is required before public health measures can
-  be relaxed and Australia’s international border fully reopen (webinar)
+title: "High vaccination coverage is required before public health measures can
+  be relaxed "
 date: 2021-09-03T06:48:25.026Z
 preview: "Professor Quentin Grafton and Professor Tom Kompas present their model
   on possible eventual public health outcomes of Phase D, the Post Vaccination
