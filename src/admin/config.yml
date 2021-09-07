@@ -47,3 +47,16 @@ collections:
       - {label: "Instagram", name: "instagram", required: false, widget: "string", hint: "Link to Instagram (if they have one)"}
       - {label: "Tag reference", name: "tagRef", widget: "string", hint: "The search-term used by the backend to match a post to its contributor. All posts by a given contributor should be tagged with that contributor's 'tag reference'."}
       - {label: "Profile", name: "overview", widget: "markdown", hint: "A 50-100 word blurb about the contributing organisation, its research interests, and objectives."}
+  - name: "webinars" 
+    label: "Webinars" 
+    folder: "src/webinars" 
+    create: true 
+    slug: "{{slug}}" 
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", "Date webinar presented."}
+      - {label: "Duration (minutes)", name: "duration", widget: "number", value_type: "int", hint: "Duration of the webinar, in minutes."}
+      - {label: "Preview text", name: "preview", widget: "string", hint: "1 or 2 sentences summarising the main purpose/content of the webinar."}
+      - {label: "Embed link", name: "embedLink", widget: "string", hint: "Open the webinar on YouTube, click 'Share' > 'embed', then copy the url in the 'src' attribute of the displayed embed link text. Refer to website documentation for screenshots and detailed instructions."}
+      - {label: "Thumbnail", name: "featureImage", widget: "image", hint: "Use the same thumbnail as YouTube."}
+      - {label: "Body", name: "body", widget: "markdown", hint: "Outline the webinar agenda in dot points."}
