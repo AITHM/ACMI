@@ -63,9 +63,15 @@
 		margin: 0 auto;
 
 		.webinar-title {
-			padding: $p 0 $h 0;
+			padding: $p 0 $q 0;
 			font-family: $serif-stack;
 			font-size: 1.5rem;
+		}
+
+		.webinar-date {
+			padding-bottom: $p;
+			font-family: $sans-serif-stack;
+			font-size: 0.8rem;
 		}
 
 		.webinar-preview {

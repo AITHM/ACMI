@@ -1,6 +1,6 @@
 ---
 title: "AUSCMI Introductory Webinar"
-date: 2021-09-01T02:00:23.625
+date: 2021-08-31T02:00:23.625
 duration: 73
 preview: "Australian COVID-19 Modelling Initiative (AUSCMI) Introductory Webinar: featuring an introduction to the Initiative, and presentations of recent COVID-19 modelling research undertaken by its members."
 featureImage: /img/uploads/Introductory-Webinar.png
