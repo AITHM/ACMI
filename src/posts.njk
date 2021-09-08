@@ -1,0 +1,68 @@
+---
+title: posts
+layout: "base.njk"
+---
+
+{% include 'header-secondary.njk' %}
+
+<div class="header__s-spacer">
+	
+</div>
+
+<div class="feature-post-container">
+	{% set featurePost = collections.post | reverse | recent(1) %}
+	<a class="feature-post" href="{{ featurePost[0].url }}">
+		<div class="feature-post-image">
+			<img class src="{{ featurePost[0].data.featureImage | url }}">
+		</div>
+		<div class="feature-post-preview">
+			<div class="post-badge">
+				{{ featurePost[0].data.organisation }}
+			</div>
+			<div class="feature-post-preview-title">
+				{{ featurePost[0].data.title }}
+			</div>
+			<div class="feature-post-preview-body">
+				{{ featurePost[0].data.preview }}
+			</div>
+			<div class="read-more-btn" href="">
+				<span>Read more</span> <i class="fas fa-chevron-right"></i>
+			</div>
+		</div>
+	</a>
+</div>
+
+<div class="page-description">
+	<div class="page-description-inner">
+		<div class="page-description-title">
+			Latest Insights
+		</div>
+		<div class="page-description-body">
+			The latest in COVID-19 modelling research across Australia, presented transparently for public benefit
+		</div>
+	</div>
+</div>
+
+<div class="post-feed">
+	{% set postList = collections.post | reverse %}
+	{%- for post in postList -%}
+	<a class="post-item"  href="{{ post.url }}">
+		<div class="post-item-thumbnail">
+			<img class src="{{ post.data.featureImage }}">
+		</div>
+		<div class="post-item-preview">
+			<div class="post-item-preview-date">
+				{{ post.data.date | cleanDate }}
+			</div>
+			<div class="post-item-preview-title">{{ post.data.title }}</div>
+			<div class="post-item-preview-body">
+				{{ post.data.preview }}
+			</div>
+		</div>
+	</a>
+	{%- endfor -%}		
+</div>
+
+
+
+		

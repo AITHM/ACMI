@@ -1,3 +1,37 @@
+.page-description {
+	background-color: #fff;
+	padding: $d $p $d $p;
+	box-sizing: border-box;	
+
+	&-inner {
+		max-width: 600px;
+		margin: 0 auto;
+		text-align: center;
+	}	
+
+	&-title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 2.5rem;
+		font-family: $heading-stack;
+
+		&:after {
+			content: "";
+			margin: $h 0;
+			border-bottom: 1px solid $c2;
+			width: 100px;
+		}
+	}
+
+	&-body {
+		font-family: $serif-stack;
+		font-style: italic;
+	}
+
+}
+
+
 .read-more-btn {
 	text-decoration: none;
 	color: darken($c1-border,50);
