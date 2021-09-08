@@ -10,7 +10,7 @@ layout: "base.njk"
 <div class="header__s-spacer"></div>
 
 <div class="webinar-player-container">
-	<iframe class="webinar-player" src="{{ embedLink }}" title="{{ title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	{{ embedLink | safe }}
 </div>
 
 <div class="webinar-description">

@@ -57,6 +57,6 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", "Date webinar presented."}
       - {label: "Duration (minutes)", name: "duration", widget: "number", value_type: "int", hint: "Duration of the webinar, in minutes."}
       - {label: "Preview text", name: "preview", widget: "string", hint: "1 or 2 sentences summarising the main purpose/content of the webinar."}
-      - {label: "Embed link", name: "embedLink", widget: "string", hint: "Open the webinar on YouTube, click 'Share' > 'embed', then copy the url in the 'src' attribute of the displayed embed link text. Refer to website documentation for screenshots and detailed instructions."}
+      - {label: "Embed link", name: "embedLink", widget: "string", hint: "Open the webinar on YouTube, click 'Share' > 'embed', then copy the text in the popup box and paste here."}
       - {label: "Thumbnail", name: "featureImage", widget: "image", hint: "Use the same thumbnail as YouTube."}
       - {label: "Body", name: "body", widget: "markdown", hint: "Outline the webinar agenda in dot points."}
