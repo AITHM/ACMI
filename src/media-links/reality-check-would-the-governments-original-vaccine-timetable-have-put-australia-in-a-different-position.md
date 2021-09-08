@@ -1,7 +1,7 @@
 ---
 title: "Reality check: Would the government's original vaccine timetable have
   put Australia in a different position?"
-date: 2021-08-03T02:48:41.926Z
+date: 2021-09-09T02:48:41.926Z
 preview: Prime Minister Scott Morrison has claimed that a faster vaccine
   rollout, as projected by the government as early as last year, wouldn't have
   put Australia in a different position. Here's RMIT ABC Fact Check with a
