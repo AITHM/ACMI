@@ -7,7 +7,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
 	
 	<title>
-	AUSCMI | COVID Policy Modelling Group
+	AUSCMI | Robust estimates of the true (population) infection rate for COVID-19: a backcasting approach
 	</title>
 	
 	<!-- Favicons -->
@@ -52,6 +52,15 @@
 <body>
 
 	
+
+<!-- Twitter tag -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:url" content="https://auscmi.org/posts/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach/" />
+<meta property="og:title" content="Robust estimates of the true (population) infection rate for COVID-19: a backcasting approach" />
+<meta property="og:description" content="  Quantifying true infection rates in developing countries is an urgent health priority for better public health decision-making in relation to COVID-19 surveillance" />
+<meta property="og:image" content="https://auscmi.org/img/uploads/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach.jpeg" />
+
+
 <div class="header__s" id="header__s">
 	<div class="header-content">
 		<i class="fas fa-bars open-nav"></i>
@@ -60,7 +69,11 @@
 		</a>
 		<div>
 		</div>
-	</div></div>	
+	</div>
+	<div id="scroll-progress">
+		<div id="scroll-progress-bar"></div>
+	</div>
+	</div>	
 
 
 <nav class="nav">
@@ -125,34 +138,70 @@ window.onscroll = function() {
 </script>
 
 
-<div class="member-profile-container">
-	<div class="member-profile">
-		<div class="member-profile-heading">
-			<div class="member-profile-heading-title">
-				COVID Policy Modelling Group
-			</div>
-			<div class="member-profile-heading-badge">
-				
-			</div>
-		</div>
-		<div class="member-profile-body">
-			<p>The COVID policy modelling group was established in early 2020 to model to
-explore key public policy questions in relation to COVID-19. The modelling
-group has: analysed Australia's first wave and the public health and economic
-consequences of delayed suppression; the public health outcomes of alternative
-(duration and stringency) of public health measures in response to Australia's
-second (Victorian) wave;  a statistical method to determine the true
-(population) infection rate for COVID-19; comparsison of the public health
-outcomes in Nordic countries in 2020; and the possible morbidities and
-mortalities associated with Phase D of the National Plan to transition
-Australia's response to COVID-19.</p>
-<p>Multiple researchers have contributed to this research and related opinion pieces. These contributors include: <a href="https://crawford.anu.edu.au/people/academic/quentin-grafton">Quentin Grafton</a> (Convenor), <a href="https://researchers.anu.edu.au/researchers/banks-e"></a>and <a href="https://findanexpert.unimelb.edu.au/profile/695719-tom-kompas">Tom Kompas</a> at the University of Melbourne.</p>
+<div class="post-banner">
+	<div class="post-banner-image" style="background-image:url(/img/uploads/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach.jpeg);">
+	</div>
 
+	<div class="post-banner-heading-container">
+		<div class="post-banner-heading">
+			Robust estimates of the true (population) infection rate for COVID-19: a backcasting approach
 		</div>
-		
 	</div>
 </div>
 
+
+<div class="post-content">
+	<!-- <div class="post-content-title">
+		Robust estimates of the true (population) infection rate for COVID-19: a backcasting approach
+	</div> -->
+	<div class="post-content-preview">
+		 Quantifying true infection rates in developing countries is an urgent health priority for better public health decision-making in relation to COVID-19 surveillance
+	</div>
+	<div class="post-content-author">
+		Steven J. Phipps, R. Quentin Grafton and Tom Kompas
+	</div>
+
+	<div class="post-content-body">
+		<p>Objectives:</p>
+<p>In many countries, an initially inadequate number of both testing kits and testing facilities, coupled with restrictions on who could be tested, meant that the number of confirmed cases as a proportion of the total population underestimated the true (population) infection rate. Quantifying the true (population) infection rate is an urgent health priority because the data collected are still unreliable as a means to estimate the true infection rate</p>
+<p>Method:</p>
+<p>A backcasting method was used to estimate the true cumulative number of infections. The time from infection to death was assumed to follow a Gamma distribution. If the mean time from infection to death is <em>μ</em> and the standard deviation is <em>s</em>, then the distribution of times from infection to death is assumed to follow Gamma(<em>α</em>, <em>β</em>) with <em>α</em> = (<em>μ</em>/<em>s</em>)<sup>2</sup> and <em>β</em> = (<em>s</em><sup>2</sup>/<em>μ</em>).</p>
+<p>The Gamma distribution was used to project the number of new daily fatalities backwards in time from the time to death to the time of initial infection. Let <em>Nf</em>(<em>t</em>) be the number of new fatalities to occur on day <em>t</em>. If <em>f</em>(<em>x</em>; <em>α</em>, <em>β</em>) is the probability density function for the Gamma distribution with an infection fatality rate (IFR), then the number of new infections estimated to have occurred on day <em>t</em>′ and to have resulted in fatalities on day <em>t</em> is given by:</p>
+<p>ni(t',t)=Nf(t)⋅f(t−t';α,β)/IFR.</p>
+<p>The estimated total number of new infections to have occurred on day t′ is, therefore, given by summing the values of ni(t′, t) for all possible values of t &gt; t′. This estimate is corrected because not all of the fatalities to arise from infections contracted on that day t′ will have occurred yet. If t0 is the most recent day for which fatality statistics are available and F(x; α, β) is the cumulative distribution function for the Gamma distribution, then the estimated total number of new infections to have occurred on day t′ is obtained.</p>
+<p>Findings:</p>
+<p>An important public health finding of this study is that there is a negative relationship between the implied true detection rate and the proportion of positive viral tests for those tested for COVID-19, particularly during the early stages of the pandemic. This demonstrates both the importance and the benefit of large-scale direct testing to determine the prevalence of COVID-19 within a population. Large-scale and sufficient testing—including the testing of those who are asymptomatic—is, therefore, of critical importance to inform policy decisions about how to resource, and how to manage, the impacts of COVID-19 on public health, society and the economy.</p>
+<p>Conclusion:</p>
+<p>Our study therefore suggests that the number of people who are infected with, or who have recovered from COVID-19, is many times greater than the reported number of cases from viral testing. A global policy implication of our finding is that rich countries should provide financial and other support to poorer countries with low levels of testing per 1000 people to support improved testing, backcasting and other methods to better measure the true (population) infection rate.</p>
+<p><a href="https://royalsocietypublishing.org/doi/10.1098/rsos.200909">Full paper</a></p>
+
+	</div>
+	<a href="/contributors/COVID-Policy-Modelling-Group/" class="post-content-attribution">
+		<div class="post-content-attribution-date">
+			First published: Nov 18, 2020
+		</div>
+		<div class="post-content-attribution-header">
+			COVID Policy Modelling Group
+		</div>
+		<div class="post-content-attribution-body">
+			The COVID policy modelling group was established in early 2020 to model to explore key public policy questions in relation to COVID-19. The modelling group has: analysed Australia&#39;s first wave and the public health and economic consequences of delayed suppression; the public health outcomes of alternative (duration and stringency) of public health measures in response to Australia&#39;s second (Victorian) wave;  a statistical method to determine the true (population) infection rate for COVID-19; comparsison of the public health outcomes in Nordic countries in 2020; and the possible morbidities and mortalities associated with Phase D of the National Plan to transition Australia&#39;s response to COVID-19.
+		</div>
+	</a>
+	<div class="post-content-share">
+		<div class="share-link-container">
+			<span>Share: </span>
+			<a class="facebook-share-button" target="_blank" href="https://www.facebook.com/dialog/share?app_id=933889623386823&display=page&href=https%3A%2F%2Fauscmi.org/posts/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach/" data-size="large">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet?text=https://auscmi.org/posts/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach/" data-size="large">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a class="linkdin-share-button" target="_blank" href="https://www.linkedin.com/shareArticle?&url=https%3A%2F%2Fauscmi.org/posts/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach/" data-size="large">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</div>
+	</div>
+</div>
 <div class="more-posts">
 	<div class="heading">
 		More from COVID Policy Modelling Group
@@ -199,21 +248,9 @@ Australia's response to COVID-19.</p>
 					Lockdowns mitigate the spread of COVID-19, but is this sufficient to justify the associated health and economic costs?
 				</div>
 			</div>
-		</a><a class="post-card"  href="/posts/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach/">
-			<div class="post-card-thumbnail">
-				<img class src="/img/uploads/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach.jpeg" alt="Girl in a jacket">
-			</div>
-			<div class="post-card-preview">
-				<div class="post-badge">
-					COVID POLICY MODELLING GROUP
-				</div>
-				<div class="post-card-preview-title">Robust estimates of the true (population) infection rate for COVID-19: a backcasting approach</div>
-				<div class="post-card-preview-body">
-					 Quantifying true infection rates in developing countries is an urgent health priority for better public health decision-making in relation to COVID-19 surveillance
-				</div>
-			</div>
 		</a></div>
 </div>
+
 
 	
 	<div class="footer">
