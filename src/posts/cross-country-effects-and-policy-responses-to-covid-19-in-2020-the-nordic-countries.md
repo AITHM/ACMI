@@ -9,7 +9,7 @@ preview: "Unlike its Nordic neighbours, Sweden maintained an open border in the
   requirements for arrivals. "
 badge: COVID Policy Modelling Group
 tags:
-  - ""
+  - COVID Policy Modelling Group
 featureImage: /img/uploads/cross-country-effects-and-policy-responses-to-covid-19-in-2020-the-nordic-countries.png
 ---
 Objectives:
