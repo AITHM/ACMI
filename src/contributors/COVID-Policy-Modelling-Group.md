@@ -1,6 +1,6 @@
 ---
 name: COVID Policy Modelling Group
-affiliation: ""
+affiliation: As convened at the Australian National University
 tagRef: COVID Policy Modelling Group
 overview: "The COVID policy modelling group was established in early 2020 to
   model to explore key public policy questions in relation to COVID-19. The
