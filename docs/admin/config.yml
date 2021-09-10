@@ -46,7 +46,8 @@ collections:
       - {label: "LinkedIn", name: "linkedin", required: false, widget: "string", hint: "Link to LinkedIn profile (if they have one)"}
       - {label: "Instagram", name: "instagram", required: false, widget: "string", hint: "Link to Instagram (if they have one)"}
       - {label: "Tag reference", name: "tagRef", widget: "string", hint: "The search-term used by the backend to match a post to its contributor. All posts by a given contributor should be tagged with that contributor's 'tag reference'."}
-      - {label: "Profile", name: "overview", widget: "markdown", hint: "A 50-100 word blurb about the contributing organisation, its research interests, and objectives."}
+      - {label: "Profile preview", name: "overview", widget: "markdown", hint: "A shorter preview of the full contributor profile, displayed beneath the contributor's posts."}
+      - {label: "Full profile", name: "body", widget: "markdown", hint: "A 50-100 word blurb about the contributing organisation, its research interests, and objectives."}
   - name: "webinars" 
     label: "Webinars" 
     folder: "src/webinars" 
