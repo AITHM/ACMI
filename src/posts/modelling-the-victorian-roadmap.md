@@ -33,3 +33,5 @@ Findings:
 * Due to uncertainty about whether the epidemic growth rate will be sustained, seasonal impacts and vaccine efficacy parameters against the delta strain, updated projections are required as more data becomes available.  Decisions to ease restrictions should be based on the latest epidemiological and health system information.
 
 <a href="https://burnet.edu.au/news/1517_modelling_the_victorian_roadmap" target="_blank">View Press release</a>
+
+<a href="https://burnet.edu.au/system/asset/file/4929/Burnet*Institute_VIC_Roadmap_20210918*-FINAL.pdf" target="_blank">Full report</a>
