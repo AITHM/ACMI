@@ -23,7 +23,6 @@ Findings:
 * Even without any easing of restrictions, there is a moderate risk of exceeding health system capacity 
 
   * Based on the current epidemic growth rate, a peak in 7-day average daily diagnoses of 1400-2900 is estimated to occur between 19-31 October
-
   * Corresponding peaks in hospital and ICU demand were 1200-2500 and 260-550 respectively, with 24% of simulations resulting in hospital demand exceeding 2500 beds. 
 * In the roadmap scenario, the significant easing of restrictions at 80% vaccine coverage led to 63% of simulations exceeding 2500 hospital demand, and resulted in a second epidemic peak over mid-December 
 * High rates of symptomatic testing among people who are vaccinated could reduce the impact on the health system
@@ -33,6 +32,4 @@ Findings:
 * When 80% adult vaccine coverage is reached, the case numbers, hospital and ICU numbers can provide a guide as to the likelihood of the health system capacity being exceeded and whether restrictions can be safely eased consistent with the roadmap or whether a more staggered approach may be required.
 * Due to uncertainty about whether the epidemic growth rate will be sustained, seasonal impacts and vaccine efficacy parameters against the delta strain, updated projections are required as more data becomes available.  Decisions to ease restrictions should be based on the latest epidemiological and health system information.
 
- 
-
-<a href="https://burnet.edu.au/news/1506_initial_modelling_projections_for_second_epidemic_wave_in_sydney_nsw" target="_blank">View Press release</a>
+<a href="https://burnet.edu.au/news/1517_modelling_the_victorian_roadmap" target="_blank">View Press release</a>
