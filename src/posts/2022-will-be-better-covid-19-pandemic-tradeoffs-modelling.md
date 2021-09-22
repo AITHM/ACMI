@@ -14,7 +14,7 @@ featureImage: /img/uploads/front-cover2.jpg
 ---
 Objective: 
 
-This report draws out the important findings from version 3 of COVID-19 Pandemic Tradeoffs modelling, complemented by the interactive web-tool available online at www. pandemictradeoffs.com. In this report, we focus on the year after we ‘open-up’, once the initial vaccine rollout is considered ‘finished enough’, and we pivot to trying to live with the virus in a tolerable equilibrium.
+This report draws out the important findings from version 3 of COVID-19 Pandemic Tradeoffs modelling, complemented by the interactive web-tool available online at [pandemictradeoffs.com](https://populationinterventions.science.unimelb.edu.au/pandemic-trade-offs-september-2021/). In this report, we focus on the year after we ‘open-up’, once the initial vaccine rollout is considered ‘finished enough’, and we pivot to trying to live with the virus in a tolerable equilibrium.
 
 We employ an agent-based model to simulate virus transmission, and assess how it varies with factors we cannot control, such as the true reproductive rate (R0) of the virus, and factors we can at least partially control, such our public-health response. 
 
