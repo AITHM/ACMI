@@ -2,7 +2,7 @@
 title: Does High Public Trust Amplify Compliance with Stringent COVID-19
   Government Health Guidelines? A Multi-country Analysis Using Data from 102,627
   Individuals
-date: 2021-09-23T00:28:08.494Z
+date: 2021-01-25T23:28:08.494Z
 organisation: The Australian Institute of Tropical Health and Medicine (AITHM)
 author: Dr Anton Pak, Professor Emma McBryde, Dr Oyelola A Adegboye
 preview: Compliance to public health policies and regulations is critical to
