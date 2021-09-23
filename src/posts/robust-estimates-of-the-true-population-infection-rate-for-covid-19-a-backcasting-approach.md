@@ -2,14 +2,14 @@
 title: "Robust estimates of the true (population) infection rate for COVID-19: a
   backcasting approach"
 date: 2020-11-18T06:34:45.845Z
-organisation: COVID Policy Modelling Group
+organisation: COVID Economic Policy Modelling Group
 author: Steven J. Phipps, R. Quentin Grafton and Tom Kompas
 preview: " Quantifying true infection rates in developing countries is an urgent
   health priority for better public health decision-making in relation to
   COVID-19 surveillance"
-badge: COVID Policy Modelling Group
+badge: COVID Economic Policy Modelling Group
 tags:
-  - COVID Policy Modelling Group
+  - COVID Economic Policy Modelling Group
 featureImage: /img/uploads/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach.jpeg
 ---
 Objectives:
