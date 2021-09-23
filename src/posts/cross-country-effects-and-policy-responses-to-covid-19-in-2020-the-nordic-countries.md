@@ -2,14 +2,14 @@
 title: "Cross-country effects and policy responses to COVID-19 in 2020: The
   Nordic countries"
 date: 2021-09-01T06:48:14.401Z
-organisation: COVID Policy Modelling Group
+organisation: COVID Economic Policy Modelling Group
 author: "Daniel V. Gordon, R. Quentin Grafton and Stein Ivar Steinshamn  "
 preview: "Unlike its Nordic neighbours, Sweden maintained an open border in the
   first half of 2020 within the EU and beyond and imposed no quarantine
   requirements for arrivals. "
 badge: COVID Policy Modelling Group
 tags:
-  - COVID Policy Modelling Group
+  - COVID Economic Policy Modelling Group
 featureImage: /img/uploads/cross-country-effects-and-policy-responses-to-covid-19-in-2020-the-nordic-countries.png
 ---
 Objectives:
