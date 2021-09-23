@@ -2,14 +2,14 @@
 title: Epidemiological modelling of the health and economic effects of COVID-19
   control in Australia’s second wave
 date: 2021-06-28T07:21:57.854Z
-organisation: COVID Policy Modelling Group
+organisation: COVID Economic Policy Modelling Group
 author: R. Quentin Grafton, John Parslow, Tom Kompas, Kathryn Glass and Emily Banks
 preview: "Better public health outcomes and lower economy costs occur when
   social distancing measures are more stringent, implemented earlier and
   implemented for a sufficiently long duration. "
-badge: COVID Policy Modelling Group
+badge: COVID Economic Policy Modelling Group
 tags:
-  - COVID Policy Modelling Group
+  - COVID Economic Policy Modelling Group
 featureImage: /img/uploads/epidemiological-modelling-of-the-health-and-economic-effects-of-covid-19-control-in-australias-second-wave.jpeg
 ---
 Objectives:
