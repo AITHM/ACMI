@@ -2,13 +2,13 @@
 title: "Health and economic costs of early and delayed suppression and the
   unmitigated spread of COVID-19: The case of Australia "
 date: 2021-06-04T07:25:31.761Z
-organisation: COVID Policy Modelling Group
+organisation: COVID Economic Policy Modelling Group
 author: Tom Kompas, R. Quentin Grafton, Tuong Nhu Che, Long Chu and James Camac
 preview: Lockdowns mitigate the spread of COVID-19, but is this sufficient to
   justify the associated health and economic costs?
-badge: COVID Policy Modelling Group
+badge: COVID Economic Policy Modelling Group
 tags:
-  - COVID Policy Modelling Group
+  - COVID Economic Policy Modelling Group
 featureImage: /img/uploads/health-and-economic-costs-of-early-and-delayed-suppression-and-the-unmitigated-spread-of-covid-19-the-case-of-australia.jpeg
 ---
 Objectives:
