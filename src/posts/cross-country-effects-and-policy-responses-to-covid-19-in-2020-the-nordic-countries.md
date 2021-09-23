@@ -7,7 +7,7 @@ author: "Daniel V. Gordon, R. Quentin Grafton and Stein Ivar Steinshamn  "
 preview: "Unlike its Nordic neighbours, Sweden maintained an open border in the
   first half of 2020 within the EU and beyond and imposed no quarantine
   requirements for arrivals. "
-badge: COVID Policy Modelling Group
+badge: COVID Economic Policy Modelling Group
 tags:
   - COVID Economic Policy Modelling Group
 featureImage: /img/uploads/cross-country-effects-and-policy-responses-to-covid-19-in-2020-the-nordic-countries.png
