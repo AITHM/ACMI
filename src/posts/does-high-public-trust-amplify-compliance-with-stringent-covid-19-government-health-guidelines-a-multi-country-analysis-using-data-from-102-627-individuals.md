@@ -20,8 +20,10 @@ Findings:
 
 We find strong evidence of the increase in compliance due to the imposition of stricter government restrictions. The examination of heterogeneous effects suggests that high public trust in government and the perception of its truthfulness double the impact of policy restrictions on public compliance. Among political regimes, higher levels of public trust significantly increase the predicted compliance as stringency level rises in authoritarian and democratic countries.
 
-
 Conclusion: 
 
-
 This study highlights the importance of public trust in government and its institutions during public health emergencies such as the COVID-19 pandemic. Our results are relevant and help understand why governments need to address the risks of non-compliance among low trusting individuals to achieve the success of the containment policies.
+
+
+
+[Full paper](https://www.dovepress.com/does-high-public-trust-amplify-compliance-with-stringent-covid-19-gove-peer-reviewed-fulltext-article-RMHP)
