@@ -118,8 +118,11 @@ window.onscroll = function() {
 	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 	var scrolled = (winScroll / height) * 100;
-	document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+	var progressBar = document.getElementById("scroll-progress-bar")
 
+	if(typeof(progressBar) != 'undefined' && progressBar != null){
+        document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+    }
 }
 
 </script>
@@ -143,7 +146,7 @@ window.onscroll = function() {
 				What vaccination coverage is required in Australia?
 			</div>
 			<div class="feature-post-preview-body">
-				Professor Quentin Grafton and Professor Tom Kompas present their model on possible eventual public health outcomes of Phase D, the Post Vaccination Phase (to live with COVID-19) of the National Plan to transition Australia’s National COVID-19 Response. 				
+				Professor Quentin Grafton presents his model on possible eventual public health outcomes of Phase D, the Post Vaccination Phase (to live with COVID-19) of the National Plan to transition Australia’s National COVID-19 Response.
 			</div>
 			<div class="read-more-btn" href="">
 				<span>Watch</span> <i class="fas fa-chevron-right"></i>
@@ -176,7 +179,7 @@ window.onscroll = function() {
 				</div>
 				<div class="post-card-preview-title">What vaccination coverage is required in Australia?</div>
 				<div class="post-card-preview-body">
-					Professor Quentin Grafton and Professor Tom Kompas present their model on possible eventual public health outcomes of Phase D, the Post Vaccination Phase (to live with COVID-19) of the National Plan to transition Australia’s National COVID-19 Response. 				
+					Professor Quentin Grafton presents his model on possible eventual public health outcomes of Phase D, the Post Vaccination Phase (to live with COVID-19) of the National Plan to transition Australia’s National COVID-19 Response.
 				</div>
 			</div>
 		</a><a class="post-card"  href="/webinars/Introductory-Webinar/">

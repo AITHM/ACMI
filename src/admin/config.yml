@@ -8,6 +8,7 @@ display_url: https://auscmi.org
 media_folder: "docs/img/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
+<<<<<<< HEAD
     - name: "posts" # Used in routes, e.g., /admin/collections/posts
       label: "Posts" # Used in the UI
       folder: "src/posts" # The path to the folder where the documents are stored

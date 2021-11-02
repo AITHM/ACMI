@@ -118,8 +118,11 @@ window.onscroll = function() {
 	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 	var scrolled = (winScroll / height) * 100;
-	document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+	var progressBar = document.getElementById("scroll-progress-bar")
 
+	if(typeof(progressBar) != 'undefined' && progressBar != null){
+        document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+    }
 }
 
 </script>
@@ -131,19 +134,19 @@ window.onscroll = function() {
 
 <div class="feature-post-container">
 	
-	<a class="feature-post" href="/posts/the-number-of-daily-cases-when-you-release-restrictions-can-make-a-massive-difference-a-tale-of-the-lucky-and-unlucky-states/">
+	<a class="feature-post" href="/posts/cross-country-effects-and-policy-responses-to-covid-19-in-2020-the-nordic-countries/">
 		<div class="feature-post-image">
-			<img class src="/img/uploads/the-number-of-daily-cases-when-you-release-restrictions-can-make-a-massive-difference-a-tale-of-the-lucky-and-unlucky-states.jpeg">
+			<img class src="/img/uploads/cross-country-effects-and-policy-responses-to-covid-19-in-2020-the-nordic-countries.png">
 		</div>
 		<div class="feature-post-preview">
 			<div class="post-badge">
-				Population Interventions Unit
+				COVID Policy Modelling Group
 			</div>
 			<div class="feature-post-preview-title">
-				The number of daily cases when you release restrictions can make a massive difference: A tale of the Lucky and Unlucky States
+				Cross-country effects and policy responses to COVID-19 in 2020: The Nordic countries
 			</div>
 			<div class="feature-post-preview-body">
-				Doherty-led modelling is being interpreted as saying that the number of daily cases in a state makes little difference to futures if releasing restrictions. 
+				Unlike its Nordic neighbours, Sweden maintained an open border in the first half of 2020 within the EU and beyond and imposed no quarantine requirements for arrivals. 
 			</div>
 			<div class="read-more-btn" href="">
 				<span>Read more</span> <i class="fas fa-chevron-right"></i>
@@ -164,7 +167,20 @@ window.onscroll = function() {
 </div>
 
 <div class="post-feed">
-	<a class="post-item"  href="/posts/the-number-of-daily-cases-when-you-release-restrictions-can-make-a-massive-difference-a-tale-of-the-lucky-and-unlucky-states/">
+	<a class="post-item"  href="/posts/cross-country-effects-and-policy-responses-to-covid-19-in-2020-the-nordic-countries/">
+		<div class="post-item-thumbnail">
+			<img class src="/img/uploads/cross-country-effects-and-policy-responses-to-covid-19-in-2020-the-nordic-countries.png">
+		</div>
+		<div class="post-item-preview">
+			<div class="post-item-preview-date">
+				Sep 1, 2021
+			</div>
+			<div class="post-item-preview-title">Cross-country effects and policy responses to COVID-19 in 2020: The Nordic countries</div>
+			<div class="post-item-preview-body">
+				Unlike its Nordic neighbours, Sweden maintained an open border in the first half of 2020 within the EU and beyond and imposed no quarantine requirements for arrivals. 
+			</div>
+		</div>
+	</a><a class="post-item"  href="/posts/the-number-of-daily-cases-when-you-release-restrictions-can-make-a-massive-difference-a-tale-of-the-lucky-and-unlucky-states/">
 		<div class="post-item-thumbnail">
 			<img class src="/img/uploads/the-number-of-daily-cases-when-you-release-restrictions-can-make-a-massive-difference-a-tale-of-the-lucky-and-unlucky-states.jpeg">
 		</div>
@@ -294,6 +310,19 @@ window.onscroll = function() {
 				Early and robust application of social distancing measures are known to be an appropriate response to the COVID-19 pandemic, but it underpinning their effectiveness is proactive timing 
 			</div>
 		</div>
+	</a><a class="post-item"  href="/posts/epidemiological-modelling-of-the-health-and-economic-effects-of-covid-19-control-in-australia’s-second-wave/">
+		<div class="post-item-thumbnail">
+			<img class src="/img/uploads/epidemiological-modelling-of-the-health-and-economic-effects-of-covid-19-control-in-australias-second-wave.jpeg">
+		</div>
+		<div class="post-item-preview">
+			<div class="post-item-preview-date">
+				Jun 28, 2021
+			</div>
+			<div class="post-item-preview-title">Epidemiological modelling of the health and economic effects of COVID-19 control in Australia’s second wave</div>
+			<div class="post-item-preview-body">
+				Better public health outcomes and lower economy costs occur when social distancing measures are more stringent, implemented earlier and implemented for a sufficiently long duration. 
+			</div>
+		</div>
 	</a><a class="post-item"  href="/posts/opening-up-at-different-stages-of-the-vaccine-rollout/">
 		<div class="post-item-thumbnail">
 			<img class src="/img/uploads/opening-up-at-different-stages-of-the-vaccine-rollout.jpg">
@@ -305,6 +334,19 @@ window.onscroll = function() {
 			<div class="post-item-preview-title">Opening up at different stages of the vaccine rollout</div>
 			<div class="post-item-preview-body">
 				Thousands of deaths likely if COVID-19 ‘left to run’ in Victoria without high vaccine uptake and public health measures, new modelling shows
+			</div>
+		</div>
+	</a><a class="post-item"  href="/posts/health-and-economic-costs-of-early-and-delayed-suppression-and-the-unmitigated-spread-of-covid-19-the-case-of-australia/">
+		<div class="post-item-thumbnail">
+			<img class src="/img/uploads/health-and-economic-costs-of-early-and-delayed-suppression-and-the-unmitigated-spread-of-covid-19-the-case-of-australia.jpeg">
+		</div>
+		<div class="post-item-preview">
+			<div class="post-item-preview-date">
+				Jun 4, 2021
+			</div>
+			<div class="post-item-preview-title">Health and economic costs of early and delayed suppression and the unmitigated spread of COVID-19: The case of Australia </div>
+			<div class="post-item-preview-body">
+				Lockdowns mitigate the spread of COVID-19, but is this sufficient to justify the associated health and economic costs?
 			</div>
 		</div>
 	</a><a class="post-item"  href="/posts/the-impact-of-universal-mask-use-on-sars-cov-2-in-victoria-australia-on-the-epidemic-trajectory-of-covid-19/">
@@ -357,6 +399,19 @@ window.onscroll = function() {
 			<div class="post-item-preview-title">Modelling of COVID-19 vaccination strategies and herd immunity, in scenarios of limited and full vaccine supply in NSW, Australia</div>
 			<div class="post-item-preview-body">
 				A judicious vaccination strategy will be required to suppress outbreaks in Australia until vaccine supply is unrestricted
+			</div>
+		</div>
+	</a><a class="post-item"  href="/posts/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach/">
+		<div class="post-item-thumbnail">
+			<img class src="/img/uploads/robust-estimates-of-the-true-population-infection-rate-for-covid-19-a-backcasting-approach.jpeg">
+		</div>
+		<div class="post-item-preview">
+			<div class="post-item-preview-date">
+				Nov 18, 2020
+			</div>
+			<div class="post-item-preview-title">Robust estimates of the true (population) infection rate for COVID-19: a backcasting approach</div>
+			<div class="post-item-preview-body">
+				 Quantifying true infection rates in developing countries is an urgent health priority for better public health decision-making in relation to COVID-19 surveillance
 			</div>
 		</div>
 	</a><a class="post-item"  href="/posts/modelling-transmission-and-control-of-the-covid-19-pandemic-in-australia/">

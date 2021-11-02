@@ -118,8 +118,11 @@ window.onscroll = function() {
 	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 	var scrolled = (winScroll / height) * 100;
-	document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+	var progressBar = document.getElementById("scroll-progress-bar")
 
+	if(typeof(progressBar) != 'undefined' && progressBar != null){
+        document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+    }
 }
 
 </script>
@@ -129,7 +132,7 @@ window.onscroll = function() {
 <div class="header__s-spacer"></div>
 
 <div class="webinar-player-container">
-	<iframe class="webinar-player" src="https://www.youtube.com/embed/e_U0yCbF3EQ" title="AUSCMI Introductory Webinar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/e_U0yCbF3EQ?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="webinar-description">

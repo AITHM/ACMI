@@ -3,13 +3,23 @@
 	.member-profile {
 		max-width: 600px;
 		margin: 100px auto;
-		padding: $p;
+		padding: $p $p $q $p;
 
 		&-heading {
-			font-size: 2.0rem;
-			font-family: $serif-stack;
 			text-align: center;
 			padding: $d 0;
+
+			&-title {
+				font-size: 2.0rem;
+				font-family: $serif-stack;
+			}
+
+			&-badge {
+				padding: $h 0;
+				font-size: 0.8rem;
+				font-weight: 800;
+				color: $c2;
+			}
 
 			&:after {
 				content: "";

@@ -9,7 +9,12 @@ layout: "base.njk"
 <div class="member-profile-container">
 	<div class="member-profile">
 		<div class="member-profile-heading">
-			{{ name }}
+			<div class="member-profile-heading-title">
+				{{ name }}
+			</div>
+			<div class="member-profile-heading-badge">
+				{{ affiliation }}
+			</div>
 		</div>
 		<div class="member-profile-body">
 			{{ content | safe }}
