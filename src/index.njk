@@ -7,138 +7,131 @@ layout: "base.njk"
 <!-- Twitter tag -->
 <meta name="twitter:card" content="summary" />
 <meta property="og:url" content="https://auscmi.org/" />
-<meta property="og:title" content="The Australian COVID-19 Modelling Initiative" />
-<meta property="og:description" content="AUSCMI aims to facilitate rapid access to a collection of COVID-19 modelling studies, in an easy to find and understandable format, for the public and policy makers." />
+<meta
+    property="og:title"
+    content="The Australian COVID-19 Modelling Initiative"
+/>
+<meta
+    property="og:description"
+    content="AUSCMI aims to facilitate rapid access to a collection of COVID-19 modelling studies, in an easy to find and understandable format, for the public and policy makers."
+/>
 <meta property="og:image" content="https://auscmi.org/img/og/AusCMI-logo.png" />
-{% endblock %}
-
-{% include 'header-main.njk' %}
+{% endblock %} {% include 'header-main.njk' %}
 
 <div class="feature-post-container">
-	{% set featurePost = collections.post | reverse | recent(1) %}
-	<a class="feature-post" href="{{ featurePost[0].url }}">
-		<div class="feature-post-image">
-			<img class src="{{ featurePost[0].data.featureImage | url }}">
-		</div>
-		<div class="feature-post-preview">
-			<div class="post-badge">
-				{{ featurePost[0].data.badge | makeUppercase }}
-			</div>
-			<div class="feature-post-preview-title">
-				{{ featurePost[0].data.title }}
-			</div>
-			<div class="feature-post-preview-body">
-				{{ featurePost[0].data.preview }}
-			</div>
-			<div class="read-more-btn" href="">
-				<span>Read more</span> <i class="fas fa-chevron-right"></i>
-			</div>
-		</div>
-	</a>
+    {% set featurePost = collections.post | reverse | recent(1) %}
+    <a class="feature-post" href="{{ featurePost[0].url }}">
+        <div class="feature-post-image">
+            <img class src="{{ featurePost[0].data.featureImage | url }}" />
+        </div>
+        <div class="feature-post-preview">
+            <div class="post-badge">
+                {{ featurePost[0].data.organisation | makeUppercase }}
+            </div>
+            <div class="feature-post-preview-title">
+                {{ featurePost[0].data.title }}
+            </div>
+            <div class="feature-post-preview-body">
+                {{ featurePost[0].data.preview }}
+            </div>
+            <div class="read-more-btn" href="">
+                <span>Read more</span> <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </a>
 </div>
-
 
 <div class="section">
+    <a class="section-title" href="/posts"> Latest insights </a>
 
-	<a class="section-title" href="/posts">
-		Latest insights
-	</a>
+    <div class="card-container">
+        {% set postList = collections.post | reverse | range(1,7) %} {%- for
+        post in postList -%}
+        <a class="post-card" href="{{ post.url }}">
+            <div class="post-card-thumbnail">
+                <img class src="{{ post.data.featureImage | url }}" />
+            </div>
+            <div class="post-card-preview">
+                <div class="post-badge">
+                    {{ post.data.organisation | makeUppercase }}
+                </div>
+                <div class="post-card-preview-title">{{ post.data.title }}</div>
+                <div class="post-card-preview-body">
+                    {{ post.data.preview }}
+                </div>
+            </div>
+        </a>
+        {%- endfor -%}
 
-	<div class="card-container">
+        <div class="media-card">
+            <div class="media-card-header">In the media</div>
 
-		{% set postList = collections.post | reverse | range(1,7) %}
-		{%- for post in postList -%}
-		<a class="post-card"  href="{{ post.url }}">
-			<div class="post-card-thumbnail">
-				<img class src="{{ post.data.featureImage | url }}">
-			</div>
-			<div class="post-card-preview">
-				<div class="post-badge">
-					{{ post.data.badge | makeUppercase }}
-				</div>
-				<div class="post-card-preview-title">{{ post.data.title }}</div>
-				<div class="post-card-preview-body">
-					{{ post.data.preview }}
-				</div>
-			</div>
-		</a>
-		{%- endfor -%}
+            {% set mediaLinkList = collections.mediaLinks | reverse | recent(5)
+            %} {%- for mediaLink in mediaLinkList -%}
+            <a
+                class="media-card-item"
+                href="{{ mediaLink.data.link }}"
+                target="_blank"
+            >
+                <div class="media-card-item-title">
+                    {{ mediaLink.data.title }}
+                </div>
+                <div class="media-card-item-body">
+                    {{ mediaLink.data.preview }}
+                </div>
+                <div class="media-card-item-date">
+                    {{ mediaLink.data.date | cleanDate }}
+                </div>
+            </a>
+            {%- endfor -%}
+        </div>
+    </div>
 
-		<div class="media-card">
-
-			<div class="media-card-header">
-				In the media
-			</div>
-
-			{% set mediaLinkList = collections.mediaLinks | reverse | recent(5) %}
-			{%- for mediaLink in mediaLinkList -%}
-			<a class="media-card-item" href="{{ mediaLink.data.link }}" target="_blank">
-				<div class="media-card-item-title">
-					{{ mediaLink.data.title }}
-				</div>
-				<div class="media-card-item-body">
-					{{ mediaLink.data.preview }}
-				</div>
-				<div class="media-card-item-date">
-					{{ mediaLink.data.date | cleanDate }}
-				</div>
-			</a>	
-			{%- endfor -%}
-				
-		</div>	
-
-	</div>
-
-	<div class="section-footer">
-		<a class="read-more-btn" href="/posts">
-			<span>Read more</span> <i class="fas fa-chevron-right"></i>
-		</a>
-	</div>
+    <div class="section-footer">
+        <a class="read-more-btn" href="/posts">
+            <span>Read more</span> <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
 </div>
-
 
 {%- for contributor in collections.contributors -%}
 <div class="section">
+    <a class="section-title" href="{{ contributor.url }}">
+        {{ contributor.data.name }}
+    </a>
 
-	<a class="section-title" href="{{ contributor.url }}">
-		{{ contributor.data.name }}
-	</a>
+    <div class="section-subtitle">
+        {{ contributor.data.affiliation | makeUppercase }}
+    </div>
 
-	<div class="section-subtitle">
-		{{ contributor.data.affiliation | makeUppercase }}
-	</div>
+    <div class="card-container contributor-card">
+        {% set postList = collections[contributor.data.tagRef] | reverse |
+        recent(3) %} {%- for post in postList -%}
+        <a class="post-card" href="{{ post.url }}">
+            <div class="post-card-thumbnail">
+                <img
+                    class
+                    src="{{ post.data.featureImage | url }}"
+                    alt="Girl in a jacket"
+                />
+            </div>
+            <div class="post-card-preview">
+                <div class="post-badge">
+                    {{ post.data.organisation | makeUppercase }}
+                </div>
+                <div class="post-card-preview-title">{{ post.data.title }}</div>
+                <div class="post-card-preview-body">
+                    {{ post.data.preview }}
+                </div>
+            </div>
+        </a>
+        {%- endfor -%}
+    </div>
 
-	<div class="card-container contributor-card">
-
-		{% set postList = collections[contributor.data.tagRef] | reverse | recent(3) %}
-		{%- for post in postList -%}
-		<a class="post-card"  href="{{ post.url }}">
-			<div class="post-card-thumbnail">
-				<img class src="{{ post.data.featureImage | url }}" alt="Girl in a jacket">
-			</div>
-			<div class="post-card-preview">
-				<div class="post-badge">
-					{{ post.data.badge | makeUppercase }}
-				</div>
-				<div class="post-card-preview-title">{{ post.data.title }}</div>
-				<div class="post-card-preview-body">
-					{{ post.data.preview }}
-				</div>
-			</div>
-		</a>
-		{%- endfor -%}		
-
-	</div>	
-
-	<div class="section-footer">
-		<a class="read-more-btn" href="{{ contributor.url }}">
-			<span>Read more</span> <i class="fas fa-chevron-right"></i>
-		</a>
-	</div>
-
+    <div class="section-footer">
+        <a class="read-more-btn" href="{{ contributor.url }}">
+            <span>Read more</span> <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
 </div>
 {%- endfor -%}
-
-
-
-
