@@ -2,11 +2,11 @@
 title: Living with COVID-19
 date: 2021-11-10T08:31:40.559Z
 duration: 104
-preview: "Living with COVID-19: featuring presentations on modelling to inform
-  policy pathways to open up safely and living with the virus."
+preview: Webinar on modelling to inform policy pathways to open up safely and
+  living with the virus.
 embedLink: <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/kvL1JvZIAx8" title="YouTube video player"
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  src="https://www.youtube.com/embed/kvL1JvZIAx8?start=1" title="YouTube video
+  player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 featureImage: /img/uploads/Introductory-Webinar.png
 ---
