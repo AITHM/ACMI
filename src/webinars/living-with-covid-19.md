@@ -1,6 +1,6 @@
 ---
 title: Living with COVID-19
-date: 2021-11-10T08:31:40.559Z
+date: 2021-11-08T08:31:40.559Z
 duration: 104
 preview: Webinar on modelling to inform policy pathways to open up safely and
   living with the virus.
