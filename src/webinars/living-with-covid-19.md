@@ -8,7 +8,7 @@ embedLink: <iframe width="560" height="315"
   src="https://www.youtube.com/embed/kvL1JvZIAx8?start=1" title="YouTube video
   player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-featureImage: /img/uploads/Introductory-Webinar.png
+featureImage: /img/uploads/living-with-covid-19.jpg
 ---
 
 Agenda:
