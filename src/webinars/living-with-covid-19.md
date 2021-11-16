@@ -17,7 +17,6 @@ Agenda:
 * What Vaccination Rate Minimises Health & Economy Costs? - Quentin Grafton, Tom Kompas (Australian National University):
 * Policy Scenarios to Make 2022 Better - Tony Blakely (University of Melbourne)
 * Modelling the Third Covid-19 Wave in Australia - Sheryl Chang (University of Sydney)
-Non Pharmaceutical Interventions to Contain
 * Delta Outbreaks in Australia - George Milne (University of Western Australia)
 * A Flexible Software Platform for Constructing
 Mechanistic Models of Infectious Disease Transmission - James Trauer (Monash University)
