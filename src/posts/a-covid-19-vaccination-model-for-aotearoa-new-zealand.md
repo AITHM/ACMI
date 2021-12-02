@@ -29,4 +29,5 @@ Conclusion:
 
 Our results suggest that, until we get close to the population immunity threshold, a major public health response that included significant interventions would still be required to  control any resurgent outbreaks and prevent a major epidemic.
 
-[Full paper](https://www.tepunahamatatini.ac.nz/2021/06/30/a-covid-19-vaccination-model-for-aotearoa-new-zealand/)
+[Full paper]
+(https://www.tepunahamatatini.ac.nz/2021/06/30/a-covid-19-vaccination-model-for-aotearoa-new-zealand/)
