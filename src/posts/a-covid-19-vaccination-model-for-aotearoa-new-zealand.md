@@ -1,33 +1,34 @@
 ---
 badge: COVID-19 Modelling Aotearoa
-title: A COVID-19 vaccination model for Aotearoa New Zealand
-date: 2021-06-30T00:55:39.830Z
+title: Māori and Pacific people in New Zealand have a higher risk of
+  hospitalisation for COVID-19
+date: 2021-07-09T00:55:39.830Z
 organisation: COVID-19 Modelling Aotearoa
-author: Nicholas Steyn, Professor Michael Plank, Dr Rachelle Binny, Professor
-  Shaun Hendy, Dr Audrey Lustig, Dr Kannan Ridings
-preview: The higher the vaccination coverage is, the more collective protection
-  the population has against adverse health outcomes of COVID-19
+author: Nicholas Steyn, Dr Rachelle Binny, Kate Hannah, Professor Shaun Hendy,
+  Associate Professor Alex James, Dr Audrey Lustig, Dr Kannan Ridings, Professor
+  Michael Plank, Andrew Sporle
+preview: After controlling for factors such as age, underlying health conditions
+  and socioeconimic deprivation, the Maori and Pacific people have risk of being
+  hospitalized from COVID-19 infection.
 tags:
   - COVID-19 Modelling Aotearoa
-featureImage: /img/uploads/photo-1.jpg
+featureImage: /img/uploads/maori-2151594.jpg
 ---
 Objectives:
 
-The main purpose of this paper is to develop a model that can be used as the basis for policy advice on border restrictions and control measures in response to outbreaks that may occur during the vaccination roll-out.
+To determine whether there are significant differences by ethnicity in the risk of clinically severe outcomes from COVID-19 in Aotearoa New Zealand, measured by the hospitalisation rate and length of hospital stay.
 
 Method:
 
-We use a mathematical model to estimate the effect of New Zealand’s vaccine rollout on the potential spread and health impacts of COVID-19 and the implications for controlling border-related outbreaks.
-
-We consider a range of scenarios at different stages in the vaccine roll-out, including an unmitigated epidemic and contained local outbreaks. This work is intended to form a foundation for further COVID-19 vaccination modelling in New Zealand that will account for  additional demographic variables.
+We developed three separate risk models to quantify the risk of hospitalisation, length of hospital stay and fatality risk. Each model used the same methodology and set of predictor variables.
 
 Findings:
 
-Our results show that, under baseline vaccine effectiveness assumptions and with R0 = 4.5,  vaccination of over 80% of the population will likely be necessary to reach the population immunity threshold, defined as a reproduction number that is less than 1 in the absence of  other interventions. This would almost certainly require vaccination of at least some under 16  year olds. If R0 = 6 (which could represent a highly transmissible SARS-CoV-2 variant  such  as Delta), population immunity would require approximately 97% of the population, something which is unlikely to be achievable in practice.
+Our results show that an 80-year-old patient with COVID-19 in the NZ European/Other group without reported comorbidities has the same predicted risk of hospitalisation as a 59.3-year-old (95% CI 46.9–73.7 years old) patient in the Māori group without reported comorbidities. Similarly, an 80-year-old patient in the NZ European/Other group without reported comorbidities has the same predicted risk of hospitalisation as a 54.7-year-old (95% CI 43.6–67.7 years old) patient in the Pacific group without reported comorbidities. Similar differences are seen across all ages and for cases with at least one reported comorbidity. These differences in age-specific risk are broadly consistent with earlier estimates of inequities in the COVID-19 infection fatality rate.
 
 Conclusion:
 
-Our results suggest that, until we get close to the population immunity threshold, a major public health response that included significant interventions would still be required to  control any resurgent outbreaks and prevent a major epidemic.
+After controlling for age, presence of underlying health conditions and socioeconomic deprivation, we conclude that Māori and Pacific people have substantially higher risk of hospitalisation for COVID-19.
 
 [Full paper]
-(https://www.tepunahamatatini.ac.nz/2021/06/30/a-covid-19-vaccination-model-for-aotearoa-new-zealand/)
+(https://journal.nzma.org.nz/journal-articles/maori-and-pacific-people-in-new-zealand-have-a-higher-risk-of-hospitalisation-for-covid-19-open-access)
