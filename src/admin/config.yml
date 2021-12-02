@@ -47,7 +47,12 @@ collections:
                 widget: "string",
                 hint: "1 or 2 sentences summarising the main idea, objective, or finding of the post. Use concise phrasing to catch reader's attention. Try to stay under 30-35 words.",
             }
-          # - {label: "Badge", name: "badge", widget: "string", hint: "Controls the small, grey badge text that appears under post titles on the home-page. Usually the name of the contributor – i.e., same as 'contributor' field – but it can be something else."}
+          - {
+                label: "Badge",
+                name: "badge",
+                widget: "string",
+                hint: "Controls the small, grey badge text that appears under post titles on the home-page. Usually the name of the contributor – i.e., same as 'contributor' field – but it can be something else.",
+            }
           - {
                 label: "Tags",
                 name: "tags",
