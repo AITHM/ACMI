@@ -6,7 +6,7 @@ organisation: COVID-19 Modelling Aotearoa
 author: Nicholas Steyn, Professor Michael Plank, Dr Rachelle Binny, Professor
   Shaun Hendy, Dr Audrey Lustig, Dr Kannan Ridings
 preview: The higher the vaccination coverage is, the more collective protection
-  the population has against COVID-19 health outcomes
+  the population has against COVID-19 health outcomes.
 tags:
   - COVID-19 Modelling Aotearoa
 featureImage: /img/uploads/photo-1.jpg
