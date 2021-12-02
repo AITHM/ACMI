@@ -9,7 +9,7 @@ preview: The higher the vaccination coverage is, the more collective protection
   the population has against adverse health outcomes of COVID-19
 tags:
   - COVID-19 Modelling Aotearoa
-featureImage: /img/uploads/istockphoto-1312439900-170667a.jpg
+featureImage: /img/uploads/photo-1.jpg
 ---
 Objectives:
 
