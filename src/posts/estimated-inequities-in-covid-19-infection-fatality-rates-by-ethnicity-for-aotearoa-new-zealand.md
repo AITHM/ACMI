@@ -13,7 +13,7 @@ preview: Infection fatality rate does not account for potential differences in
   half of Pacific people.
 tags:
   - COVID-19 Modelling Aotearoa
-featureImage: /img/uploads/photo-1633329712165-4e578376eb87.jpeg
+featureImage: /img/uploads/photo-2.jpg
 ---
 Objectives:
 
