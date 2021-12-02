@@ -1,18 +1,17 @@
 ---
+badge: COVID-19 Modelling Aotearoa
 title: "Fighting COVID-19 with the team of 5 million: New Zealand government
-    communication during lockdown"
+  communication during lockdown"
 date: 2021-09-20T00:22:55.553Z
 organisation: COVID-19 Modelling Aotearoa
 author: Dr Alex Beattie, Associate Professor Rebecca Priestley
 preview: Direct, honest and empathetic communication as well as empowering the
-    public to act, are recommended strategies for effective government crisis
-    communication
+  public to act, are recommended strategies for effective government crisis
+  communication
 tags:
-    - COVID-19 Modelling Aotearoa
-badge: COVID-19 Modelling Aotearoa
+  - COVID-19 Modelling Aotearoa
 featureImage: /img/uploads/fighting-covid-19-with-the-team-of-5-million-new-zealand-government-communication-during-lockdown.jpeg
 ---
-
 Objectives:\
 \
 To analyse Prime Minister Jacinda Ardern's daily press briefings with the Director-General of Health, Ashley Bloomfield as a case study of government communication during a public health crisis.
@@ -32,3 +31,6 @@ A reflexive thematic analysis leads us to identify three key themes in the daily
 Conclusion:
 
 Situating our findings in the fields of crisis communication, science communication and psychology, we argue that the messages presented in the 2020 daily briefings supported the New Zealand Government's COVID-19 elimination strategy through building trust with the audience and framing the ‘lockdown’ as an urgent, collective and meaningful cause, mobilising New Zealanders to support public health measures.
+
+[Full paper]
+(https://doi.org/10.1016/j.ssaho.2021.100209)
