@@ -1,7 +1,7 @@
 ---
 title: "AUSCMI Webinar - COVID-19 is not over: how can modelling inform
   preparation for the rest of 2022."
-date: 2022-02-01T01:42:51.309Z
+date: 2022-02-08T02:45:35.186Z
 duration: 60
 preview: "Australian COVID-19 Modelling Initiative (AUSCMI) Webinar: featuring
   presentations of recent COVID-19 modelling research undertaken by its
