@@ -1,5 +1,5 @@
 ---
-title: "Job Alert: Epidemiologist position (Alfred Health)"
+title: "Job alert: Epidemiologist position (Alfred Health)"
 date: 2022-02-01T01:00:54.345Z
 preview: "The successful applicant will lead the epidemiological aspects of this
   major project (“Real-time modelling of the COVID-19 epidemic”), funded by the
