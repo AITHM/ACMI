@@ -15,8 +15,9 @@ featureImage: /img/uploads/Introductory-Webinar.png
 
 Agenda:
 
-* AUSCMI Introduction - Professor Tony Blakely, University of Melbourne
-* 11:00am - Presentation 1: "Reliance on vaccine-only pandemic mitigation strategies are compromised by highly transmissible COVID-19 variants" - Professor George Milne, University of Western Australia
-* Presentation 2: "COVID vaccination strategies for NSW" - Valentina Costantino, Kirby Institute UNSW
-* Presentation 3: "Modelling the third COVID-19 pandemic wave in Australia" - Professor Mikhail Prokopenko, Sydney Institute for infectious diseases
-* Presentation 4: "Modelling of NSW outbreak and the vaccine rollout", Professor Tony Blakely, University of Melbourne 
+* 11:00am - Welcome - Dr Nick Scott, Burnet Institute
+* 11:00am - Presentation 1: ": Omicron and WA reopening borders" - Professor George Milne, University of Western Australia.
+* 11:15am - Presentation 2: "Waning immunity and vaccine boosters in New Zealand's new COVID Omicron models" - Giorgia Vattiato, ***.
+* 11:30am - Presentation 3: "Modelling COVID-19 contagion for Aotearoa" - Dr Dion O'Neale, University of Auckland.
+* Presentation 4: "A plan to model scenarios for 2022", Professor Tony Blakely, University of Melbourne.
+* 12:00pm - Closing remarks: Professor Emma McBryde
