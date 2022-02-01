@@ -1,6 +1,7 @@
 ---
-title: "AusCMI Webinar: How can modelling inform preparation for the rest of 2022. "
-date: 2022-02-07T23:29:23.665Z
+title: "AusCMI Webinar (8th February, 2022): How can modelling inform
+  preparation for the rest of 2022. "
+date: 2022-02-01T23:37:43.333Z
 preview: The next webinar will hold next week, Tuesday 8th February at 11am.
   Click here to register and will send you through the zoom link and calendar
   invitation.
