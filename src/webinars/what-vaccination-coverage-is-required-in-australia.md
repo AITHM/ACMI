@@ -7,7 +7,7 @@ preview: Professor Quentin Grafton presents his model on possible eventual
   COVID-19) of the National Plan to transition Australia’s National COVID-19
   Response.
 embedLink: <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/-xYkyjb3ujU" title="YouTube video player"
+  src="https://www.youtube.com/embed/B074lHH0VBE" title="YouTube video player"
   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 featureImage: /img/uploads/what-vaccine-coverage-is-required-in-australia.png
