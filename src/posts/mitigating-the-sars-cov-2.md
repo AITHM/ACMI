@@ -9,7 +9,7 @@ preview: New modelling shows reopening the Western Australian border prior to
 badge: Department of Computer Science and Software Engineering
 tags:
   - Department of Computer Science and Software Engineering
-featureImage: /img/uploads/containing-delta-variant-outbreaks-in-australia-a-modelling-analysis.jpeg
+featureImage: /img/uploads/border.jpg
 ---
 Objective:
 
