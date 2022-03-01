@@ -1,6 +1,8 @@
 ---
-title: "Containing Delta variant outbreaks in Australia: a modelling analysis"
-date: 2021-10-07T01:04:09.382Z
+title: "Mitigating the SARS-CoV-2 Delta disease burden in Australia by
+  non-pharmaceutical interventions and vaccinating children: a modelling
+  analysis"
+date: 2022-02-18T01:04:09.382Z
 organisation: Department of Computer Science & Software Engineering
 author: Professor George J Milne, Julian Carrivick, Dr David Whyatt
 preview: New modelling shows non-pharmaceutical interventions and vaccinating
@@ -26,5 +28,5 @@ Conclusion:
 Delta variant outbreaks may be successfully managed by an achievable 80% vaccine coverage rate and moderate NPI measures, allowing schools and many workplaces to remain open. This prevents use of hard lockdown measures, and consequential economic and societal damage. Activating moderate NPIs is shown to give a similar reduction in health burden as increasing coverage of ages 12 and above to 90%. If 90% coverage cannot be achieved, including children and adolescents in the vaccination program coupled with moderate NPIs appears necessary to contain future COVID-19 Delta transmission.
 
 
-<a href="https://www.medrxiv.org/content/10.1101/2021.10.03.21264492v1" target="_blank">Full paper</a>
+<a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-022-02241-3" target="_blank">Full paper</a>
 
