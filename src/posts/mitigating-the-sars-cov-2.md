@@ -29,4 +29,4 @@ In order to minimise peak daily and total health burden, removal of the Western 
 <a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-022-02241-3" target="_blank">Full paper</a>
 
 <p>Open the
-<a href="Users/jc541971/Documents/WA_Opening_Presentation.pdf" target="_blank">File presentation</a> </p>
+<a href="C://Users/jc541971/Documents/WA_Opening_Presentation.pdf" target="_blank">File presentation</a> </p>
