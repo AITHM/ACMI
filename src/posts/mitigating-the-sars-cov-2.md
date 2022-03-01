@@ -25,8 +25,5 @@ Conclusion:
 
 In order to minimise peak daily and total health burden, removal of the Western Australian hard border should be preferred earlier rather than later, prior to June 2022. In doing so, peak ICU demand is predicated to not exceed surge capacity of Western Australian hospitals. On 18th February 2022 the Government of Western Australia announced the borders would be reopened on March 3rd 2022 amid an ongoing local outbreak. While not specifically modelling this scenario, these results are generally applicable to the ongoing outbreak and can be used to estimate progression through the wave.
 
-
-<a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-022-02241-3" target="_blank">Full paper</a>
-
-<p>Open the
-<a href="C:/Users/jc541971/Documents/WA_Opening_Presentation.pdf" target="_blank">File presentation</a> </p>
+<p>Open the presentation file
+<a href="https://myjcuedu-my.sharepoint.com/personal/samson_ogunlade_my_jcu_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsamson%5Fogunlade%5Fmy%5Fjcu%5Fedu%5Fau%2FDocuments%2FAUSCMI%20FILES%2FWA%5FOpening%5FPresentation%2Epdf&parent=%2Fpersonal%2Fsamson%5Fogunlade%5Fmy%5Fjcu%5Fedu%5Fau%2FDocuments%2FAUSCMI%20FILES" target="_blank">HERE</a> </p>
