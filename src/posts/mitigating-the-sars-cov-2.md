@@ -1,6 +1,6 @@
 ---
-title: Predicted SARS-CoV-2 Omicron disease burden in Western Australia
-  following border reopening
+title: "SARS-CoV-2 Omicron disease burden in Australia following border
+  reopening: a modelling analysis"
 date: 2022-03-01T04:30:22.257Z
 organisation: Department of Computer Science & Software Engineering
 author: George J Milne, Julian Carrivick
@@ -25,5 +25,5 @@ Conclusion:
 
 In order to minimise peak daily and total health burden, removal of the Western Australian hard border should be preferred earlier rather than later, prior to June 2022. In doing so, peak ICU demand is predicated to not exceed surge capacity of Western Australian hospitals. On 18th February 2022 the Government of Western Australia announced the borders would be reopened on March 3rd 2022 amid an ongoing local outbreak. While not specifically modelling this scenario, these results are generally applicable to the ongoing outbreak and can be used to estimate progression through the wave.
 
-<p>Open the presentation file
-<a href="https://myjcuedu-my.sharepoint.com/:b:/g/personal/samson_ogunlade_my_jcu_edu_au/EciCC7YLzhRDkcaBtFGBCYoBo6G3h--Pw5vo6xmLpXP3_w?e=z2SqOs" target="_blank">HERE</a> </p>
+<p>Open full paper
+<a href="https://www.medrxiv.org/content/10.1101/2022.03.09.22272170v2" target="_blank">HERE</a> </p>
