@@ -1,7 +1,7 @@
 ---
 title: Understanding how Victoria, Australia gained control of its second
   COVID-19 wave
-date: 2021-10-31T23:21:07.707Z
+date: 2021-11-01T11:21:00.000Z
 organisation: Department of Epidemiology and Preventive Medicine
 author: Trauer JM, Lydeamore MJ, Dalton GW, Pilcher D, Meehan MT, McBryde ES,
   Cheng AC, Sutton B, Ragonnet R.
