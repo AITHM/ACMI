@@ -9,7 +9,7 @@ preview: "In order to identify appropriate responses to a pandemic, governments
 badge: Department of Epidemiology and Preventive Medicine
 tags:
   - Department of Epidemiology and Preventive Medicine
-featureImage: /img/uploads/fusion-medical-animation-eaggqoiddmg-unsplash.jpg
+featureImage: /img/uploads/gabriella-clare-marino-qoi7zaf6ye-unsplash.jpg
 ---
 Objective: 
 
