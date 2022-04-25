@@ -10,7 +10,7 @@ preview: In general, models have played an important role in policy development
 badge: Department of Epidemiology and Preventive Medicine
 tags:
   - Department of Epidemiology and Preventive Medicine
-featureImage: /img/uploads/gabriella-clare-marino-qoi7zaf6ye-unsplash.jpg
+featureImage: /img/uploads/a-modelling-analysis-of-the-effectiveness-of-second-wave-covid-19-response-strategies-in-australia.jpeg
 ---
 Objective: 
 
