@@ -9,7 +9,7 @@ preview: New modelling shows reopening the Western Australian border prior to
 badge: Department of Computer Science and Software Engineering
 tags:
   - Department of Computer Science and Software Engineering
-featureImage: /img/uploads/border111.png
+featureImage: /img/uploads/imre-tomosvari-fbhun53_330-unsplash.jpg
 ---
 Objective:
 
