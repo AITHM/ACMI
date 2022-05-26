@@ -15,7 +15,6 @@ Agenda:
 
 * 11:00am - Welcome
 * 11:00am - Presentation 1: ": Modelling vaccine efficacy in Australia" - Joshua Szanyi, University of Melbourne.
-* 11:20am - Presentation 2: "Phylodynamics modelling of COVID-19" - Haley Stone, University of New South Wales.
-* 11:40am - Presentation 3: "Modelling COVID-19 in Sri Lanka" - Pavithra Jayasundara, University of Auckland.
+* 11:30am - Presentation 3: "Modelling COVID-19 in Sri Lanka" - Pavithra Jayasundara, University of Auckland.
 * 12:00pm - Presentation 4: "Do we need a plan?" - Margaret Hellard, Burnet Institute.
 * 12:30pm - Closing remarks on AUSCMI: Professor Emma McBryde, James Cook University.
