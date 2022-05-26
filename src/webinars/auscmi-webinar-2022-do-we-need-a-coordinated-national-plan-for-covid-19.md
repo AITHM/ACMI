@@ -1,0 +1,21 @@
+---
+title: AUSCMI Webinar 2022 - Do we need a coordinated national plan for COVID-19?
+date: 2022-05-24T06:34:49.450Z
+duration: 90
+preview: "Australian COVID-19 Modelling Initiative (AUSCMI) Webinar: featuring
+  presentations of recent COVID-19 modelling research undertaken by its
+  members."
+embedLink: <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/-xYkyjb3ujU" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+featureImage: /img/uploads/webinar-series-logo.png
+---
+Agenda:
+
+* 11:00am - Welcome
+* 11:00am - Presentation 1: ": Modelling vaccine efficacy in Australia" - Joshua Szanyi, University of Melbourne.
+* 11:20am - Presentation 2: "Phylodynamics modelling of COVID-19" - Haley Stone, University of New South Wales.
+* 11:40am - Presentation 3: "Modelling COVID-19 in Sri Lanka" - Pavithra Jayasundara, University of Auckland.
+* 12:00pm - Presentation 4: "Do we need a plan?" - Margaret Hellard, Burnet Institute.
+* 12:30pm - Closing remarks on AUSCMI: Professor Emma McBryde, James Cook University.
