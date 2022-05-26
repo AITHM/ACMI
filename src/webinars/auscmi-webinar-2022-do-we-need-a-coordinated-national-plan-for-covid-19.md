@@ -5,8 +5,8 @@ duration: 90
 preview: "Australian COVID-19 Modelling Initiative (AUSCMI) Webinar: featuring
   presentations of recent COVID-19 modelling research undertaken by its
   members."
-embedLink: <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/-xYkyjb3ujU" title="YouTube video player"
+embedLink: <iframe width="1148" height="480"
+  src="https://www.youtube.com/embed/x9v1Gd_2zy8" title="YouTube video player"
   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 featureImage: /img/uploads/webinar-series-logo.png
