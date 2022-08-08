@@ -1,6 +1,6 @@
 ---
-name: Department of Epidemiology and Preventive Medicine
-affiliation: Monash University, Melbourne
+name: Department of Epidemiology and Preventive Medicine,
+affiliation: Monash University
 tagRef: Department of Epidemiology and Preventive Medicine
 overview: The Monash University's Department of Epidemiology and Preventive
   Medicine in the School of Public Health and Preventive Medicine has initially
