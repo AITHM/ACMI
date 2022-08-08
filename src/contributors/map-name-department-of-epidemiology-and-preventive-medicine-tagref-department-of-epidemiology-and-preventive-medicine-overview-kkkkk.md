@@ -1,5 +1,5 @@
 ---
-name: Department of Epidemiology and Preventive Medicine,
+name: Department of Epidemiology and Preventive Medicine
 affiliation: Monash University
 tagRef: Department of Epidemiology and Preventive Medicine
 overview: The Monash University's Department of Epidemiology and Preventive
