@@ -1,5 +1,5 @@
 ---
-title: AUSCMI Webinar 2022 - Do we need a coordinated national plan for COVID-19?
+title: AUSCMI Webinar 2022 (2) - Do we need a coordinated national plan for COVID-19?
 date: 2022-05-24T06:34:49.450Z
 duration: 90
 preview: "Australian COVID-19 Modelling Initiative (AUSCMI) Webinar: featuring
