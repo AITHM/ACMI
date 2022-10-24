@@ -1,7 +1,7 @@
 ---
 title: "Economic Consequences of the COVID-19 Outbreak: the Need for Epidemic
   Preparedness"
-date: 2020-05-28T23:22:39.121Z
+date: 2021-05-27T23:22:39.121Z
 organisation: The Australian Institute of Tropical Health and Medicine (AITHM)
 author: Dr Anton Pak, Dr Oyelola Adegboye, Dr Adeshina Adekunle, Dr kazi,
   Rahman, Professor Emma McBryde, Professor Damon Eisen
