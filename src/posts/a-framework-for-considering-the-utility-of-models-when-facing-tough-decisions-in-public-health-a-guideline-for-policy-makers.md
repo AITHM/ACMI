@@ -1,7 +1,7 @@
 ---
 title: "A framework for considering the utility of models when facing tough
   decisions in public health: a guideline for policy-makers"
-date: 2022-10-07T22:22:27.525Z
+date: 2022-11-02T22:49:20.077Z
 organisation: Population Interventions Unit
 author: "Jason Thompson, Roderick McClure, Nick Scott, Margaret Hellard, Romesh
   Abeysuriya, Rajith Vidanaarachchi, John Thwaites, Jeffrey V. Lazarus, John
