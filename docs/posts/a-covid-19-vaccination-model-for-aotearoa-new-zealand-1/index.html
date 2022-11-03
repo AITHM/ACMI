@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	
+	<title>
+	AUSCMI | A COVID-19 vaccination model for Aotearoa New Zealand
+	</title>
+	
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Styling -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!-- Fonts and icons -->
+	<script src="https://kit.fontawesome.com/089e093d2d.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@100;300;400;600&family=Playfair+Display:wght@400;600;800&family=Roboto&display=swap" rel="stylesheet">
+	
+	<!-- Netlify CMS -->
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJCVP5P300"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-NJCVP5P300');
+	</script>
+
+
+	
+	
+
+</head>
+
+<body>
+
+	
+
+<!-- Twitter tag -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:url" content="https://auscmi.org/posts/a-covid-19-vaccination-model-for-aotearoa-new-zealand-1/" />
+<meta property="og:title" content="A COVID-19 vaccination model for Aotearoa New Zealand" />
+<meta property="og:description" content=" The higher the vaccination coverage is, the more collective protection the population has against COVID-19 health outcomes." />
+<meta property="og:image" content="https://auscmi.org/img/uploads/photo-1.jpg" />
+
+
+<div class="header__s" id="header__s">
+	<div class="header-content">
+		<i class="fas fa-bars open-nav"></i>
+		<a class="heading" href="/">
+			AUSCMI
+		</a>
+		<div>
+		</div>
+	</div>
+	<div id="scroll-progress">
+		<div id="scroll-progress-bar"></div>
+	</div>
+	</div>	
+
+
+<nav class="nav">
+	<div class="nav-links">
+		<div href="" class="nav-link close-nav">
+			<span>Close</span> <i class="fas fa-chevron-right"></i>
+		</div>
+		<a href="/" class="nav-link">
+			Home
+		</a>
+		<a href="/about" class="nav-link">
+			About
+		</a>
+		<a href="/webinars" class="nav-link">
+			Webinars
+		</a>
+	</div>
+	<div class="nav-overlay"></div>
+</nav>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const nav = document.querySelector(".nav")
+
+		document.querySelector(".open-nav").addEventListener("click", () => {
+			nav.classList.toggle("nav-open")
+		})
+		
+		document.querySelector(".nav-overlay").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+
+		document.querySelector(".close-nav").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+	})
+</script>
+
+
+
+
+
+
+<script>
+
+window.onscroll = function() {
+    var nav = document.getElementById("header__s");
+    if ( window.pageYOffset > 10 ) {
+        nav.classList.add("header-slim");
+    } else {
+        nav.classList.remove("header-slim");
+    }
+
+	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	var scrolled = (winScroll / height) * 100;
+	var progressBar = document.getElementById("scroll-progress-bar")
+
+	if(typeof(progressBar) != 'undefined' && progressBar != null){
+        document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+    }
+}
+
+</script>
+
+
+<div class="post-banner">
+	<div class="post-banner-image" style="background-image:url(/img/uploads/photo-1.jpg);">
+	</div>
+
+	<div class="post-banner-heading-container">
+		<div class="post-banner-heading">
+			A COVID-19 vaccination model for Aotearoa New Zealand
+		</div>
+	</div>
+</div>
+
+
+<div class="post-content">
+	<!-- <div class="post-content-title">
+		A COVID-19 vaccination model for Aotearoa New Zealand
+	</div> -->
+	<div class="post-content-preview">
+		The higher the vaccination coverage is, the more collective protection the population has against COVID-19 health outcomes.
+	</div>
+	<div class="post-content-author">
+		Nicholas Steyn, Professor Michael Plank, Dr Rachelle Binny, Professor Shaun Hendy, Dr Audrey Lustig, Dr Kannan Ridings
+	</div>
+
+	<div class="post-content-body">
+		<p>Objectives:</p>
+<p>The main purpose of this paper is to develop a model that can be used as the basis for policy advice on border restrictions and control measures in response to outbreaks that may occur during the vaccination roll-out.</p>
+<p>Method:</p>
+<p>We use a mathematical model to estimate the effect of New Zealand’s vaccine rollout on the potential spread and health impacts of COVID-19 and the implications for controlling border-related outbreaks.</p>
+<p>We consider a range of scenarios at different stages in the vaccine roll-out, including an unmitigated epidemic and contained local outbreaks. This work is intended to form a foundation for further COVID-19 vaccination modelling in New Zealand that will account for  additional demographic variables.</p>
+<p>Findings:</p>
+<p>Our results show that, under baseline vaccine effectiveness assumptions and with R0 = 4.5,  vaccination of over 80% of the population will likely be necessary to reach the population immunity threshold, defined as a reproduction number that is less than 1 in the absence of  other interventions. This would almost certainly require vaccination of at least some under 16  year olds. If R0 = 6 (which could represent a highly transmissible SARS-CoV-2 variant  such  as Delta), population immunity would require approximately 97% of the population, something which is unlikely to be achievable in practice.</p>
+<p>Conclusion:</p>
+<p>Our results suggest that, until we get close to the population immunity threshold, a major public health response that included significant interventions would still be required to  control any resurgent outbreaks and prevent a major epidemic.</p>
+<p>[Full paper]
+(https://www.tepunahamatatini.ac.nz/2021/06/30/a-covid-19-vaccination-model-for-aotearoa-new-zealand/)</p>
+
+	</div>
+	<a href="/contributors/COVID-19-Modelling-Aotearoa/" class="post-content-attribution">
+		<div class="post-content-attribution-date">
+			First published: Jun 30, 2021
+		</div>
+		<div class="post-content-attribution-header">
+			COVID-19 Modelling Aotearoa
+		</div>
+		<div class="post-content-attribution-body">
+			[COVID-19 Modelling Aotearoa](https://www.tepunahamatatini.ac.nz/covid-19/), is a cross-organisation and transdisciplinary group of academic researchers and scientists that were brought together by Te Pūnaha Matatini to help Aotearoa New Zealand face the COVID-19 pandemic.
+
+
+Our work is underpinned by Te Tiriti o Waitangi, fast and committed peer review, and ethics. These parameters ensure that the modelling developed by our broad team is uniquely equipped to provide scientifically robust results which are fit for Aotearoa New Zealand and support our decision-making.
+		</div>
+	</a>
+	<div class="post-content-share">
+		<div class="share-link-container">
+			<span>Share: </span>
+			<a class="facebook-share-button" target="_blank" href="https://www.facebook.com/dialog/share?app_id=933889623386823&display=page&href=https%3A%2F%2Fauscmi.org/posts/a-covid-19-vaccination-model-for-aotearoa-new-zealand-1/" data-size="large">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet?text=https://auscmi.org/posts/a-covid-19-vaccination-model-for-aotearoa-new-zealand-1/" data-size="large">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a class="linkdin-share-button" target="_blank" href="https://www.linkedin.com/shareArticle?&url=https%3A%2F%2Fauscmi.org/posts/a-covid-19-vaccination-model-for-aotearoa-new-zealand-1/" data-size="large">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="more-posts">
+	<div class="heading">
+		More from COVID-19 Modelling Aotearoa
+	</div>
+
+	<div class="card-container">
+		
+		<a class="post-card"  href="/posts/vaccination-and-testing-of-the-border-workforce-for-covid-19-and-risk-of-community-outbreaks-a-modelling-study/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/photo-3.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					COVID-19 MODELLING AOTEAROA
+				</div>
+				<div class="post-card-preview-title">Vaccination and testing of the border workforce for COVID-19 and risk of community outbreaks: A modelling study</div>
+				<div class="post-card-preview-body">
+					The reduction in vaccine effectiveness against COVID-19 transmission increases the risk. As such, carrying out a frequent routine testing of highly exposed vaccinated groups could mitigate the increased risk due to vaccination 
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/fighting-covid-19-with-the-team-of-5-million-new-zealand-government-communication-during-lockdown/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/fighting-covid-19-with-the-team-of-5-million-new-zealand-government-communication-during-lockdown.jpeg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					COVID-19 MODELLING AOTEAROA
+				</div>
+				<div class="post-card-preview-title">Fighting COVID-19 with the team of 5 million: New Zealand government communication during lockdown</div>
+				<div class="post-card-preview-body">
+					Direct, honest and empathetic communication as well as empowering the public to act, are recommended strategies for effective government crisis communication
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/estimated-inequities-in-covid-19-infection-fatality-rates-by-ethnicity-for-aotearoa-new-zealand/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/photo-2.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					COVID-19 MODELLING AOTEAROA
+				</div>
+				<div class="post-card-preview-title">Estimated inequities in COVID-19 infection fatality rates by ethnicity for Aotearoa New Zealand</div>
+				<div class="post-card-preview-body">
+					Infection fatality rate does not account for potential differences in transmission and incidence by ethnicity, risk factors for accelerated transmission include crowded housing affecting a quarter of Maori and almost half of Pacific people.
+				</div>
+			</div>
+		</a></div>
+</div>
+
+
+	
+	<div class="footer">
+	<div class="footer-inner">
+
+		<div>© 2021 Australian COVID-19 Modelling Initiative (AUSCMI) </div>
+		<div class="links">
+			<a href="/about">About</a>
+			<a href="mailto:population-interventions@unimelb.edu.au">Contact</a>
+		</div>
+
+		<!-- <div class="footer-links">
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-landmark"></i>
+				<span class="footer-links-item-caption">
+					ABOUT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-phone-alt"></i>
+				<span class="footer-links-item-caption">
+					CONTACT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fab fa-twitter"></i>
+				<span class="footer-links-item-caption">
+					FOLLOW
+				</span>
+			</a>
+		</div> -->
+
+
+
+	</div>
+</div>
+
+	<!-- Netlify CMS -->
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+			if (!user) {
+				window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+				});
+			}
+			});
+		}
+	</script>
+
+	
+</body>
+
+</html>

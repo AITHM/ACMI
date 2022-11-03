@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	
+	<title>
+	AUSCMI | Modelling insights into the COVID-19 pandemic
+	</title>
+	
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Styling -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!-- Fonts and icons -->
+	<script src="https://kit.fontawesome.com/089e093d2d.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@100;300;400;600&family=Playfair+Display:wght@400;600;800&family=Roboto&display=swap" rel="stylesheet">
+	
+	<!-- Netlify CMS -->
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJCVP5P300"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-NJCVP5P300');
+	</script>
+
+
+	
+	
+
+</head>
+
+<body>
+
+	
+
+<!-- Twitter tag -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:url" content="https://auscmi.org/posts/modelling-insights-into-the-covid-19-pandemic/" />
+<meta property="og:title" content="Modelling insights into the COVID-19 pandemic" />
+<meta property="og:description" content=" Demographic, epidemiological, and socioeconomic factors will likely result in differential impacts of COVID-19 on low- and middle-income countries (LMIC) and other vulnerable groups compared with high resource settings." />
+<meta property="og:image" content="https://auscmi.org/img/uploads/a-vacine-plus-strategy-for-the-future.jpeg" />
+
+
+<div class="header__s" id="header__s">
+	<div class="header-content">
+		<i class="fas fa-bars open-nav"></i>
+		<a class="heading" href="/">
+			AUSCMI
+		</a>
+		<div>
+		</div>
+	</div>
+	<div id="scroll-progress">
+		<div id="scroll-progress-bar"></div>
+	</div>
+	</div>	
+
+
+<nav class="nav">
+	<div class="nav-links">
+		<div href="" class="nav-link close-nav">
+			<span>Close</span> <i class="fas fa-chevron-right"></i>
+		</div>
+		<a href="/" class="nav-link">
+			Home
+		</a>
+		<a href="/about" class="nav-link">
+			About
+		</a>
+		<a href="/webinars" class="nav-link">
+			Webinars
+		</a>
+	</div>
+	<div class="nav-overlay"></div>
+</nav>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const nav = document.querySelector(".nav")
+
+		document.querySelector(".open-nav").addEventListener("click", () => {
+			nav.classList.toggle("nav-open")
+		})
+		
+		document.querySelector(".nav-overlay").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+
+		document.querySelector(".close-nav").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+	})
+</script>
+
+
+
+
+
+
+<script>
+
+window.onscroll = function() {
+    var nav = document.getElementById("header__s");
+    if ( window.pageYOffset > 10 ) {
+        nav.classList.add("header-slim");
+    } else {
+        nav.classList.remove("header-slim");
+    }
+
+	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	var scrolled = (winScroll / height) * 100;
+	var progressBar = document.getElementById("scroll-progress-bar")
+
+	if(typeof(progressBar) != 'undefined' && progressBar != null){
+        document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+    }
+}
+
+</script>
+
+
+<div class="post-banner">
+	<div class="post-banner-image" style="background-image:url(/img/uploads/a-vacine-plus-strategy-for-the-future.jpeg);">
+	</div>
+
+	<div class="post-banner-heading-container">
+		<div class="post-banner-heading">
+			Modelling insights into the COVID-19 pandemic
+		</div>
+	</div>
+</div>
+
+
+<div class="post-content">
+	<!-- <div class="post-content-title">
+		Modelling insights into the COVID-19 pandemic
+	</div> -->
+	<div class="post-content-preview">
+		Demographic, epidemiological, and socioeconomic factors will likely result in differential impacts of COVID-19 on low- and middle-income countries (LMIC) and other vulnerable groups compared with high resource settings.
+	</div>
+	<div class="post-content-author">
+		Meehan MT, Rojas DP, Adekunle AI, Adegboye OA, Caldwell JM, Turek E, Williams BM, Trauer JM,* McBryde ES.* 
+	</div>
+
+	<div class="post-content-body">
+		<p>Objective:</p>
+<p>In this review, we highlight the critical role played by mathematical modelling to understand COVID-19 thus far, the challenges posed by data availability and uncertainty, and the continuing utility of modelling-based approaches to guide decision making and inform the public health response.</p>
+<p>Findings:</p>
+<p>Impacts of other infectious diseases historically and current models of COVID-19 in LMIC suggest there will be a considerable difference in mortality between high-income and low-income countries. For instance, mortality rates from the 1918–1920 Spanish flu pandemic were significantly higher in Asia, Sub-Saharan Africa, and Latin America compared with North America and Europe. To date, there are no models for COVID-19 in Latin America despite the shift in the epicentre to South America. However, there have been a limited number of modelling studies for Africa that provide a framework for modelling COVID-19 more broadly for LMIC. For example, one study used synthetic contact matrices, shifted the age-specific probability of becoming severely infected (compared with estimates from high-income countries), and simulated community led interventions such as neighbourhood house swaps. The results indicated that an unmitigated epidemic would lead to millions of clinical cases (e.g., 4.1 million during the first year of the epidemic in Niger) and that interventions would only confer partial protection.</p>
+<a href="https://www.sciencedirect.com/science/article/pii/S1526054220300993" target="_blank">
+View full paper here
+</a>
+	</div>
+	<a href="/contributors/map-name-department-of-epidemiology-and-preventive-medicine-tagref-department-of-epidemiology-and-preventive-medicine-overview-kkkkk/" class="post-content-attribution">
+		<div class="post-content-attribution-date">
+			First published: Sep 10, 2020
+		</div>
+		<div class="post-content-attribution-header">
+			Department of Epidemiology and Preventive Medicine
+		</div>
+		<div class="post-content-attribution-body">
+			The Monash University&#39;s [Department of Epidemiology and Preventive Medicine](https://www.monash.edu/medicine/sphpm/epidemiology) in the [School of Public Health and Preventive Medicine](https://www.monash.edu/medicine/sphpm) has initially focused on TB epidemiology and control, but recently shifted its focus to include a strong interest in the COVID-19 pandemic. The focus comprises the use of methodological approaches in the areas of deterministic and stochastic Modelling, Agent-based Simulations, Applied Mathematics, Bayesian inference, Statistics, Epidemiology, Health Economics, Computer Science and Data Visualisation.
+		</div>
+	</a>
+	<div class="post-content-share">
+		<div class="share-link-container">
+			<span>Share: </span>
+			<a class="facebook-share-button" target="_blank" href="https://www.facebook.com/dialog/share?app_id=933889623386823&display=page&href=https%3A%2F%2Fauscmi.org/posts/modelling-insights-into-the-covid-19-pandemic/" data-size="large">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet?text=https://auscmi.org/posts/modelling-insights-into-the-covid-19-pandemic/" data-size="large">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a class="linkdin-share-button" target="_blank" href="https://www.linkedin.com/shareArticle?&url=https%3A%2F%2Fauscmi.org/posts/modelling-insights-into-the-covid-19-pandemic/" data-size="large">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="more-posts">
+	<div class="heading">
+		More from Department of Epidemiology and Preventive Medicine
+	</div>
+
+	<div class="card-container">
+		
+		<a class="post-card"  href="/posts/sustaining-effective-covid-19-control-in-malaysia-through-large-scale-vaccination/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/adria-crehuet-cano-_edjlx6ksja-unsplash1.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					DEPARTMENT OF EPIDEMIOLOGY AND PREVENTIVE MEDICINE
+				</div>
+				<div class="post-card-preview-title">Sustaining effective COVID-19 control in Malaysia through large-scale vaccination</div>
+				<div class="post-card-preview-body">
+					Rapid roll-out of vaccination is particularly critical to controlling Malaysia’s epidemic, with continuing NPIs likely to be needed throughout much of the roll-out period.
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/time-for-a-clear-national-covid-19-strategy/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/does-high-public-trust-amplify-compliance-with-stringent-covid-19-government-health-guidelines-a-multi-country-analysis-using-data-from-102-627-individuals.jpeg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					DEPARTMENT OF EPIDEMIOLOGY AND PREVENTIVE MEDICINE
+				</div>
+				<div class="post-card-preview-title">Time for a clear national COVID-19 strategy</div>
+				<div class="post-card-preview-body">
+					Pandemic responses across the world have been highly reactive. However, there remain only three strategic options to managing coronavirus disease 2019 (COVID-19): mitigation, suppression and elimination
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/understanding-how-victoria-australia-gained-control-of-its-second-covid-19-wave/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/cole-freeman-f9gjjsesc5u-unsplash.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					DEPARTMENT OF EPIDEMIOLOGY AND PREVENTIVE MEDICINE
+				</div>
+				<div class="post-card-preview-title">Understanding how Victoria, Australia gained control of its second COVID-19 wave</div>
+				<div class="post-card-preview-body">
+					The improvement in Victoria’s second wave of COVID-19 cases could be well captured in our transmission model through a combination of time-varying processes that included: testing rates, population mobility, use of face coverings, and physical distancing.
+				</div>
+			</div>
+		</a></div>
+</div>
+
+
+	
+	<div class="footer">
+	<div class="footer-inner">
+
+		<div>© 2021 Australian COVID-19 Modelling Initiative (AUSCMI) </div>
+		<div class="links">
+			<a href="/about">About</a>
+			<a href="mailto:population-interventions@unimelb.edu.au">Contact</a>
+		</div>
+
+		<!-- <div class="footer-links">
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-landmark"></i>
+				<span class="footer-links-item-caption">
+					ABOUT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-phone-alt"></i>
+				<span class="footer-links-item-caption">
+					CONTACT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fab fa-twitter"></i>
+				<span class="footer-links-item-caption">
+					FOLLOW
+				</span>
+			</a>
+		</div> -->
+
+
+
+	</div>
+</div>
+
+	<!-- Netlify CMS -->
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+			if (!user) {
+				window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+				});
+			}
+			});
+		}
+	</script>
+
+	
+</body>
+
+</html>

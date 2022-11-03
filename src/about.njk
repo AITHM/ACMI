@@ -6,59 +6,83 @@ layout: "base.njk"
 {% include 'header-secondary.njk' %}
 
 <div class="about-hero">
-	<div class="about-hero-subtitle">
-		AUSCMI | Australian COVID-19 Modelling Initiative
-	</div>
-	<div class="about-hero-tagline">
-		Our purpose is to make COVID-19 <br>
-		modelling more transparent and accessible <br>
-		for the public and policy makers
-	</div>
+    <div class="about-hero-subtitle">
+        AUSCMI | Australian COVID-19 Modelling Initiative
+    </div>
+    <div class="about-hero-tagline">
+        Our purpose is to make COVID-19 <br />
+        modelling more transparent and accessible <br />
+        for the public and policy makers
+    </div>
 </div>
 
-
 <div class="about-body-container">
-	<div class="about-body-content">
-		<h4>Our story</h4>
-		The Australian COVID-19 Modelling Initiative (AUSCMI) comprises several research groups. It aims to facilitate rapid access to a collection of COVID-19 modelling studies, in an easy to find and understandable format, for the public and policy makers.
-		<div class="par-br"></div>		
+    <div class="about-body-content">
+        <h4>Our story</h4>
+        The Australian COVID-19 Modelling Initiative (AUSCMI) comprises several
+        research groups. It aims to facilitate rapid access to a collection of
+        COVID-19 modelling studies, in an easy to find and understandable
+        format, for the public and policy makers.
+        <div class="par-br"></div>
 
-		<h4>Our aims</h4>
-		<ul>
-			<li>Make COVID-19 modelling more transparent and available for the public and policy makers</li>
-			<li>Facilitate the comparison of modelling approaches and outcomes</li>
-			<li>Collate modelling research from independent academic research groups, across alternative modelling approaches</li>
-			<li>Draw attention to when different modelling approaches agree/disagree, and what this means for further research priorities and policymaking</li>
-		</ul>
+        <h4>Our aims</h4>
+        <ul>
+            <li>
+                Make COVID-19 modelling more transparent and available for the
+                public and policy makers
+            </li>
+            <li>
+                Facilitate the comparison of modelling approaches and outcomes
+            </li>
+            <li>
+                Collate modelling research from independent academic research
+                groups, across alternative modelling approaches
+            </li>
+            <li>
+                Draw attention to when different modelling approaches
+                agree/disagree, and what this means for further research
+                priorities and policymaking
+            </li>
+        </ul>
 
-		<h4>Contributing to the initiative</h4>
-		AUSCMI is a collaborative initiative, and we welcome contributions from academic research groups that actively engage in COVID-19 modelling research. If you are interested in contributing your research to the initiative and satisfy the critera below, <a href="mailto:population-interventions@unimelb.edu.au?subject=Contribution enquiry">we would love to hear from you</a>.
-		
-		<ul class="contribution-guidelines">
-			<li><i class="fas fa-check-square"></i>Be university-based research group or research institute</li>
-			<li><i class="fas fa-check-square"></i>Published peer-reviewed COVID-19 modelling research papers in the past</li>
-		</ul>
+        <h4>Contributing to the initiative</h4>
+        AUSCMI is a collaborative initiative, and we welcome contributions from
+        academic research groups that actively engage in COVID-19 modelling
+        research. If you are interested in contributing your research to the
+        initiative and satisfy the critera below,
+        <a
+            href="mailto:population-interventions@unimelb.edu.au?subject=Contribution enquiry"
+            >we would love to hear from you</a
+        >.
 
-		<div class="contributors-heading">Our contributors</div>
+        <ul class="contribution-guidelines">
+            <li>
+                <i class="fas fa-check-square"></i>Be a university-based
+                research group or research institute
+            </li>
+            <li>
+                <i class="fas fa-check-square"></i>Published peer-reviewed
+                COVID-19 modelling research papers in the past
+            </li>
+        </ul>
 
-		<div class="contributors">
-		{%- for contributor in collections.contributors -%}
+        <div class="contributors-heading">Our contributors</div>
 
-			<a href="{{ contributor.url }}" class="contributors-item">
-				<div class="contributors-item-heading">
-					{{ contributor.data.name }}
-				</div>
-				{% if contributor.data.affiliation %}
-				<div class="contributors-item-affiliation">
-					({{ contributor.data.affiliation}})
-				</div>
-				{% endif %}
-			</a>
+        <div class="contributors">
+            {%- for contributor in collections.contributors -%}
 
-		{%- endfor -%}
-		</div>
+            <a href="{{ contributor.url }}" class="contributors-item">
+                <div class="contributors-item-heading">
+                    {{ contributor.data.name }}
+                </div>
+                {% if contributor.data.affiliation %}
+                <div class="contributors-item-affiliation">
+                    ({{ contributor.data.affiliation }})
+                </div>
+                {% endif %}
+            </a>
 
-	</div>
-
-
+            {%- endfor -%}
+        </div>
+    </div>
 </div>

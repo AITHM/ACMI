@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	
+	<title>
+	AUSCMI | SARS-CoV-2 Omicron disease burden in Australia following border reopening: a modelling analysis
+	</title>
+	
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Styling -->
+	<link rel="stylesheet" href="/css/main.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<!-- Fonts and icons -->
+	<script src="https://kit.fontawesome.com/089e093d2d.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@100;300;400;600&family=Playfair+Display:wght@400;600;800&family=Roboto&display=swap" rel="stylesheet">
+	
+	<!-- Netlify CMS -->
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJCVP5P300"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-NJCVP5P300');
+	</script>
+
+
+	
+	
+
+</head>
+
+<body>
+
+	
+
+<!-- Twitter tag -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:url" content="https://auscmi.org/posts/mitigating-the-sars-cov-2/" />
+<meta property="og:title" content="SARS-CoV-2 Omicron disease burden in Australia following border reopening: a modelling analysis" />
+<meta property="og:description" content=" New modelling shows reopening the Western Australian border prior to June 2022 is required to minimise peak daily and total health burdens" />
+<meta property="og:image" content="https://auscmi.org/img/uploads/imre-tomosvari-fbhun53_330-unsplash.jpg" />
+
+
+<div class="header__s" id="header__s">
+	<div class="header-content">
+		<i class="fas fa-bars open-nav"></i>
+		<a class="heading" href="/">
+			AUSCMI
+		</a>
+		<div>
+		</div>
+	</div>
+	<div id="scroll-progress">
+		<div id="scroll-progress-bar"></div>
+	</div>
+	</div>	
+
+
+<nav class="nav">
+	<div class="nav-links">
+		<div href="" class="nav-link close-nav">
+			<span>Close</span> <i class="fas fa-chevron-right"></i>
+		</div>
+		<a href="/" class="nav-link">
+			Home
+		</a>
+		<a href="/about" class="nav-link">
+			About
+		</a>
+		<a href="/webinars" class="nav-link">
+			Webinars
+		</a>
+	</div>
+	<div class="nav-overlay"></div>
+</nav>
+
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		const nav = document.querySelector(".nav")
+
+		document.querySelector(".open-nav").addEventListener("click", () => {
+			nav.classList.toggle("nav-open")
+		})
+		
+		document.querySelector(".nav-overlay").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+
+		document.querySelector(".close-nav").addEventListener("click", () => {
+			nav.classList.remove("nav-open")
+		})
+	})
+</script>
+
+
+
+
+
+
+<script>
+
+window.onscroll = function() {
+    var nav = document.getElementById("header__s");
+    if ( window.pageYOffset > 10 ) {
+        nav.classList.add("header-slim");
+    } else {
+        nav.classList.remove("header-slim");
+    }
+
+	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+	var scrolled = (winScroll / height) * 100;
+	var progressBar = document.getElementById("scroll-progress-bar")
+
+	if(typeof(progressBar) != 'undefined' && progressBar != null){
+        document.getElementById("scroll-progress-bar").style.width = scrolled + "%";
+    }
+}
+
+</script>
+
+
+<div class="post-banner">
+	<div class="post-banner-image" style="background-image:url(/img/uploads/imre-tomosvari-fbhun53_330-unsplash.jpg);">
+	</div>
+
+	<div class="post-banner-heading-container">
+		<div class="post-banner-heading">
+			SARS-CoV-2 Omicron disease burden in Australia following border reopening: a modelling analysis
+		</div>
+	</div>
+</div>
+
+
+<div class="post-content">
+	<!-- <div class="post-content-title">
+		SARS-CoV-2 Omicron disease burden in Australia following border reopening: a modelling analysis
+	</div> -->
+	<div class="post-content-preview">
+		New modelling shows reopening the Western Australian border prior to June 2022 is required to minimise peak daily and total health burdens
+	</div>
+	<div class="post-content-author">
+		George J Milne, Julian Carrivick
+	</div>
+
+	<div class="post-content-body">
+		<p>Objective:</p>
+<p>The emergence of the SARS-CoV-2 Omicron variant has resulted in rapidly increasing case numbers, although incidence of severe disease is decreased. This study aimed to predict the health burden upon the Western Australian hospital system once the hard border is removed and an outbreak occurs, and the change in this health burden over time due to waning vaccination immunity.</p>
+<p>Findings:</p>
+<ul>
+<li>Population immunity in Western Australia reaches a peak approximately at the beginning of February 2022 and plateaus for 5 months, until July 2022, before beginning to decline.</li>
+<li>Opening the Western Australian border prior to June 2022 results in the health burden of an outbreak being minimised. For an opening of March 5th 2022 a peak of 510 hospital beds will be required, of which 51 will be in ICU. This is below the estimated surge capacity of Western Australian hospitals of 52 ICU beds. A total of 2,932 hospitalisations, 293 ICU admissions and 383 deaths are predicated.</li>
+<li>Opening the Western Australian border in June 2022 or later will result in greater case loads and consequently a higher burden on the health system. If the border is opened on June 5, 2022, 750 hospital beds are predicated to be required, 75 of which will be in ICU. This is greater than the estimated 52 ICU beds available as surge capacity. In total 3,603 hospitalisations, 360 ICU admissions and 478 deaths are predicated.</li>
+</ul>
+<p>Conclusion:</p>
+<p>In order to minimise peak daily and total health burden, removal of the Western Australian hard border should be preferred earlier rather than later, prior to June 2022. In doing so, peak ICU demand is predicated to not exceed surge capacity of Western Australian hospitals. On 18th February 2022 the Government of Western Australia announced the borders would be reopened on March 3rd 2022 amid an ongoing local outbreak. While not specifically modelling this scenario, these results are generally applicable to the ongoing outbreak and can be used to estimate progression through the wave.</p>
+<p>Open full paper
+<a href="https://www.medrxiv.org/content/10.1101/2022.03.09.22272170v2" target="_blank">HERE</a> </p>
+	</div>
+	<a href="/contributors/Department-of-Computer-Science-and-Software-Engineering/" class="post-content-attribution">
+		<div class="post-content-attribution-date">
+			First published: Mar 1, 2022
+		</div>
+		<div class="post-content-attribution-header">
+			Department of Computer Science &amp; Software Engineering
+		</div>
+		<div class="post-content-attribution-body">
+			The University of Western Australia&#39;s Department of Computer Science and Software Engineering works in all things tech. From mobile data and cloud computing, to artificial intelligence and advanced software development, a degree in this field enables you to tackle technological challenges and devise innovative solutions to transform the way we live
+		</div>
+	</a>
+	<div class="post-content-share">
+		<div class="share-link-container">
+			<span>Share: </span>
+			<a class="facebook-share-button" target="_blank" href="https://www.facebook.com/dialog/share?app_id=933889623386823&display=page&href=https%3A%2F%2Fauscmi.org/posts/mitigating-the-sars-cov-2/" data-size="large">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet?text=https://auscmi.org/posts/mitigating-the-sars-cov-2/" data-size="large">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a class="linkdin-share-button" target="_blank" href="https://www.linkedin.com/shareArticle?&url=https%3A%2F%2Fauscmi.org/posts/mitigating-the-sars-cov-2/" data-size="large">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="more-posts">
+	<div class="heading">
+		More from Department of Computer Science &amp; Software Engineering
+	</div>
+
+	<div class="card-container">
+		
+		<a class="post-card"  href="/posts/mitigating-the-sars-cov-2/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/imre-tomosvari-fbhun53_330-unsplash.jpg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					DEPARTMENT OF COMPUTER SCIENCE AND SOFTWARE ENGINEERING
+				</div>
+				<div class="post-card-preview-title">SARS-CoV-2 Omicron disease burden in Australia following border reopening: a modelling analysis</div>
+				<div class="post-card-preview-body">
+					New modelling shows reopening the Western Australian border prior to June 2022 is required to minimise peak daily and total health burdens
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/containing-delta-variant-outbreaks-in-australia-a-modelling-analysis/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/containing-delta-variant-outbreaks-in-australia-a-modelling-analysis.jpeg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					DEPARTMENT OF COMPUTER SCIENCE AND SOFTWARE ENGINEERING
+				</div>
+				<div class="post-card-preview-title">Mitigating the SARS-CoV-2 Delta disease burden in Australia by non-pharmaceutical interventions and vaccinating children: a modelling analysis</div>
+				<div class="post-card-preview-body">
+					New modelling shows non-pharmaceutical interventions and vaccinating school children required to contain Delta variant outbreaks in Australia
+				</div>
+			</div>
+		</a><a class="post-card"  href="/posts/a-modelling-analysis-of-the-effectiveness-of-second-wave-covid-19-response-strategies-in-australia/">
+			<div class="post-card-thumbnail">
+				<img class src="/img/uploads/a-modelling-analysis-of-the-effectiveness-of-second-wave-covid-19-response-strategies-in-australia.jpeg" alt="Girl in a jacket">
+			</div>
+			<div class="post-card-preview">
+				<div class="post-badge">
+					DEPARTMENT OF COMPUTER SCIENCE AND SOFTWARE ENGINEERING
+				</div>
+				<div class="post-card-preview-title">A modelling analysis of the effectiveness of second wave COVID-19 response strategies in Australia</div>
+				<div class="post-card-preview-body">
+					Early and robust application of social distancing measures are known to be an appropriate response to the COVID-19 pandemic, but it underpinning their effectiveness is proactive timing 
+				</div>
+			</div>
+		</a></div>
+</div>
+
+
+	
+	<div class="footer">
+	<div class="footer-inner">
+
+		<div>© 2021 Australian COVID-19 Modelling Initiative (AUSCMI) </div>
+		<div class="links">
+			<a href="/about">About</a>
+			<a href="mailto:population-interventions@unimelb.edu.au">Contact</a>
+		</div>
+
+		<!-- <div class="footer-links">
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-landmark"></i>
+				<span class="footer-links-item-caption">
+					ABOUT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fas fa-phone-alt"></i>
+				<span class="footer-links-item-caption">
+					CONTACT
+				</span>
+			</a>
+			<a class="footer-links-item" href="#">
+				<i class="fab fa-twitter"></i>
+				<span class="footer-links-item-caption">
+					FOLLOW
+				</span>
+			</a>
+		</div> -->
+
+
+
+	</div>
+</div>
+
+	<!-- Netlify CMS -->
+	<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+			if (!user) {
+				window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+				});
+			}
+			});
+		}
+	</script>
+
+	
+</body>
+
+</html>
