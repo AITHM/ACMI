@@ -1,5 +1,5 @@
 ---
-title: "The Biarri Applied Mathematics Conference : Modelling tipping points and
+title: "The Biarri Applied Mathematics Conference: Modelling tipping points and
   amplification effects of the COVID-19 pandemic response - Prof. Mikhail
   Prokopenko"
 date: 2022-11-20T07:11:33.492Z
