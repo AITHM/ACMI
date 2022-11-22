@@ -8,9 +8,9 @@ author: Sheryl L. Chang, Quang Dang Nguyen, Alexandra Martiniuk, Vitali
 preview: The nonlinear dynamics observed in the daily incidence and disease
   burden were determined not only by introduction of sub-lineages of Omicron,
   but also by the fluctuating adoption of social distancing measures
-badge: Centre for Complex System & Sydney Institute doe Infectious Diseases
+badge: Centre for Complex System & Sydney Institute for Infectious Diseases
 tags:
-  - Centre for Complex System & Sydney Institute doe Infectious Diseases
+  - Centre for Complex System & Sydney Institute for Infectious Diseases
 featureImage: /img/uploads/a-modelling-analysis-of-strategies-for-relaxing-covid-19-social-distancing.jpeg
 ---
 Objective: 
