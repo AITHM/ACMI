@@ -10,7 +10,7 @@ preview: Interventions to mitigate the spread of infectious diseases, while
 badge: Population Interventions Unit
 tags:
   - Population Interventions Unit
-featureImage: /img/uploads/front-cover2.jpg
+featureImage: /img/uploads/photo-3.jpg
 ---
 Objective: 
 
