@@ -21,6 +21,6 @@ Findings:
 
 Our study revealed that the nonlinear dynamics observed in the daily incidence and disease burden were determined not only by introduction of sub-lineages of Omicron, but also by fluctuations in social distancing behaviour. The analysis also quantified and emphasised indirect effects of COVID-19 on the disease burden in Australia, differentiating between ICU cases and deaths directly attributable to COVID-19 versus those occurring with COVID-19.
 
-<a href="https://arxiv.org/abs/2211.10965" target="_blank">
+<a href="https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0001427" target="_blank">
 View full modelling report
 </a>
