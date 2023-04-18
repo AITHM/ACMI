@@ -1,7 +1,7 @@
 ---
 title: "Persistence of the Omicron variant of SARS-CoV-2 in Australia: The
   impact of fluctuating social distancing"
-date: 2022-11-22T09:06:25.560Z
+date: 2023-04-18T09:06:25.560Z
 organisation: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 author: Sheryl L. Chang, Quang Dang Nguyen, Alexandra Martiniuk, Vitali
   Sintchenko, Tania C. Sorrell, Mikhail Prokopenko
