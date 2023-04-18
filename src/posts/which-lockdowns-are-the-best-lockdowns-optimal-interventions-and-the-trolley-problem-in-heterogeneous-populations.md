@@ -7,9 +7,9 @@ author: Pratyush K. Kollepara, Rebecca H. Chisholm, Istvan Z. Kiss, Joel C. Mill
 preview: Interventions to mitigate the spread of infectious diseases, while
   succeeding in their goal, have economic and social costs associated with them.
   These limit the duration and intensity of the interventions.
-badge: Population Interventions Unit
+badge: Infectious Disease Modelling La Trobe
 tags:
-  - Population Interventions Unit
+  - Infectious Disease Modelling La Trobe
 featureImage: /img/uploads/photo-3.jpg
 ---
 Objective: 
