@@ -1,17 +1,17 @@
 ---
 title: Measuring unequal distribution of pandemic severity across census years,
   variants of concern and interventions
-date: 2023-06-28T13:35:42.462Z
+date: 2023-10-29T12:22:07.327Z
 organisation: Centre for Complex Systems & Sydney Institute for Infectious Diseases
 author: Q. D. Nguyen, S. L. Chang, C. M. Jamerlan, M. Prokopenko
-preview: Diverse and complex intervention policies deployed over the last years
-  have shown varied effectiveness in controlling the COVID-19 pandemic. However,
-  a systematic analysis and modelling of the combined effects of different viral
+preview: The efficiency of the various and intricate intervention strategies
+  used in recent years to contain the COVID-19 pandemic has varied. However, a
+  systematic analysis and modelling of the combined effects of different viral
   lineages and complex intervention policies remains a challenge
 badge: Centre for Complex System & Sydney Institute for Infectious Diseases
 tags:
   - Centre for Complex System & Sydney Institute for Infectious Diseases
-featureImage: /img/uploads/nowcasting-transmission-and-suppression-of-the-delta-variant-of-sars-cov-2-in-australia.jpg
+featureImage: /img/uploads/coronavirus-disease-covid-2019-g09c3e10c1_1920.jpg
 ---
 Objective: 
 
@@ -27,6 +27,6 @@ The results of this study suggest that
 
 (c) healthcare and vaccination resources need to be prioritised towards the localities and regions with high population growth and/or high density. 
 
-<a href="https://arxiv.org/abs/2306.14667" target="_blank">
+<a href="https://pophealthmetrics.biomedcentral.com/articles/10.1186/s12963-023-00318-6" target="_blank">
 View full modelling study here
 </a>
