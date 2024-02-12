@@ -13,7 +13,7 @@ preview: Computational reproducibility is an important part of any computational
 badge: The Australian Institute for Tropical Health and Medicine (AITHM)
 tags:
   - The Australian Institute for Tropical Health and Medicine (AITHM)
-featureImage: /img/uploads/epidemiological-modelling-of-the-health-and-economic-effects-of-covid-19-control-in-australias-second-wave.jpeg
+featureImage: /img/uploads/banner-982162.jpg
 ---
 Objective: 
 
