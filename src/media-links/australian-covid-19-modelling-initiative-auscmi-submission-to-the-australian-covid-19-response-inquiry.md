@@ -1,7 +1,7 @@
 ---
 title: Australian COVID-19 Modelling Initiative (AUSCMI) submission to the
   Australian COVID-19 Response Inquiry
-date: 2024-02-12T04:46:53.442Z
+date: 2024-02-09T04:46:53.442Z
 preview: "AUSCMI is a broad collective of expert researchers, epidemiologists,
   and modellers focused on modelling infectious diseases dynamics that is not
   formally constituted. We met throughout the pandemic to support coordination
